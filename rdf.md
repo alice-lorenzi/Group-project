@@ -352,6 +352,8 @@ In the case of the **Ospedale degli Innocenti**, the RDF model explicitly includ
 
 In contrast, for the **Ospedale del Ceppo**, this structure is not present. **There is no triple using cis:isSiteOf to link the site to a museum, and moreover, there is no IRI in the dataset representing a "Museo dell'Ospedale del Ceppo"**. Because the museum entity itself is missing, it is not possible to establish or model any cis:isSiteOf relationship for this site within the knowledge graph.
 
+Chain of thought prompting technique
+
 We showed the following example prompt:
 
 **Subject**: Spedale degli Innocenti — IRI: [https://w3id.org/arco/resource/Site/db159e90f5ed83e3d851e7206ccbbd26](https://w3id.org/arco/resource/Site/db159e90f5ed83e3d851e7206ccbbd26)
@@ -374,7 +376,7 @@ Note that:
 
 Finally:
 
-- Build RDF triples for both cases
+- Build RDF triples
 - Provide SPARQL CONSTRUCT query
 
 Let's think step by step.
