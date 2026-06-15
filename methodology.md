@@ -15,9 +15,9 @@ title: Semantic Methodology
 - [⚠️ Key Challenges](challenges.html)
 - [🎯 Conclusions & Insights](conclusions.html)
 
-![Workflow diagram](assets/images/workflow-diagram.png)
+<h1 style="color:#ff0000;">⚒️ Semantic Methodology</h1>
 
-<h1 style="color:#ff0000;">SEMANTIC METHODOLOGY</h1>
+![Workflow diagram](assets/images/workflow-diagram.png)
 
 To explore and enrich the semantic representation of the [Spedale del Ceppo](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b), our project employed a structured, multi-phase methodology leveraging the ArCo Knowledge Graph and Large Language Models (LLMs).
 
