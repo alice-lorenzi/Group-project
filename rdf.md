@@ -627,31 +627,31 @@ WHERE {
 
 <h2 style="color:#ff0000;">TRIPLES SUMMARY:</h2>
 
-**Triple 1 — a-cd:hasIntervention** ([https://w3id.org/arco/ontology/context-description/hasIntervention](https://w3id.org/arco/ontology/context-description/hasIntervention))
+<strong style="color:#ff0000;">Triple 1 — [a-cd:hasIntervention](https://w3id.org/arco/ontology/context-description/hasIntervention)</strong>
 
 - **Subject**: [https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b)
 - **Predicate**: a-cd:hasIntervention
 - **Object**: "some restoration interventions" — [https://w3id.org/arco/resource/ConservationIntervention/4215fe83165269413c37c21663c3d94b-conservation-intervention-1](https://w3id.org/arco/resource/ConservationIntervention/4215fe83165269413c37c21663c3d94b-conservation-intervention-1) and [https://w3id.org/arco/resource/ConservationIntervention/4215fe83165269413c37c21663c3d94b-conservation-intervention-2](https://w3id.org/arco/resource/ConservationIntervention/4215fe83165269413c37c21663c3d94b-conservation-intervention-2)
 
-**Triple 2 — a-cd:hasUse** ([https://w3id.org/arco/ontology/context-description/hasUse](https://w3id.org/arco/ontology/context-description/hasUse))
+<strong style="color:#ff0000;">Triple 2 — [a-cd:hasUse](https://w3id.org/arco/ontology/context-description/hasUse)</strong>
 
 - **Subject**: [https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b)
 - **Predicate**: a-cd:hasUse
 - **Object**: "a current use" — [https://w3id.org/arco/resource/Use/4215fe83165269413c37c21663c3d94b-current-use-1](https://w3id.org/arco/resource/Use/4215fe83165269413c37c21663c3d94b-current-use-1)
 
-**Triple 2.1 — cis:isSiteOf** ([http://dati.beniculturali.it/cis/isSiteOf](http://dati.beniculturali.it/cis/isSiteOf))
+<strong style="color:#ff0000;">Triple 2.1 — [cis:isSiteOf](http://dati.beniculturali.it/cis/isSiteOf)</strong>
 
 - **Subject**: [https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b)
 - **Predicate**: cis:isSiteOf
 - **Object**: "Museo dell'Ospedale del Ceppo" — [https://w3id.org/arco/resource/CulturalInstituteOrSite/9f3c2a7b5d1e4c88a6b9d2f10c4e7a11](https://w3id.org/arco/resource/CulturalInstituteOrSite/9f3c2a7b5d1e4c88a6b9d2f10c4e7a11)
 
-**Triple 3 — a-dd:hasShape** ([https://w3id.org/arco/ontology/denotative-description/hasShape](https://w3id.org/arco/ontology/denotative-description/hasShape))
+<strong style="color:#ff0000;">Triple 3 — [a-dd:hasShape](https://w3id.org/arco/ontology/denotative-description/hasShape)</strong>
 
 - **Subject**: [https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040491](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040491)
 - **Predicate**: a-dd:hasShape
 - **Object**: [https://w3id.org/arco/resource/TechnicalCharacteristic/tondo](https://w3id.org/arco/resource/TechnicalCharacteristic/tondo)
 
-**Triple 4 — a-cd:hasCommittent** ([https://w3id.org/arco/ontology/context-description/hasCommittent](https://w3id.org/arco/ontology/context-description/hasCommittent))
+<strong style="color:#ff0000;">Triple 4 — [a-cd:hasCommittent](https://w3id.org/arco/ontology/context-description/hasCommittent)</strong>
 
 - **Subject**: [https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040491](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040491)
 - **Predicate**: a-cd:hasCommittent
