@@ -177,7 +177,7 @@ Meaning:
 
 "The Spedale del Ceppo is the site of (hosts) the Museo dello Spedale del Ceppo."
 
-<h2 style="color:#ff0000;">We ran this QUERY to make sure that the information about the Museo dell'Ospedale del Ceppo was missing:</h2>
+<h2 style="color:#ff0000;">We ran QUERY 13 to make sure that the information about the Museo dell'Ospedale del Ceppo was missing:</h2>
 
 ```sparql
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
