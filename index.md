@@ -3,9 +3,6 @@ layout: default
 title: Spedale del Ceppo
 ---
 
-# SPEDALE DEL CEPPO
-
-## A masterpiece of the medieval architecture
 
 ### Sections:
 
