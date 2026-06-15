@@ -17,7 +17,7 @@ title: Semantic Methodology
 
 ![Workflow diagram](assets/images/workflow-diagram.png)
 
-<h1>SEMANTIC METHODOLOGY</h1>
+<h1 style="color:#ff0000;">SEMANTIC METHODOLOGY</h1>
 
 To explore and enrich the semantic representation of the [Spedale del Ceppo](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b), our project employed a structured, multi-phase methodology leveraging the ArCo Knowledge Graph and Large Language Models (LLMs).
 
