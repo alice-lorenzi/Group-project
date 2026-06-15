@@ -631,19 +631,19 @@ WHERE {
 
 - **Subject**: [https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b)
 - **Predicate**: a-cd:hasIntervention
-- **Object**: "some restoration interventions" — [https://w3id.org/arco/resource/ConservationIntervention/4215fe83165269413c37c21663c3d94b-conservation-intervention-1](https://w3id.org/arco/resource/ConservationIntervention/4215fe83165269413c37c21663c3d94b-conservation-intervention-1) and [https://w3id.org/arco/resource/ConservationIntervention/4215fe83165269413c37c21663c3d94b-conservation-intervention-2](https://w3id.org/arco/resource/ConservationIntervention/4215fe83165269413c37c21663c3d94b-conservation-intervention-2)
+- **Object**: "some restoration interventions" [https://w3id.org/arco/resource/ConservationIntervention/4215fe83165269413c37c21663c3d94b-conservation-intervention-1](https://w3id.org/arco/resource/ConservationIntervention/4215fe83165269413c37c21663c3d94b-conservation-intervention-1) and [https://w3id.org/arco/resource/ConservationIntervention/4215fe83165269413c37c21663c3d94b-conservation-intervention-2](https://w3id.org/arco/resource/ConservationIntervention/4215fe83165269413c37c21663c3d94b-conservation-intervention-2)
 
 <strong style="color:#ff0000;">Triple 2 — [a-cd:hasUse](https://w3id.org/arco/ontology/context-description/hasUse)</strong>
 
 - **Subject**: [https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b)
 - **Predicate**: a-cd:hasUse
-- **Object**: "a current use" — [https://w3id.org/arco/resource/Use/4215fe83165269413c37c21663c3d94b-current-use-1](https://w3id.org/arco/resource/Use/4215fe83165269413c37c21663c3d94b-current-use-1)
+- **Object**: "a current use" [https://w3id.org/arco/resource/Use/4215fe83165269413c37c21663c3d94b-current-use-1](https://w3id.org/arco/resource/Use/4215fe83165269413c37c21663c3d94b-current-use-1)
 
 <strong style="color:#ff0000;">Triple 2.1 — [cis:isSiteOf](http://dati.beniculturali.it/cis/isSiteOf)</strong>
 
 - **Subject**: [https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b)
 - **Predicate**: cis:isSiteOf
-- **Object**: "Museo dell'Ospedale del Ceppo" — [https://w3id.org/arco/resource/CulturalInstituteOrSite/9f3c2a7b5d1e4c88a6b9d2f10c4e7a11](https://w3id.org/arco/resource/CulturalInstituteOrSite/9f3c2a7b5d1e4c88a6b9d2f10c4e7a11)
+- **Object**: "Museo dell'Ospedale del Ceppo" [https://w3id.org/arco/resource/CulturalInstituteOrSite/9f3c2a7b5d1e4c88a6b9d2f10c4e7a11](https://w3id.org/arco/resource/CulturalInstituteOrSite/9f3c2a7b5d1e4c88a6b9d2f10c4e7a11)
 
 <strong style="color:#ff0000;">Triple 3 — [a-dd:hasShape](https://w3id.org/arco/ontology/denotative-description/hasShape)</strong>
 
