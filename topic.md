@@ -15,7 +15,7 @@ title: Topic
 - [⚠️ Key Challenges](challenges.html)
 - [🎯 Conclusions & Insights](conclusions.html)
 
-# Topic
+<h1 style="color:#ff0000;">🏛️ Topic </h1>
 
 <h2 style="color:#ff0000;">Overview of the structure</h2>
 
