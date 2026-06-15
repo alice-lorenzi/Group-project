@@ -33,7 +33,7 @@ The first step was to verify whether the **ArCo Knowledge Graph** already contai
 
 <h3 style="color:#ff0000;">SPARQL Query:</h3>
 
-```
+```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX arco: <https://w3id.org/arco/ontology/arco/>
 PREFIX a-cd: <https://w3id.org/arco/ontology/context-description/>
@@ -96,7 +96,7 @@ Additionally, based on the insights gained from our first query regarding how th
 
 <h3 style="color:#ff0000;">SPARQL Query:</h3>
 
-```
+```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX arco: <https://w3id.org/arco/ontology/arco/>
@@ -153,7 +153,7 @@ The goal of this query was to discover **subject resources connected to the Ospe
 
 <h3 style="color:#ff0000;">SPARQL Query:</h3>
 
-```
+```sparql
 PREFIX a-cd: <https://w3id.org/arco/ontology/context-description/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -199,7 +199,7 @@ Based on our reasoning, this query pursues the following **strategic goals**:
 
 <h3 style="color:#ff0000;">SPARQL Query:</h3>
 
-```
+```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX arco: <https://w3id.org/arco/ontology/arco/>
 PREFIX a-cd: <https://w3id.org/arco/ontology/context-description/>
@@ -248,7 +248,7 @@ To ensure we didn't miss any crucial information due to these different catalogu
 
 <h3 style="color:#ff0000;">SPARQL Query:</h3>
 
-```
+```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX arco: <https://w3id.org/arco/ontology/arco/>
 PREFIX a-cd: <https://w3id.org/arco/ontology/context-description/>
@@ -325,7 +325,7 @@ This query was designed to **retrieve cultural heritage resources related to the
 
 <h3 style="color:#ff0000;">SPARQL Query:</h3>
 
-```
+```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX arco: <https://w3id.org/arco/ontology/arco/>
 PREFIX a-cd: <https://w3id.org/arco/ontology/context-description/>
