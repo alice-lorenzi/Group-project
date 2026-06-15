@@ -1,4 +1,4 @@
----
+--
 layout: default
 title: Gap Identification
 ---
@@ -33,7 +33,7 @@ Since the Spedale del Ceppo is a historical institution dating back to the late 
 
 <h2 style="color:#ff0000;">SPARQL QUERY 7:</h2>
 
-```
+```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX arco: <https://w3id.org/arco/ontology/arco/>
 PREFIX a-cd: <https://w3id.org/arco/ontology/context-description/>
@@ -88,7 +88,7 @@ We formulated two distinct ASK queries (**Query 8 and 9**) targeting the **a-cd:
 
 <h2 style="color:#ff0000;">SPARQL Query 8:</h2>
 
-```
+```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX arco: <https://w3id.org/arco/ontology/arco/>
@@ -118,7 +118,7 @@ ASK WHERE {
 
 <h2 style="color:#ff0000;">SPARQL Query 9:</h2>
 
-```
+```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX arco: <https://w3id.org/arco/ontology/arco/>
@@ -172,7 +172,7 @@ In this query, we are searching the ArCo Knowledge Graph to retrieve the specifi
 
 <h2 style="color:#ff0000;">SPARQL Query 10:</h2>
 
-```
+```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX arco: <https://w3id.org/arco/ontology/arco/>
@@ -243,7 +243,7 @@ We directed these queries specifically at the **arco:HistoricOrArtisticProperty*
 
 This query asks if there is an artwork labeled as a *stemma* of the Ospedale del Ceppo in Pistoia that has an associated shape property ([a-cd:hasShape](https://w3id.org/arco/ontology/denotative-description/hasShape)).
 
-```
+```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX arco: <https://w3id.org/arco/ontology/arco/>
@@ -269,7 +269,7 @@ ASK WHERE {
 
 This query asks if the same artwork has any recorded information regarding its commissioner or patron ([a-cd:hasCommittent](https://w3id.org/arco/ontology/context-description/hasCommittent)).
 
-```
+```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX arco: <https://w3id.org/arco/ontology/arco/>
