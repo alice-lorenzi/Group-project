@@ -23,20 +23,46 @@ title: Key Challenges
 
 ## Challenges Faced During the Project
 
-- Our investigation focused on the **Spedale del Ceppo** ([https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b)), a historical building whose **knowledge graph is relatively limited** compared to other cultural heritage entities.
-- When searching for the Spedale del Ceppo in [ArCo](http://wit.istc.cnr.it/arco/), the results primarily referred to the coat of arms (stemmi) rather than to the hospital itself. Consequently, **the search did not directly provide information about the cultural site** but instead returned a list of related elements associated with the emblem and medallions.
-- The exploration process was constrained by the **limited number of available predicates and relationships**, making it difficult to identify relevant information and connections.
-- One of the **main challenges** was **identifying information gaps concerning the hospital itself**. Since searching for the hospital mainly returned information about its emblem, we had to explore multiple related entities to retrieve data about the hospital as a cultural site. This required distinguishing between the emblem as a heritage object and the hospital as the primary subject of our investigation.
-- **We identified four significant gaps**: **two related to the hospital and two related to the coat of arm**. To support this analysis, we compared the Spedale del Ceppo with other historical hospitals represented in [ArCo](http://wit.istc.cnr.it/arco/), such as the [Ex Ospedale della SS.ma Trinità in Bologna](https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/0800242653), the [Ex Ospedale della Misericordia in Grosseto](https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/0900352753A), the [Spedale degli Innocenti](https://w3id.org/arco/resource/Site/db159e90f5ed83e3d851e7206ccbbd2) in Florence... This comparison helped us understand which types of information are typically associated with hospitals and former hospitals in the knowledge graph.
-- **Identifying both existing information and missing information proved challenging because of the complexity and interconnected nature of the data network.**
-- During the interaction with artificial intelligence systems, **we often had to explicitly encourage step-by-step reasoning through Chain-of-Thought prompting technique**. **Without this guidance, the generated analyses tended to be superficial and incomplete**.
+Major Challenges   
 
-## Major Challenges in Gap Identification
+Identifying information gaps within the ArCo Knowledge Graph (http://wit.istc.cnr.it/arco/), proved considerably more challenging than expected. The main difficulty was not simply finding missing information, but first understanding what information should reasonably be present for a historical healthcare institution such as the Spedale del Ceppo (https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b). Unlike many prominent cultural heritage entities, this historical building is represented through a relatively sparse network of predicates and a limited knowledge graph.  
 
-- The first challenge concerned the hospital itself. Since the **hospital is only indirectly represented through its associated heritage objects**, identifying relevant information required extensive exploration of connected entities and properties. The first gap concerned whether **the hospital had undergone restoration interventions**, while the second concerned its **current function**. Although the Spedale del Ceppo currently operates as a **museum**, this **information was not explicitly represented in the knowledge graph**.
-- The second challenge concerned the main coat of arm. Through comparison with similar hospitals (Spedale degli Innocenti in Florence), we observed that emblem-related information was commonly available. However, **our emblem lacked information regarding its shape and its commission**. Building the corresponding queries required careful identification of the appropriate predicates, particularly to avoid confusion between *hasCommission* and *hasCommittent*. **Further analysis revealed that the information we needed was not the commissioning event itself, but rather the agent responsible for commissioning the artwork.**
+When searching for the Spedale del Ceppo (https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b).  in ArCo (http://wit.istc.cnr.it/arco/), the results primarily referred to its artistic elements, specifically the coat of arms (stemmi), rather than to the hospital itself. Consequently, a significant and complex part of the investigation consisted of distinguishing between the main cultural site (the hospital as the primary subject) and the numerous connected artistic resources.  
 
-## Challenges in the use of ArCo, Query Construction and AI Evaluation
+The exploration process was heavily constrained by the limited number of available predicates and relationships, making it difficult to identify relevant information and connections.  
 
-- We encountered **several difficulties when using artificial intelligence systems to generate SPARQL CONSTRUCT queries** for adding the missing information. To validate the generated outputs, we compared the performance of different AI models. [**ChatGPT**](https://chatgpt.com/) demonstrated a stronger capacity for in-depth analysis and was ultimately **more effective** in **producing correct and executable SPARQL CONSTRUCT queries**. In contrast, **Gemini** often **required additional modifications and refinements before generating a working query**, even when provided with the same prompt.
-- We also had to deal with problems related to the functioning of the ArCo server/database, which resulted in a **delay in advancing with our project during some days**.
+To identify hidden gaps, it was necessary to understand how similar historical hospitals were represented in ArCo and which properties were commonly used to describe them. For this reason, we conducted a detailed comparative analysis involving other institutions, such as: The Ex Ospedale della SS.ma Trinità in Bologna (https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/0800242653) The Ex Ospedale della Misericordia in Grosseto (https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/0900352753A) The Spedale degli Innocenti (https://w3id.org/arco/resource/Site/db159e90f5ed83e3d851e7206ccbbd2) in Florence.  
+
+This exploratory phase was essential to understand which types of information are typically associated with former hospitals in the knowledge graph and to establish a baseline for evaluation.  
+
+Through this extensive exploration, we identified four significant gaps: two related to the hospital and two related to the main coat of arms.  
+
+Hospital Gaps: The first concerned whether the hospital had undergone restoration interventions, while the second concerned its current function. Although the Spedale del Ceppo currently operates as a museum, this information was not explicitly represented in the knowledge graph.  
+
+Coat of Arms Gaps: Through comparison with the Spedale degli Innocenti, we observed that emblem-related information was commonly available in ArCo, yet our target emblem lacked details regarding its physical shape and its commissioner.  
+
+ 
+
+Challenges in Semantic Interpretation and Query Construction  
+
+Semantic Ambiguity of Predicates: Another major difficulty concerned the semantic interpretation of ArCo predicates, where identifying the correct missing information required a detailed examination of apparently similar properties. A significant example emerged when building queries for the commissioning information of the coat of arms. The ontology includes both the predicates a-cd:hasCommission and a-cd:hasCommittent, which initially appeared to express the same concept so we had to ask Gemini for a clarification. This analysis revealed a crucial ontological distinction: hasCommission refers to the commissioning event itself, whereas hasCommittent identifies the specific individual or institution responsible for commissioning the cultural property. Understanding this difference was vital because our objective was not to represent the existence of a commission event, but rather to identify and link the actual agent responsible, namely Leonardo Buonafede.  
+
+Beyond the semantic challenges, we also had to deal with technical problems related to the functioning of the ArCo server/database, which resulted in server downtime and delayed our project advancement for several days.  
+
+ 
+
+Interaction and Evaluation of Artificial Intelligence Systems  
+
+The complexity of the ontology directly affected our interaction with Large Language Models. When prompts were formulated in a generic way, the generated analyses tended to remain superficial, incomplete, and often overlooked relevant semantic distinctions.  
+
+To obtain reliable results and reduce ambiguities when investigating historical relationships, selecting appropriate predicates, or constructing SPARQL queries, it was frequently necessary to explicitly encourage step-by-step reasoning. In this context, the Chain-of-Thought prompting technique proved especially useful for forcing deeper semantic analysis.  
+
+We encountered several difficulties when using AI systems to generate valid SPARQL CONSTRUCT queries to add the missing information. To validate the outputs, we compared the performance of different models:  
+
+ 
+
+ChatGPT (https://chatgpt.com/) demonstrated a stronger capacity for in-depth analysis and was ultimately more effective in producing correct, logically sound, and executable SPARQL CONSTRUCT queries.  
+
+Gemini (https://gemini.google.com/app),  often required additional modifications, multi-turn refinements, and corrections before generating a working query, even when provided with the exact same prompt instructions. 
+
+ 
