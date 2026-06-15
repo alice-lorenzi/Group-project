@@ -30,3 +30,22 @@ a {
 p, li {
   color: #555555;
 }
+
+code {
+  color: inherit;
+}
+
+.highlight .c { color: #999988; font-style: italic }
+.highlight .k, .highlight .o, .highlight .ow { color: #000000; font-weight: bold }
+.highlight .kt { color: #445588; font-weight: bold }
+.highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .mo { color: #009999 }
+.highlight .s, .highlight .s1, .highlight .s2, .highlight .sb, .highlight .sc,
+.highlight .sd, .highlight .sh, .highlight .si, .highlight .sx { color: #d01040 }
+.highlight .na { color: #008080 }
+.highlight .nb { color: #0086B3 }
+.highlight .nc { color: #445588; font-weight: bold }
+.highlight .nf { color: #990000; font-weight: bold }
+.highlight .nt { color: #000080 }
+.highlight .nv, .highlight .vc, .highlight .vg, .highlight .vi { color: #008080 }
+.highlight .ni { color: #800080 }
+.highlight .err { color: #a61717; background-color: #e3d2d2 }
