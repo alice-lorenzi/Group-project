@@ -3,16 +3,35 @@ layout: default
 title: Topic
 ---
 
-🏠 [Home](index.html) | 🏛️ [Topic](topic.html) | ⚒️ [Semantic Methodology](methodology.html) | 📈 [SPARQL Queries & Data Results](sparql.html) | 🧩 [Gap Identification](gaps.html) | 🤖 [LLM Prompt: ChatGPT & Gemini](prompts.html) | 🔗 [RDF Triple Generation](rdf.html) | ⚠️ [Key Challenges](challenges.html) | 🎯 [Conclusions & Insights](conclusions.html)
+### Sections:
+
+- [🏠 Home](index.html)
+- [🏛️ Topic](topic.html)
+- [⚒️ Semantic Methodology](methodology.html)
+- [📈 SPARQL Queries & Data Results](sparql.html)
+- [🧩 Gap Identification](gaps.html)
+- [🤖 LLM Prompt: ChatGPT & Gemini](prompts.html)
+- [🔗 RDF Triple Generation](rdf.html)
+- [⚠️ Key Challenges](challenges.html)
+- [🎯 Conclusions & Insights](conclusions.html)
 
 # Topic
 
-| | |
-|:---:|:---:|
-| ![Overview of the structure](assets/images/overview-structure.png) | ![Frieze and medallions](assets/images/frieze-medallions.png) |
-| **Overview of the structure:** | **Frieze and medallions:** |
-| ![Teatrino Anatomico](assets/images/teatrino-anatomico.png) | ![Pistoia Sotterranea](assets/images/pistoia-sotterranea.png) |
-| **Teatrino Anatomico** | **Pistoia Sotterranea** |
+<h2 style="color:#ff0000;">Overview of the structure</h2>
+
+![Overview of the structure](assets/images/overview-structure.png)
+
+<h2 style="color:#ff0000;">Frieze and medallions</h2>
+
+![Frieze and medallions](assets/images/frieze-medallions.png)
+
+<h2 style="color:#ff0000;">Teatrino Anatomico</h2>
+
+![Teatrino Anatomico](assets/images/teatrino-anatomico.png)
+
+<h2 style="color:#ff0000;">Pistoia Sotterranea</h2>
+
+![Pistoia Sotterranea](assets/images/pistoia-sotterranea.png)
 
 Founded in **1277**, the **Spedale del Ceppo in Pistoia** stands as a monumental testament to both medical history and Renaissance art. Having functioned continuously as the city's primary healthcare institution for over seven centuries, most notably during the [Black Death](https://en.wikipedia.org/wiki/Black_Death) of 1348, the complex expanded organically over time. Its vast architectural structure is unified by a magnificent 16th-century loggia, inspired by Brunelleschi's Florentine models. The loggia's façade is crowned by a spectacular polychrome glazed terracotta frieze crafted by [Santi Buglioni](https://en.wikipedia.org/wiki/Santi_Buglioni), vividly illustrating the Seven Works of Mercy interspersed with the Virtues, and is beautifully complemented by exquisite medallions (**tondi**) by [Giovanni della Robbia](https://en.wikipedia.org/wiki/Giovanni_della_Robbia).
 
