@@ -238,7 +238,7 @@ The property [**a-dd:hasShape**](https://w3id.org/arco/ontology/denotative-descr
 - The answer correctly identified the **artwork as a tondo** (circular relief) and **broke its composition into logical layers**. Moreover, Gemini provided the specific iconography, technical dimensions, and the style, **adding overall professional depth to the description**.
 - Unlike ChatGPT, **Gemini did not include** a **photo** of the **Stemma**.
 
-<h2 style="color:#ff0000;">Confirmation from Official Source:</h2>
+<h2 style="color:#ff0000;">🌐Confirmation from Official Source:</h2>
 
 "Il tondo è circondato da un fregio ad ovoli ed è contornato da una ghirlanda di frutti e fiori policromi. Fa parte di una serie di cinque medaglioni e di quattro mezzi-medaglioni eseguiti per i pennacchi della loggia da Giovanni Della Robbia, come risulta dai documenti dell'Archivio dell'Ospedale del Ceppo, copiati dal Mather: da questi si apprende che nell'anno 1525 Giovanni riceveva la commissione della serie di medaglioni da parte dello spedalingo Messer Leonardo Buonafede, che aveva già impiegato lo scultore a Galatrona (1518) e altrove. La data 1525 compare inoltre nell'iscrizione di questo stesso medaglione. Questa serie di medaglioni - che fa parte dell'ultima attività di Giovanni - appare impostata su schemi consueti e svolta con accuratezza e precisione di mestiere. È certo presente un'ampia collaborazione di aiuti"
 
@@ -274,7 +274,7 @@ In this case, we applied **Chain-of-Thought** prompting in combination with the 
 - By defining in the first step the term **"Spedalingo"**, the response ensured the reader understood the **authority** behind the commission and it seemed **more precise** to us.
 - **Gemini** accurately noted the shift management to the Florentine Ospedale di Santa Maria Nuova in 1501, which set the stage for Buonafede's leadership highlighting why he had the power to commission the work. **Gemini** was **more precise** than Chat GPT, mentioning the date of completion and the artistic medium.
 
-<h2 style="color:#ff0000;">Confirmation from Official Source:</h2>
+<h2 style="color:#ff0000;">🌐Confirmation from Official Source:</h2>
 
 "Fu dunque lo spedalingo fiorentino Leonardo Buonafede (in carica dal 1501 al 1532) a promuovere il completamento del loggiato, con la realizzazione dei rilievi in terracotta invetriata policroma (compreso il maestoso fregio con le *Sette Opere di Misericordia*), eseguiti dalle migliori maestranze fiorentine: i della Robbia e i Buglioni."
 
