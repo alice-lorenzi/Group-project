@@ -65,7 +65,7 @@ Also, please build the corresponding SPARQL CONSTRUCT query.
 
 Let's think step by step.
 
-<h2 style="color:#ff0000;">📸CHATGPT'S ANSWER:</h2>
+<h2 style="color:#ff0000;">📸 CHATGPT'S ANSWER:</h2>
 
 ![ChatGPT intervention answer 1](assets/images/chatgpt-intervention-answer-1.png)
 
@@ -73,7 +73,7 @@ Let's think step by step.
 
 ![ChatGPT intervention answer 3](assets/images/chatgpt-intervention-answer-3.png)
 
-<h2 style="color:#ff0000;">COPY OF THE RDF TRIPLE BY CHATGPT:</h2>
+<h2 style="color:#ff0000;">📋 COPY OF THE RDF TRIPLE BY CHATGPT:</h2>
 
 ```sparql
 <https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b>
@@ -85,7 +85,7 @@ Let's think step by step.
 <https://w3id.org/arco/resource/ConservationIntervention/4215fe83165269413c37c21663c3d94b-conservation-intervention-2>
 ```
 
-<h2 style="color:#ff0000;">SPARQL CONSTRUCT QUERY BY CHATGPT:</h2>
+<h2 style="color:#ff0000;">⚙️ SPARQL CONSTRUCT QUERY BY CHATGPT:</h2>
 
 ```sparql
 PREFIX a-cd: <https://w3id.org/arco/ontology/context-description/>
@@ -101,11 +101,11 @@ WHERE {
 }
 ```
 
-<h2 style="color:#ff0000;">RESULT OBTAINED EXECUTING THE QUERY ON SPARQL BY CHATGPT:</h2>
+<h2 style="color:#ff0000;">📸 RESULT OBTAINED EXECUTING THE QUERY ON SPARQL BY CHATGPT:</h2>
 
 ![ChatGPT intervention result](assets/images/chatgpt-intervention-result.png)
 
-<h2 style="color:#ff0000;">📸GEMINI'S ANSWER:</h2>
+<h2 style="color:#ff0000;">📸 GEMINI'S ANSWER:</h2>
 
 ![Gemini intervention answer 1](assets/images/gemini-intervention-answer-1.png)
 
@@ -117,7 +117,7 @@ WHERE {
 
 ![Gemini intervention answer 5](assets/images/gemini-intervention-answer-5.png)
 
-<h2 style="color:#ff0000;">COPY OF THE RDF TRIPLE BY GEMINI:</h2>
+<h2 style="color:#ff0000;">📋 COPY OF THE RDF TRIPLE BY GEMINI:</h2>
 
 ```sparql
 @prefix a-cd: <https://w3id.org/arco/ontology/context-description/> .
@@ -148,7 +148,7 @@ WHERE {
     dc:description "Ristrutturazione del vecchio padiglione Cassa di Risparmio dell'ex Ospedale del Ceppo per l'attivazione di 72 posti letto per cure intermedie." .
 ```
 
-<h2 style="color:#ff0000;">SPARQL CONSTRUCT QUERY BY GEMINI:</h2>
+<h2 style="color:#ff0000;">⚙️ SPARQL CONSTRUCT QUERY BY GEMINI:</h2>
 
 ```sparql
 PREFIX a-cd: <https://w3id.org/arco/ontology/context-description/>
@@ -188,7 +188,7 @@ WHERE {
 }
 ```
 
-<h2 style="color:#ff0000;">RESULT OBTAINED EXECUTING THE QUERY ON SPARQL BY GEMINI:</h2>
+<h2 style="color:#ff0000;">📸 RESULT OBTAINED EXECUTING THE QUERY ON SPARQL BY GEMINI:</h2>
 
 ![Gemini intervention result 1](assets/images/gemini-intervention-result-1.png)
 
