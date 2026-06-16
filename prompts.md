@@ -170,7 +170,7 @@ In ArCo, **"cis:isSiteOf"** links a **Cultural Institute or Site** **to an entit
 **Example of how it should be represented:**
 
 ```sparql
-:SpedaleDelCeppo cis:isSiteOf :MuseoDelloSpedaleDelCeppo .
+:OspedaleDelCeppo cis:isSiteOf :MuseoDelloSpedaleDelCeppo .
 ```
 
 Meaning:
