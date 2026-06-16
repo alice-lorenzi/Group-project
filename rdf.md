@@ -65,7 +65,7 @@ Also, please build the corresponding SPARQL CONSTRUCT query.
 
 Let's think step by step.
 
-<h2 style="color:#ff0000;">CHATGPT'S ANSWER:</h2>
+<h2 style="color:#ff0000;">📸CHATGPT'S ANSWER:</h2>
 
 ![ChatGPT intervention answer 1](assets/images/chatgpt-intervention-answer-1.png)
 
