@@ -25,7 +25,7 @@ The resource describing the **Ospedale del Ceppo** does not contain any value fo
 
 The Ospedale del Ceppo **has undergone restoration**, conservation and adaptive reuse interventions during its history. However, **these events are not represented in the RDF** description through the property **a-cd:hasIntervention**. This results in an instance-level completeness gap.
 
-<h2 style="color:#ff0000;">Few-shot and chain of thought prompting techniques</h2>
+<h2 style="color:#ff0000;">✏️ Few-shot and chain of thought prompting techniques</h2>
 
 We showed the following examples prompt:
 
@@ -206,7 +206,7 @@ In particular, **a-cd:hasUse** may refer to both **historical uses** and **curre
 
 This choice allows us to maintain a consistent and well-defined modelling perspective, focusing on the present function of the [**Ospedale del Ceppo**](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b) while leaving the reconstruction of past uses to future extensions of the dataset.
 
-<h2 style="color:#ff0000;">Few-shot and chain of thought prompting techniques</h2>
+<h2 style="color:#ff0000;">✏️ Few-shot and chain of thought prompting techniques</h2>
 
 Prompt:
 
@@ -430,7 +430,7 @@ The third triple that we intend to create is the lacking information related to 
 
 **Iri of the object**: [https://w3id.org/arco/resource/TechnicalCharacteristic/tondo](https://w3id.org/arco/resource/TechnicalCharacteristic/tondo)
 
-<h2 style="color:#ff0000;">Few-shot prompt and then chain of thought prompting techniques</h2>
+<h2 style="color:#ff0000;">✏️ Few-shot prompt and then chain of thought prompting techniques</h2>
 
 Prompt:
 
@@ -529,7 +529,7 @@ To bridge this gap, we used a "**Chain of Thought**" prompt to systematically **
 
 By guiding the process **step-by-step**, the goal was not only to accurately map the real-world entities to their corresponding Internationalized Resource Identifiers (IRIs), but also to correctly assign the [**a-cd:hasCommittent**](https://w3id.org/arco/ontology/context-description/hasCommittent) property. Ultimately, this workflow generates standard **RDF triples** and a **SPARQL CONSTRUCT** query, providing a clear, reproducible methodology for **enriching** a cultural heritage Knowledge Graph with interoperable and precise linked open data.
 
-<h2 style="color:#ff0000;">Chain of thought prompting technique</h2>
+<h2 style="color:#ff0000;">✏️ Chain of thought prompting technique</h2>
 
 Prompt:
 
