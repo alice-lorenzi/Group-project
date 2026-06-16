@@ -190,7 +190,7 @@ WHERE {
 }
 ```
 
-<h2 style="color:#ff0000;">📸Results:</h2>
+<h2 style="color:#ff0000;">📋Results:</h2>
 
 The query was successful and provided the specific IRI(s) representing the **coats of arms of the Spedale degli Innocenti**. By obtaining this data, we were able to **establish a direct comparison between the IRI profile of the Spedale degli Innocenti's *stemma* and that of the Ospedale del Ceppo.**
 
