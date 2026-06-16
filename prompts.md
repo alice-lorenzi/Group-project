@@ -89,7 +89,7 @@ A: Yes, the *Spedale del Ceppo* in Pistoia has undergone substantial and highly 
 - The second category refers to its adaptive reuse, mentioning the creation of the Museum of the Spedale del Ceppo and the "Casa di Comunità".
 - Unlike ChatGPT, Gemini placed **greater emphasis** on **explaining the restoration intervention rather than providing specific dates** related to the overall restoration process.
 
-<h2 style="color:#ff0000;">Second Missing Information: Current Use</h2>
+<h2 style="color:#ff0000;">✳️Second Missing Information: Current Use</h2>
 
 <h2 style="color:#ff0000;">Few-shot Technique</h2>
 
@@ -202,7 +202,7 @@ WHERE {
 
 ![Result false](assets/images/result-false-museum.png)
 
-<h2 style="color:#ff0000;">Third Missing Information: Shape of the "Stemma dello Spedale del Ceppo"</h2>
+<h2 style="color:#ff0000;">✳️Third Missing Information: Shape of the "Stemma dello Spedale del Ceppo"</h2>
 
 <h2 style="color:#ff0000;">Zero-shot Prompting Technique</h2>
 
@@ -244,7 +244,7 @@ The property [**a-dd:hasShape**](https://w3id.org/arco/ontology/denotative-descr
 
 [https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0900040498](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0900040498)
 
-<h2 style="color:#ff0000;">Fourth Missing Information: Commissioner</h2>
+<h2 style="color:#ff0000;">✳️Fourth Missing Information: Commissioner</h2>
 
 <h2 style="color:#ff0000;">Chain-of-Thought (Zero-shot) Technique</h2>
 
