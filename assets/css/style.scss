@@ -80,6 +80,6 @@ header {
   background: linear-gradient(135deg, #1a3d5c 0%, #c9923a 100%);
 }
 
-header h1 a {
+header a, header h1 a {
   text-decoration: none !important;
 }
