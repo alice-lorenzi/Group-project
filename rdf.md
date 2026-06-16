@@ -352,7 +352,7 @@ In the case of the [**Spedale degli Innocenti**](https://w3id.org/arco/resource/
 
 In contrast, for the [**Ospedale del Ceppo**](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b), this structure is not present. **There is no triple using "cis:isSiteOf" to link the site to a museum, and moreover, there is no IRI in the dataset representing a "Museo dell'Ospedale del Ceppo"**. Because the museum entity itself is missing, it is not possible to establish or model any cis:isSiteOf relationship for this site within the knowledge graph.
 
-<h2 style="color:#ff0000;">✏️ Chain of thought prompting technique</h2>
+<h2 style="color:#ff0000;">✏️ Few-shot and chain of thought prompting techniques</h2>
 
 We showed the following example prompt:
 
