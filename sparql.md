@@ -25,7 +25,7 @@ title: SPARQL Queries & Data Results
 
 The first step was to verify whether the **ArCo Knowledge Graph** already contains an entity representing our selected topic, [**Spedale del Ceppo**](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b)
 
-<h3 style="color:#ff0000;">🔬Keyword Selection for Query Building:</h3>
+<h3 style="color:#ff0000;">🔬Explanation of the keyword used:</h3>
 
 - **DISTINCT**: eliminates duplicate results.
 - **FILTER** and **REGEX**: used to retrieve more specific information. **FILTER** restricts results based on conditions; **REGEX** enables pattern matching inside string values.
