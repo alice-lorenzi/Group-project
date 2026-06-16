@@ -28,7 +28,7 @@ Its rich historical background, as well as the presence of notable artistic elem
 
 Furthermore, the limited representation of the Spedale del Ceppo within existing knowledge graphs provided an opportunity to investigate how semantic technologies and Large Language Models can contribute to the enrichment of cultural heritage data.
 
-We used [ArCo](http://wit.istc.cnr.it/arco), the official ontology network and RDF dataset of the Italian Ministry of Culture, as our foundational knowledge graph. ArCo delivers a comprehensive representation of Italy's cultural heritage and features a robust SPARQL endpoint for deep semantic querying. Furthermore, its modular design and domain-specific ontologies perfectly align with our project goals, particularly regarding tangible cultural assets.
+We used [ArCo](http://wit.istc.cnr.it/arco), the official ontology network and RDF dataset of the Italian Ministry of Culture, as our foundational knowledge graph. ArCo delivers a comprehensive representation of Italy's cultural heritage and features a robust [SPARQL endpoint](https://dati.cultura.gov.it/sparql) for deep semantic querying. Furthermore, its modular design and domain-specific ontologies perfectly align with our project goals, particularly regarding tangible cultural assets.
 
 <h2 style="color:#ff0000;">TOOLS:</h2>
 
