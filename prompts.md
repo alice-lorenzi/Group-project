@@ -153,7 +153,7 @@ The latest gap identification conducted on [ArCo](http://wit.istc.cnr.it/arco/) 
 
 Specifically, we compared the **ArCo resource pages** (RDF entity pages) of the **Spedale degli Innocenti** in Florence with the one of the **Ospedale del Ceppo** in Pistoia.
 
-This comparison highlights a significant difference in the semantic description of the two sites. While the **Spedale degli Innocenti** is **linked** to **additional entities** through the property **cis:isSiteOf** ([http://dati.beniculturali.it/cis/isSiteOf](http://dati.beniculturali.it/cis/isSiteOf)), the **Ospedale del Ceppo lacks such semantic relationship**.
+This comparison highlights a significant difference in the semantic description of the two sites. While the **Spedale degli Innocenti** is **linked** to **additional entities** through the property [**cis:isSiteOf**](http://dati.beniculturali.it/cis/isSiteOf), the **Ospedale del Ceppo lacks such semantic relationship**.
 
 In particular, **no cis:isSiteOf link** is **provided** to represent the **Museo dello Spedale del Ceppo**, despite the museum being the current function of the hospital.
 
@@ -212,7 +212,7 @@ This technique is particularly **helpful** when:
 - **No examples** are available
 - The **task** is **generic** or **straightforward**
 
-This property (**a-dd:hasShape**) ([https://w3id.org/arco/ontology/denotative-description/hasShape](https://w3id.org/arco/ontology/denotative-description/hasShape)) is associated with the object's specific form. According to the Zero-shot Technique, we asked the LLMs a prompt **without giving any examples** or **demonstrations**, **relying on their general understanding of language and tasks**. This helps test their raw ability to provide **useful answers without prior context or scaffolding**. We also decided to add "by Buglioni" in our prompt, otherwise ChatGPT would have mixed up the stemmas.
+The property [**a-dd:hasShape**](https://w3id.org/arco/ontology/denotative-description/hasShape) is associated with the object's specific form. According to the Zero-shot Technique, we asked the LLMs a prompt **without giving any examples** or **demonstrations**, **relying on their general understanding of language and tasks**. This helps test their raw ability to provide **useful answers without prior context or scaffolding**. We also decided to add "by Buglioni" in our prompt, otherwise ChatGPT would have mixed up the stemmas.
 
 <h2 style="color:#ff0000;">CHATGPT'S ANSWER:</h2>
 
@@ -258,7 +258,7 @@ In this case, we applied **Chain-of-Thought** prompting in combination with the 
 
 <h2 style="color:#ff0000;">Considerations:</h2>
 
-- The answer was quite **detailed** given that **ChatGPT** provided information about the **commissioner, Leonardo Buonafede** ([https://w3id.org/arco/resource/Agent/3b24b91d3ef48d6e11dbc72e4b6939e8](https://w3id.org/arco/resource/Agent/3b24b91d3ef48d6e11dbc72e4b6939e8)), and **specified when** he was **appointed as hospital rector** with the objective of overseeing the artwork.
+- The answer was quite **detailed** given that **ChatGPT** provided information about the **commissioner, [Leonardo Buonafede](https://w3id.org/arco/resource/Agent/3b24b91d3ef48d6e11dbc72e4b6939e8)**, and **specified when** he was **appointed as hospital rector** with the objective of overseeing the artwork.
 - It also mentioned the **museum documentation** which provides information on the commissioner and the artist, Benedetto Buglioni.
 - **ChatGPT** identified **Buonafede** as the **most likely and generally accepted commissioner**, **deducing his role** in commissioning this specific Stemma.
 
