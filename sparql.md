@@ -19,7 +19,7 @@ title: SPARQL Queries & Data Results
 
 ![ArCo](assets/images/arco-logo.png)
 
-<h2 style="color:#ff0000;">BUILDING THE QUERIES</h2>
+<h2 style="color:#ff0000;">🏗️BUILDING THE QUERIES</h2>
 
 <h2 style="color:#ff0000;">Query 1 — Does ArCo contain the topic of our project?</h2>
 
