@@ -149,11 +149,11 @@ mentions the Surgerical Collection** and the **Accademia Medica**.
 - **Unlike [ChatGPT](https://chatgpt.com/)**, **[Gemini](https://gemini.google.com/app) divides** and **explains** the **use of the Spedale del Ceppo** into **3 distinct entities**: the museum, the Anatomical Theatre and the Subterranean Tour, **providing a complete picture** of what the site offers today.
 - It seemed to us that [**Gemini**](https://gemini.google.com/app), **adding** the **place preview card** (from Google maps) and an **image of the subject**, makes the response **more visually engaging** and an **excellent resource** for someone planning a visit or researching the city's heritage.
 
-<h2 style="color:#ff0000;">📋Further consideration of another possible gap:</h2>
+<h2 style="color:#ff0000;">📋✳️Further consideration of another possible gap:</h2>
 
 The latest gap identification conducted on [ArCo](http://wit.istc.cnr.it/arco/) revealed an **additional significant lack of information**, concerning the **representation of the museum** associated with the architectural site of the hospital.
 
-Specifically, we compared the **ArCo resource pages** (RDF entity pages) of the **Spedale degli Innocenti** in Florence with the one of the **Ospedale del Ceppo** in Pistoia.
+Specifically, we compared the **ArCo resource pages** (RDF entity pages) of the [**Spedale degli Innocenti**](https://w3id.org/arco/resource/Site/db159e90f5ed83e3d851e7206ccbbd26) in Florence with the one of the [**Ospedale del Ceppo**](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94) in Pistoia.
 
 This comparison highlights a significant difference in the semantic description of the two sites. While the **Spedale degli Innocenti** is **linked** to **additional entities** through the property [**cis:isSiteOf**](http://dati.beniculturali.it/cis/isSiteOf), the **Ospedale del Ceppo lacks such semantic relationship**.
 
