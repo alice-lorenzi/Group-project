@@ -30,14 +30,14 @@ Furthermore, the limited representation of the Spedale del Ceppo within existing
 
 We used [ArCo](http://wit.istc.cnr.it/arco), the official ontology network and RDF dataset of the Italian Ministry of Culture, as our foundational knowledge graph. ArCo delivers a comprehensive representation of Italy's cultural heritage and features a robust [SPARQL endpoint](https://dati.cultura.gov.it/sparql) for deep semantic querying. Furthermore, its modular design and domain-specific ontologies perfectly align with our project goals, particularly regarding tangible cultural assets.
 
-<h2 style="color:#ff0000;">TOOLS:</h2>
+<h2 style="color:#ff0000;">🔧TOOLS:</h2>
 
 - [**ArCo**](http://wit.istc.cnr.it/arco/)
 - [**ArCo SPARQL endpoint**](https://dati.cultura.gov.it/sparql)
 - [**ChatGPT**](https://chatgpt.com/)
 - [**Gemini**](https://gemini.google.com/app)
 
-<h2 style="color:#ff0000;">LET'S MEET THE GROUP:</h2>
+<h2 style="color:#ff0000;">👥LET'S MEET THE GROUP:</h2>
 
 This project was collaboratively developed by:
 
