@@ -422,7 +422,7 @@ WHERE {
 
 <h2 style="color:#ff0000;">Triple of the Third missing information</h2>
 
-The third triple that we intend to create is the lacking information related to the subject "Stemma dell'Ospedale del Ceppo e della città di Pistoia (rilievo) di Buglioni Benedetto (sec. XVI)", more precisely its shape, [**hasShape**](https://w3id.org/arco/ontology/denotative-description/hasShape)
+The third triple that we intend to create is the lacking information related to the subject "Stemma dell'Ospedale del Ceppo e della città di Pistoia (rilievo) di Buglioni Benedetto (sec. XVI)", more precisely its shape, [**hasShape**](https://w3id.org/arco/ontology/denotative-description/hasShape).
 
 **Iri of the subject**: [https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040491](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040491)
 
@@ -446,7 +446,7 @@ Based on the previous example that I gave you, could you create an RDF triple fo
 
 Also, please build the corresponding SPARQL CONSTRUCT query
 
-<h2 style="color:#ff0000;">CHATGPT'S ANSWER:</h2>
+<h2 style="color:#ff0000;">📸 CHATGPT'S ANSWER:</h2>
 
 ![ChatGPT shape answer (short)](assets/images/chatgpt-shape-answer-short.png)
 
@@ -460,7 +460,7 @@ Since the answer was short and not enough clear, **we asked to explain it step-b
 
 ![ChatGPT shape step by step 4](assets/images/chatgpt-shape-stepbystep-4.png)
 
-<h2 style="color:#ff0000;">COPY OF THE RDF TRIPLE BY CHATGPT:</h2>
+<h2 style="color:#ff0000;">📋 COPY OF THE RDF TRIPLE BY CHATGPT:</h2>
 
 ```sparql
 <https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040491>
@@ -468,7 +468,7 @@ Since the answer was short and not enough clear, **we asked to explain it step-b
 <https://w3id.org/arco/resource/TechnicalCharacteristic/tondo> .
 ```
 
-<h2 style="color:#ff0000;">SPARQL CONSTRUCT QUERY BY CHATGPT:</h2>
+<h2 style="color:#ff0000;">⚙️ SPARQL CONSTRUCT QUERY BY CHATGPT:</h2>
 
 ```sparql
 PREFIX a-dd: <https://w3id.org/arco/ontology/denotative-description/>
@@ -482,11 +482,11 @@ WHERE {
 }
 ```
 
-<h2 style="color:#ff0000;">RESULT OBTAINED EXECUTING THE QUERY ON SPARQL BY CHATGPT:</h2>
+<h2 style="color:#ff0000;">📸 RESULT OBTAINED EXECUTING THE QUERY ON SPARQL BY CHATGPT:</h2>
 
 ![ChatGPT shape result](assets/images/chatgpt-shape-result.png)
 
-<h2 style="color:#ff0000;">GEMINI'S ANSWER:</h2>
+<h2 style="color:#ff0000;">📸 GEMINI'S ANSWER:</h2>
 
 ![Gemini shape answer 1](assets/images/gemini-shape-answer-1.png)
 
@@ -494,7 +494,7 @@ WHERE {
 
 ![Gemini shape answer 3](assets/images/gemini-shape-answer-3.png)
 
-<h2 style="color:#ff0000;">COPY OF THE RDF TRIPLE BY GEMINI:</h2>
+<h2 style="color:#ff0000;">📋 COPY OF THE RDF TRIPLE BY GEMINI:</h2>
 
 ```sparql
 @prefix a-dd: <https://w3id.org/arco/ontology/denotative-description/> .
@@ -504,7 +504,7 @@ WHERE {
     a-dd:hasShape <https://w3id.org/arco/resource/TechnicalCharacteristic/tondo> .
 ```
 
-<h2 style="color:#ff0000;">SPARQL CONSTRUCT QUERY BY GEMINI:</h2>
+<h2 style="color:#ff0000;">⚙️ SPARQL CONSTRUCT QUERY BY GEMINI:</h2>
 
 ```sparql
 PREFIX a-dd: <https://w3id.org/arco/ontology/denotative-description/>
@@ -519,15 +519,15 @@ WHERE {
 }
 ```
 
-<h2 style="color:#ff0000;">RESULT OBTAINED EXECUTING THE QUERY ON SPARQL BY GEMINI:</h2>
+<h2 style="color:#ff0000;">📸 RESULT OBTAINED EXECUTING THE QUERY ON SPARQL BY GEMINI:</h2>
 
 ![Gemini shape result](assets/images/gemini-shape-result.png)
 
 <h2 style="color:#ff0000;">4. Triple of the fourth missing information</h2>
 
-To bridge this gap, we used a "**Chain of Thought**" prompt to systematically **break down** a historical statement regarding the **Stemma dell'Ospedale del Ceppo**. The primary **objective** was to apply the ArCo ontology to **formalize** the patronage relationship between the cultural property and its committent, Buonafede Leonardo Spedalingo ([https://w3id.org/arco/resource/Agent/3b24b91d3ef48d6e11dbc72e4b6939e8](https://w3id.org/arco/resource/Agent/3b24b91d3ef48d6e11dbc72e4b6939e8)).
+To bridge this gap, we used a "**Chain of Thought**" prompt to systematically **break down** a historical statement regarding the **Stemma dell'Ospedale del Ceppo**. The primary **objective** was to apply the ArCo ontology to **formalize** the patronage relationship between the cultural property and its committent, [**Buonafede Leonardo Spedalingo**](https://w3id.org/arco/resource/Agent/3b24b91d3ef48d6e11dbc72e4b6939e8)).
 
-By guiding the process **step-by-step**, the goal was not only to accurately map the real-world entities to their corresponding Internationalized Resource Identifiers (IRIs), but also to correctly assign the **a-cd:hasCommittent** ([https://w3id.org/arco/ontology/context-description/hasCommittent](https://w3id.org/arco/ontology/context-description/hasCommittent)) property. Ultimately, this workflow generates standard **RDF triples** and a **SPARQL CONSTRUCT** query, providing a clear, reproducible methodology for **enriching** a cultural heritage Knowledge Graph with interoperable and precise linked open data.
+By guiding the process **step-by-step**, the goal was not only to accurately map the real-world entities to their corresponding Internationalized Resource Identifiers (IRIs), but also to correctly assign the [**a-cd:hasCommittent**](https://w3id.org/arco/ontology/context-description/hasCommittent) property. Ultimately, this workflow generates standard **RDF triples** and a **SPARQL CONSTRUCT** query, providing a clear, reproducible methodology for **enriching** a cultural heritage Knowledge Graph with interoperable and precise linked open data.
 
 <h2 style="color:#ff0000;">Chain of thought prompting technique</h2>
 
@@ -547,7 +547,7 @@ Also, please build the corresponding SPARQL CONSTRUCT query.
 
 Let's think step by step.
 
-<h2 style="color:#ff0000;">CHATGPT'S ANSWER:</h2>
+<h2 style="color:#ff0000;">📸 CHATGPT'S ANSWER:</h2>
 
 ![ChatGPT committent answer 1](assets/images/chatgpt-committent-answer-1.png)
 
@@ -555,7 +555,7 @@ Let's think step by step.
 
 ![ChatGPT committent answer 3](assets/images/chatgpt-committent-answer-3.png)
 
-<h2 style="color:#ff0000;">COPY OF THE RDF TRIPLE BY CHATGPT:</h2>
+<h2 style="color:#ff0000;">📋 COPY OF THE RDF TRIPLE BY CHATGPT:</h2>
 
 ```sparql
 <https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040491>
@@ -563,7 +563,7 @@ Let's think step by step.
 <https://w3id.org/arco/resource/Agent/3b24b91d3ef48d6e11dbc72e4b6939e8> .
 ```
 
-<h2 style="color:#ff0000;">SPARQL CONSTRUCT QUERY BY CHATGPT:</h2>
+<h2 style="color:#ff0000;">⚙️ SPARQL CONSTRUCT QUERY BY CHATGPT:</h2>
 
 ```sparql
 PREFIX a-cd: <https://w3id.org/arco/ontology/context-description/>
@@ -577,11 +577,11 @@ WHERE {
 }
 ```
 
-<h2 style="color:#ff0000;">RESULT OBTAINED EXECUTING THE QUERY ON SPARQL BY CHATGPT:</h2>
+<h2 style="color:#ff0000;">📸 RESULT OBTAINED EXECUTING THE QUERY ON SPARQL BY CHATGPT:</h2>
 
 ![ChatGPT committent result](assets/images/chatgpt-committent-result.png)
 
-<h2 style="color:#ff0000;">GEMINI'S ANSWER:</h2>
+<h2 style="color:#ff0000;">📸 GEMINI'S ANSWER:</h2>
 
 ![Gemini committent answer 1](assets/images/gemini-committent-answer-1.png)
 
@@ -589,7 +589,7 @@ WHERE {
 
 ![Gemini committent answer 3](assets/images/gemini-committent-answer-3.png)
 
-<h2 style="color:#ff0000;">COPY OF THE RDF TRIPLE BY GEMINI:</h2>
+<h2 style="color:#ff0000;">📋 COPY OF THE RDF TRIPLE BY GEMINI:</h2>
 
 ```sparql
 @prefix a-cd: <https://w3id.org/arco/ontology/context-description/> .
@@ -599,7 +599,7 @@ WHERE {
     a-cd:hasCommittent <https://w3id.org/arco/resource/Agent/3b24b91d3ef48d6e11dbc72e4b6939e8> .
 ```
 
-<h2 style="color:#ff0000;">SPARQL CONSTRUCT QUERY BY GEMINI:</h2>
+<h2 style="color:#ff0000;">⚙️ SPARQL CONSTRUCT QUERY BY GEMINI:</h2>
 
 ```sparql
 PREFIX a-cd: <https://w3id.org/arco/ontology/context-description/>
@@ -614,11 +614,11 @@ WHERE {
 }
 ```
 
-<h2 style="color:#ff0000;">RESULT OBTAINED EXECUTING THE QUERY ON SPARQL BY GEMINI:</h2>
+<h2 style="color:#ff0000;">📸 RESULT OBTAINED EXECUTING THE QUERY ON SPARQL BY GEMINI:</h2>
 
 ![Gemini committent result](assets/images/gemini-committent-result.png)
 
-<h2 style="color:#ff0000;">ANALYSIS OF THE RESULTS OF THE CONSTRUCTION OF THE QUERIES</h2>
+<h2 style="color:#ff0000;">📋 ANALYSIS OF THE RESULTS OF THE CONSTRUCTION OF THE QUERIES</h2>
 
 - **Overall Accuracy and Formatting:** Both **ChatGPT** and **Gemini** successfully transformed natural language information into proper RDF format and generated accurate SPARQL CONSTRUCT queries across the different tasks.
 - **Step-by-Step Execution:** **ChatGPT** tends to break down its reasoning into **very granular steps and sometimes requires further prompting for clarity**. For instance, in the third task (hasShape), **ChatGPT** initially gave a brief answer and had to be asked again to explain it, resulting in an extensive 8-step breakdown complete with a visual summary. **Gemini**, on the other hand, consistently provided concise, **well-structured 3- or 4-step responses right away** without needing further prompts.
@@ -627,7 +627,7 @@ WHERE {
 - **Conversational Additions and Warnings:** **ChatGPT** occasionally adds practical advice or academic warnings beyond the immediate prompt. During the fourth task (hasCommittent), **ChatGPT** explicitly advised us to "double-check with your professor or assignment" regarding potential version differences in the ArCo ontology (specifically between hasCommittent and hasCommission).
 - **Task Exclusivity:** It is worth noting that for the supplementary task regarding the museum (cis:isSiteOf), only **ChatGPT** was tested. It successfully verified the correct semantic direction according to the CIS ontology and minted a new ArCo-compliant IRI for the museum.
 
-<h2 style="color:#ff0000;">TRIPLES SUMMARY:</h2>
+<h2 style="color:#ff0000;">🧩 TRIPLES SUMMARY:</h2>
 
 <strong style="color:#ff0000;">Triple 1 — [a-cd:hasIntervention](https://w3id.org/arco/ontology/context-description/hasIntervention)</strong>
 
