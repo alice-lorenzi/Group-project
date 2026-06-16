@@ -68,7 +68,7 @@ We started with a broad exploratory approach. Our first goal was to extract a co
 
 For each entity **(?cp)**, the query extracts its label **(rdfs:label)**, date **(dc:date)**, and all associated properties through the generic pattern ?property ?value. A regular expression filter is then applied to the label in order **to select only entities whose names contain the terms "ospedale" or "lazzaretto"**, regardless of capitalization.
 
-In the second branch of the query, which targets HistoricOrArtisticProperty entities, an additional filter is applied to the date field. The expression FILTER(REGEX(STR(?date), "^(13|14|15|16)\d{2}")) restricts the results **to entities dated between the fourteenth and seventeenth centuries (1300–1699)**, a period particularly relevant for the historical development of institutions such as the Ospedale del Ceppo.
+In the second branch of the query, which targets HistoricOrArtisticProperty entities, an additional filter is applied to the date field. The expression **FILTER(REGEX(STR(?date), "^(13|14|15|16)\d{2}")** restricts the results **to entities dated between the fourteenth and seventeenth centuries (1300–1699)**, a period particularly relevant for the historical development of institutions such as the Ospedale del Ceppo.
 
 The **DISTINCT** keyword ensures that duplicate property–label combinations are removed from the result set, while the clause **ORDER BY ASC(?property)** sorts the output alphabetically according to the property URI. This facilitates the identification and comparison of the properties most frequently used to describe historical hospitals and lazarettos within the ArCo ontology.
 
