@@ -46,7 +46,7 @@ FILTER(REGEX(?l, "Spedale del Ceppo", "i"))
 }
 ```
 
-<h3 style="color:#ff0000;">Screenshot of the results:</h3>
+<h3 style="color:#ff0000;">📸Screenshot of the results:</h3>
 
 ![Query 1 results](assets/images/query1-results.png)
 
