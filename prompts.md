@@ -33,7 +33,7 @@ This technique is **useful** when:
 - The task requires a **specific format** or **nuanced understanding**.
 - We want to **guide** the model with **concrete examples** to **produce richer** and **more relevant responses**.
 
-The property **a-cd:hasIntervention** ([https://w3id.org/arco/ontology/context-description/hasIntervention](https://w3id.org/arco/ontology/context-description/hasIntervention)) relates a **cultural entity** to an **intervention on it**, for conservational or other purposes. We employed this technique because we thought it would be useful to guide the model through **questions about restoration intervention on other subjects similar to the Spedale del Ceppo**. Therefore, we gave some specific examples.
+The property [**a-cd:hasIntervention**](https://w3id.org/arco/ontology/context-description/hasIntervention) relates a **cultural entity** to an **intervention on it**, for conservational or other purposes. We employed this technique because we thought it would be useful to guide the model through **questions about restoration intervention on other subjects similar to the Spedale del Ceppo**. Therefore, we gave some specific examples.
 
 <h2 style="color:#ff0000;">CHATGPT'S ANSWER:</h2>
 
@@ -93,7 +93,7 @@ A: Yes, the *Spedale del Ceppo* in Pistoia has undergone substantial and highly 
 
 <h2 style="color:#ff0000;">Few-shot Technique</h2>
 
-This property (**a-cd:hasUse**) ([https://w3id.org/arco/ontology/context-description/hasUse](https://w3id.org/arco/ontology/context-description/hasUse)) relates a **cultural entity** to **its use**. In the ArCo ontology, this property can be associated with **both current and historical uses** of a cultural property. However, for the purpose of this task, **we focus exclusively on the current use**, and historical uses are intentionally not considered. Similarly to the First Missing Information case, we decided to use **the same technique giving examples of other hospitals** drawn from the list.
+The property [**a-cd:hasUse**](https://w3id.org/arco/ontology/context-description/hasUse) relates a **cultural entity** to **its use**. In the ArCo ontology, this property can be associated with **both current and historical uses** of a cultural property. However, for the purpose of this task, **we focus exclusively on the current use**, and historical uses are intentionally not considered. Similarly to the First Missing Information case, we decided to use **the same technique giving examples of other hospitals** drawn from the list.
 
 <h2 style="color:#ff0000;">CHATGPT'S ANSWER:</h2>
 
