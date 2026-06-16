@@ -53,3 +53,24 @@ code {
 .highlight, pre {
   background-color: #F0F0F0 !important;
 }
+
+.page-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.page-navigation a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-prev {
+  margin-right: auto;
+}
+
+.nav-next {
+  margin-left: auto;
+}
