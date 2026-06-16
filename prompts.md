@@ -23,9 +23,9 @@ We used **two LLMs**: [**ChatGPT**](https://chatgpt.com/) and [**Gemini**](https
 
 ![ChatGPT and Gemini](assets/images/chatgpt-gemini-logos.png)
 
-<h2 style="color:#ff0000;">First Missing Information: Restoration Intervention</h2>
+<h2 style="color:#ff0000;">✳️First Missing Information: Restoration Intervention</h2>
 
-<h2 style="color:#ff0000;">Few-shot Technique</h2>
+<h2 style="color:#ff0000;">✏️Few-shot Technique</h2>
 
 This technique is **useful** when:
 
