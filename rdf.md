@@ -196,11 +196,11 @@ WHERE {
 
 ![Gemini intervention result 3](assets/images/gemini-intervention-result-3.png)
 
-<h2 style="color:#ff0000;">Triple of the Second missing information</h2>
+<h2 style="color:#ff0000;">✳️Triple of the Second missing information</h2>
 
-During the analysis of the ArCo dataset, we observed that the resource describing the Ospedale del Ceppo does not contain any value for the property [**a-cd:hasUse**](https://w3id.org/arco/ontology/context-description/hasUse). This represents an instance-level completeness gap, as the property is not instantiated for the resource despite being relevant for describing the functional history of a cultural property.
+During the analysis of the [ArCo](http://wit.istc.cnr.it/arco/) dataset, we observed that the resource describing the [Ospedale del Ceppo](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b) does not contain any value for the property [**a-cd:hasUse**](https://w3id.org/arco/ontology/context-description/hasUse). This represents an instance-level completeness gap, as the property is not instantiated for the resource despite being relevant for describing the functional history of a cultural property.
 
-The property **a-cd:hasUse** is used in the ArCo ontology to represent the different functions or uses of a cultural property over time. It allows describing how a site or monument has been used, both in its current state and across different historical phases, thus supporting the reconstruction of its functional evolution.
+The property **a-cd:hasUse** is used in the [ArCo](http://wit.istc.cnr.it/arco/) ontology to represent the different functions or uses of a cultural property over time. It allows describing how a site or monument has been used, both in its current state and across different historical phases, thus supporting the reconstruction of its functional evolution.
 
 In particular, **a-cd:hasUse** may refer to both **historical uses** and **current uses** of a cultural property. However, for the purpose of this task, **we focus exclusively on the current use**, while historical uses are intentionally excluded from the scope of this enrichment.
 
@@ -214,7 +214,7 @@ Prompt:
 
 **Subject**: Ex Ospedale della Ss.ma Trinità (palazzo) - Bologna (BO) — [https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/0800242653](https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/0800242653)
 
-**Predicate**: [a-cd:hasUse](https://dati.cultura.gov.it/lodview-arco/ontology/context-description/hasUse)
+**Predicate**: a-cd:hasUse
 
 **Object**: [https://w3id.org/arco/resource/Use/0800242653-current-use-1](https://w3id.org/arco/resource/Use/0800242653-current-use-1) [Current use 1 of cultural property 0800242653](https://dati.cultura.gov.it/lodview-arco/resource/Use/0800242653-current-use-1)
 
@@ -222,7 +222,7 @@ Prompt:
 
 **Subject**: Ex Ospedale della Misericordia (palazzo, per uffici) - Grosseto (GR) — [https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/0900352753A](https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/0900352753A)
 
-**Predicate**: [a-cd:hasUse](https://dati.cultura.gov.it/lodview-arco/ontology/context-description/hasUse)
+**Predicate**: a-cd:hasUse
 
 **Object**: [https://w3id.org/arco/resource/Use/0900352753A-current-use-1](https://w3id.org/arco/resource/Use/0900352753A-current-use-1) [Current use 1 of cultural property 0900352753A](https://dati.cultura.gov.it/lodview-arco/resource/Use/0900352753A-current-use-1)
 
@@ -230,7 +230,7 @@ Prompt:
 
 **Subject**: Ex Ospedale del Crocifisso (ospedale) - Cesena (FC) — [https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/0800161844](https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/0800161844)
 
-**Predicate**: [a-cd:hasUse](https://dati.cultura.gov.it/lodview-arco/ontology/context-description/hasUse)
+**Predicate**: a-cd:hasUse
 
 **Object**: [https://w3id.org/arco/resource/ConservationIntervention/0800161844-conservation-intervention-1](https://w3id.org/arco/resource/ConservationIntervention/0800161844-conservation-intervention-1) Conservation intervention 1 on cultural property 0800161844 [https://w3id.org/arco/resource/ConservationIntervention/0800161844-conservation-intervention-2](https://w3id.org/arco/resource/ConservationIntervention/0800161844-conservation-intervention-2) Conservation intervention 2 on cultural property 0800161844
 
@@ -239,7 +239,7 @@ Please, could you transform the following information into RDF format and use Ar
 "The Ospedale del Ceppo has a current use" Note that:
 
 - IRI of Ospedale del Ceppo is [https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b)
-- Predicate: [a-cd:hasUse](https://dati.cultura.gov.it/lodview-arco/ontology/context-description/hasUse) (from ArCo ontologies)
+- Predicate: a-cd:hasUse (from ArCo ontologies)
 - The property a-cd:hasUse is used to describe the functional use of a cultural property. It may refer to both historical and current uses; however, in this task ONLY current use should be considered.
 - Current use IRIs do not exist in the current dataset, so new IRIs need to be proposed.
 - Information about the current use should be retrieved from reliable external sources.
@@ -346,7 +346,7 @@ WHERE {
 
 ![Gemini use result 2](assets/images/gemini-use-result-2.png)
 
-<h2 style="color:#ff0000;">FURTHER CREATION OF RDF TRIPLE FOR THE MISSING INFORMATION ABOUT THE MUSEUM</h2>
+<h2 style="color:#ff0000;">✳️FURTHER CREATION OF RDF TRIPLE FOR THE MISSING INFORMATION ABOUT THE MUSEUM</h2>
 
 In the case of the **Ospedale degli Innocenti**, the RDF model explicitly includes the property [**cis:isSiteOf**](http://dati.beniculturali.it/cis/isSiteOf), which connects the physical site to a museum. This means that within the dataset there is a formally defined entity representing the museum, and an explicit triple linking the site to it. As a result, the knowledge graph makes the relationship between the site and its museum explicit and machine-readable through the ontology.
 
