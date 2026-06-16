@@ -57,7 +57,7 @@ A: Yes – the Spedale del Ceppo in Pistoia has undergone multiple restoration i
 
 <h2 style="color:#ff0000;">📋Considerations:</h2>
 
-- ChatGPT provided us with the information we were looking for. The **answer** was quite **schematic** but **satisfying**.
+- [ChatGPT](https://chatgpt.com/) provided us with the information we were looking for. The **answer** was quite **schematic** but **satisfying**.
 - The **information** was divided according to **different type of restoration intervention** and according to **different periods of time**, starting from the 15th century; in some cases, it also **specified the year of the restoration**.
 
 <h2 style="color:#ff0000;">📸GEMINI'S ANSWER:</h2>
@@ -84,10 +84,10 @@ A: Yes, the *Spedale del Ceppo* in Pistoia has undergone substantial and highly 
 
 <h2 style="color:#ff0000;">📋Considerations:</h2>
 
-- The **answer** was **detailed**: Gemini mentioned the **restoration intervention** dividing the whole process into **two main categories**.
+- The **answer** was **detailed**: [Gemini](https://gemini.google.com/app)  mentioned the **restoration intervention** dividing the whole process into **two main categories**.
 - The first category concerns artistic restoration regarding the external facade, mentioning the Frieze and Tondi restoration deteriorated because of external factors, and the discovery of the "testaletto" frescos.
 - The second category refers to its adaptive reuse, mentioning the creation of the Museum of the Spedale del Ceppo and the "Casa di Comunità".
-- Unlike ChatGPT, Gemini placed **greater emphasis** on **explaining the restoration intervention rather than providing specific dates** related to the overall restoration process.
+- Unlike [ChatGPT](https://chatgpt.com/), [Gemini](https://gemini.google.com/app) placed **greater emphasis** on **explaining the restoration intervention rather than providing specific dates** related to the overall restoration process.
 
 <h2 style="color:#ff0000;">✳️Second Missing Information: Current Use</h2>
 
@@ -115,10 +115,10 @@ A: Today the Spedale del Ceppo in Pistoia is no longer a functioning hospital. I
 
 <h2 style="color:#ff0000;">📋Considerations:</h2>
 
-- Following the example set through the Spedale Degli Innocenti and the Ex Ospedale della SS.ma Trinità, ChatGPT confirms that **Spedale del Ceppo** is **no longer a functioning hospital**, mentioning a **fundamental element**: **the museum**.
+- Following the example set through the Spedale Degli Innocenti and the Ex Ospedale della SS.ma Trinità, [ChatGPT](https://chatgpt.com/) confirms that **Spedale del Ceppo** is **no longer a functioning hospital**, mentioning a **fundamental element**: **the museum**.
 - It focuses on the **current use of the museum** which tells the story of the hospital and Pistoia's healthcare system and displays objects, documents and materials like the famous Renaissance frieze by the Della Robbia workshop.
 - At the end it just specifies the fact that the **healthcare services** have been **moved** to the **new Ospedale San Jacopo**, also mentioning the restorations of the heritage site.
-- So, ChatGPT briefly elucidates few information about the Spedale Del Ceppo through two bullet points lists, and **it lacks some piece of information** like the **Anatomical Theatre** and **Pistoia's Underground**.
+- So, [ChatGPT](https://chatgpt.com/) briefly elucidates few information about the Spedale Del Ceppo through two bullet points lists, and **it lacks some piece of information** like the **Anatomical Theatre** and **Pistoia's Underground**.
 
 <h2 style="color:#ff0000;">📸GEMINI'S ANSWER:</h2>
 
@@ -142,10 +142,11 @@ Today, the monumental historic complex has been repurposed into a prominent cult
 
 <h2 style="color:#ff0000;">📋Considerations:</h2>
 
-- **Gemini** provides a **comprehensive** and **well-structured answer** regarding the current use of Spedale del Ceppo. We think that the response highlights effectively the **transition from a functional medical facility to the modern identity as a cultural and scientific hub**. The **language** used is **informative** and **more sophisticated** than the one used by Chat.
-- **Gemini** and **ChatGPT both** mention the **presence of the Robbiano Frieze**, the building's most famous feature. Moreover, **Gemini mentions the Surgerical Collection** and the **Accademia Medica**.
-- **Unlike ChatGPT**, **Gemini divides** and **explains** the **use of the Spedale del Ceppo** into **3 distinct entities**: the museum, the Anatomical Theatre and the Subterranean Tour, **providing a complete picture** of what the site offers today.
-- It seemed to us that **Gemini**, **adding** the **place preview card** (from Google maps) and an **image of the subject**, makes the response **more visually engaging** and an **excellent resource** for someone planning a visit or researching the city's heritage.
+- [**Gemini**](https://gemini.google.com/app) provides a **comprehensive** and **well-structured answer** regarding the current use of Spedale del Ceppo. We think that the response highlights effectively the **transition from a functional medical facility to the modern identity as a cultural and scientific hub**. The **language** used is **informative** and **more sophisticated** than the one used by Chat.
+- [**Gemini**](https://gemini.google.com/app) and [**ChatGPT**](https://chatgpt.com/) mention the **presence of the Robbiano Frieze**, the building's most famous feature. Moreover, **[Gemini](https://gemini.google.com/app)
+mentions the Surgerical Collection** and the **Accademia Medica**.
+- **Unlike [ChatGPT](https://chatgpt.com/)**, **[Gemini](https://gemini.google.com/app) divides** and **explains** the **use of the Spedale del Ceppo** into **3 distinct entities**: the museum, the Anatomical Theatre and the Subterranean Tour, **providing a complete picture** of what the site offers today.
+- It seemed to us that [**Gemini**](https://gemini.google.com/app), **adding** the **place preview card** (from Google maps) and an **image of the subject**, makes the response **more visually engaging** and an **excellent resource** for someone planning a visit or researching the city's heritage.
 
 <h2 style="color:#ff0000;">📋Further consideration of another possible gap:</h2>
 
@@ -212,7 +213,7 @@ This technique is particularly **helpful** when:
 - **No examples** are available
 - The **task** is **generic** or **straightforward**
 
-The property [**a-dd:hasShape**](https://w3id.org/arco/ontology/denotative-description/hasShape) is associated with the object's specific form. According to the Zero-shot Technique, we asked the LLMs a prompt **without giving any examples** or **demonstrations**, **relying on their general understanding of language and tasks**. This helps test their raw ability to provide **useful answers without prior context or scaffolding**. We also decided to add "by Buglioni" in our prompt, otherwise ChatGPT would have mixed up the stemmas.
+The property [**a-dd:hasShape**](https://w3id.org/arco/ontology/denotative-description/hasShape) is associated with the object's specific form. According to the Zero-shot Technique, we asked the LLMs a prompt **without giving any examples** or **demonstrations**, **relying on their general understanding of language and tasks**. This helps test their raw ability to provide **useful answers without prior context or scaffolding**. We also decided to add "by Buglioni" in our prompt, otherwise [ChatGPT](https://chatgpt.com/) would have mixed up the stemmas.
 
 <h2 style="color:#ff0000;">📸CHATGPT'S ANSWER:</h2>
 
@@ -222,9 +223,9 @@ The property [**a-dd:hasShape**](https://w3id.org/arco/ontology/denotative-descr
 
 <h2 style="color:#ff0000;">📋Considerations:</h2>
 
-- **ChatGPT** provided the information we were looking for, adding **more details** and **describing the Stemma of the Spedale internally** (shape, color, material).
+- [**ChatGPT**](https://chatgpt.com/) provided the information we were looking for, adding **more details** and **describing the Stemma of the Spedale internally** (shape, color, material).
 - The **answer** was **detailed**: it distinguished between the **overall shape** and the **shape of the heraldic element within it**.
-- **ChatGPT** also **included photos of the Stemma**.
+- [**ChatGPT**](https://chatgpt.com/)  also **included photos of the Stemma**.
 
 <h2 style="color:#ff0000;">📸GEMINI'S ANSWER:</h2>
 
@@ -234,9 +235,10 @@ The property [**a-dd:hasShape**](https://w3id.org/arco/ontology/denotative-descr
 
 <h2 style="color:#ff0000;">📋Considerations:</h2>
 
-- **Gemini** gave a **higher-quality**, **well-structured explanation** of the **subject** requested, providing the information we were looking for.
-- The answer correctly identified the **artwork as a tondo** (circular relief) and **broke its composition into logical layers**. Moreover, Gemini provided the specific iconography, technical dimensions, and the style, **adding overall professional depth to the description**.
-- Unlike ChatGPT, **Gemini did not include** a **photo** of the **Stemma**.
+- [**Gemini**](https://gemini.google.com/app) gave a **higher-quality**, **well-structured explanation** of the **subject** requested, providing the information we were looking for.
+- The answer correctly identified the **artwork as a tondo** (circular relief) and **broke its composition into logical layers**. Moreover, [Gemini](https://gemini.google.com/app) provided the specific iconography, technical dimensions, and the style, **adding overall professional depth to the description**.
+- Unlike [ChatGPT](https://chatgpt.com/), **[Gemini](https://gemini.google.com/app)
+ did not include** a **photo** of the **Stemma**.
 
 <h2 style="color:#ff0000;">🌐Confirmation from Official Source:</h2>
 
