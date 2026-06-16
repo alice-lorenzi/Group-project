@@ -21,7 +21,7 @@ title: Gap Identification
 
 <h2 style="color:#ff0000;">IDENTIFICATION OF GAP 1 AND GAP 2</h2>
 
-Following the retrieval of the IRI for the **Ospedale del Ceppo** ([https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b)) in Query 1, a direct inspection of the entity's page in the Knowledge Graph revealed a significant sparsity of data. While the entity exists, it lacks many of the standard descriptive properties (predicates) that would typically document a cultural heritage site of its importance.
+Following the retrieval of the IRI for the [**Ospedale del Ceppo**](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b) in Query 1, a direct inspection of the entity's page in the Knowledge Graph revealed a significant sparsity of data. While the entity exists, it lacks many of the standard descriptive properties (predicates) that would typically document a cultural heritage site of its importance.
 
 ![Ospedale del Ceppo page](assets/images/gap1-ospedale-ceppo-page.png)
 
