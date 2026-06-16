@@ -148,7 +148,7 @@ The goal of this query was to discover [**subject resources connected to the Osp
 - **cd:Subject**: specifies that the query is looking for resources of type Subject in the ArCo Context Description ontology.
 - **rdfs:label**: retrieves the human-readable label associated with each subject resource.
 - **SELECT DISTINCT ?subject ?label**: returns the URI of each subject and its label while removing duplicate results.
-- **FILTER(REGEX(?label, "Spedale del Ceppo", "i"))**: restricts the results to subjects whose labels contain the phrase "Spedale del Ceppo". The "i" option makes the search case-insensitive.
+- **FILTER(REGEX(?label, "Ospedale del Ceppo", "i"))**: restricts the results to subjects whose labels contain the phrase "Ospedale del Ceppo". The "i" option makes the search case-insensitive.
 - **FILTER(REGEX(?label, "Pistoia", "i"))**: further narrows the results to labels that also contain the term "Pistoia", ensuring that only subjects specifically related to the Spedale del Ceppo in Pistoia are returned.
 
 <h3 style="color:#ff0000;">⚙️SPARQL Query:</h3>
@@ -181,7 +181,6 @@ Up to this point, we have executed three queries, but we **only retrieved inform
 
 <h3 style="color:#ff0000;">🔬 Keywords and Query Elements Description:</h3>
 
-- **PREFIX**: Declares the vocabularies (ontologies) used in the query, creating abbreviations to make the code more readable.
 - **SELECT DISTINCT**: SELECT indicates which variables to display in the final results. Adding DISTINCT is crucial: it tells the system to remove duplicates, returning each cultural property only once, even if it has multiple similar labels.
 - **?cp**: An arbitrary variable (likely chosen for Cultural Property) that acts as a placeholder for the IRIs of the items the system will find.
 - **a**: A highly useful SPARQL shortcut for rdf:type. It indicates that the ?cp element must belong to the class that follows it.
@@ -242,7 +241,7 @@ To ensure we didn't miss any crucial information due to these different catalogu
 - **rdfs:label:** retrieves the human-readable label associated with each cultural property.
 - **SELECT DISTINCT ?cp:** returns the unique cultural property resources found by the query, removing duplicate results.
 - **FILTER(REGEX(?l, "Fregio", "i")):** restricts the results to resources whose labels contain the word "Fregio". The "i" flag makes the search case-insensitive.
-- **FILTER(REGEX(?l, "OSpedale del Ceppo", "i")):** narrows the query to resources explicitly referring to the Ospedale del Ceppo.
+- **FILTER(REGEX(?l, "OSpedale del Ceppo", "i")):** restricts the results to resources explicitly referring to the "Ospedale del Ceppo".  The "i" flag makes the search case-insensitive.
 - **UNION**: combines the results from the two searches, allowing the query to retrieve matching resources from both cultural property classes.
 
 <h3 style="color:#ff0000;">⚙️SPARQL Query:</h3>
@@ -318,7 +317,7 @@ This query was designed to **retrieve cultural heritage resources related to the
 - **rdfs:label**: retrieves the label or name associated with each cultural property.
 - **dc:date:** retrieves the date associated with the resource.
 - **SELECT DISTINCT ?cp ?date**: returns each cultural property together with its date, removing duplicate results.
-- **FILTER(REGEX(?l, "Spedale", "i"))**: restricts the results to resources whose labels contain the word "Spedale".
+- **FILTER(REGEX(?l, "Ospedale", "i"))**: restricts the results to resources whose labels contain the word "Ospedale".
 - **FILTER(REGEX(?l, "del Ceppo", "i")):** further narrows the search to resources specifically related to the Spedale del Ceppo.
 - **ORDER BY DESC(?date)**: sorts the results in descending order according to the date, showing the most recent entries first.
 
@@ -335,7 +334,7 @@ WHERE {
   ?cp a arco:HistoricOrArtisticProperty ;
      rdfs:label ?l ;
      dc:date ?date .
-  FILTER(REGEX(?l, "Spedale", "i"))
+  FILTER(REGEX(?l, "Ospedale", "i"))
   FILTER(REGEX(?l, "del Ceppo", "i"))
 }
 ORDER BY DESC (?date)
