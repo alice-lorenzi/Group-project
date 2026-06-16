@@ -17,11 +17,11 @@ title: Conclusions & Insights
 
 <h1 style="color:#ff0000;">🎯 Conclusions & Insights</h1>
 
-<h2 style="color:#ff0000;">CONCLUSIONS</h2>
+<h2 style="color:#ff0000;">📋CONCLUSIONS</h2>
 
 ![Conclusions](assets/images/conclusions-header.png)
 
-Our project on the [**Spedale del Ceppo**](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b) provided an opportunity to investigate how **semantic web technologies** and **large language models** can support the documentation and exploration of Italian cultural heritage. The project highlighted both the advantages and challenges of these digital tools.
+Our project on the [**Spedale del Ceppo**] provided an opportunity to investigate how **semantic web technologies** and **large language models** can support the documentation and exploration of Italian cultural heritage. The project highlighted both the advantages and challenges of these digital tools.
 
 ## ⚙️ Using SPARQL and the ArCo Ontology
 
@@ -46,7 +46,7 @@ The project also revealed several opportunities for enriching the semantic repre
 - The **knowledge graph could be expanded** with information about restoration and **conservation interventions**, currently not represented in the dataset.
 - Additional data concerning the **current use** of the site could be included to better describe its transformation from a historical hospital into a museum and cultural heritage site.
 - **The coat of arms associated with the Ospedale del Ceppo** could be enriched with further metadata, such as its **shape** and **commissioner**, providing a more complete artistic and historical description.
-- Stronger **semantic links** could be established **between the Spedale del Ceppo, the Museo dello Spedale del Ceppo**, related artworks, and historical figures.
+- Stronger **semantic links** could be established **between the Ospedale del Ceppo, the Museo dell'Ospedale del Ceppo**, related artworks, and historical figures.
 - Further connections to archival sources and other cultural heritage resources could contribute to a more comprehensive and interconnected digital representation of the site.
 
 
