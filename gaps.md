@@ -25,7 +25,7 @@ Following the retrieval of the IRI for the [**Ospedale del Ceppo**](https://w3id
 
 ![Ospedale del Ceppo page](assets/images/gap1-ospedale-ceppo-page.png)
 
-To systematically identify what specific information was missing (the "gaps"), we needed to establish a baseline. We decided to investigate which properties are normally associated with similar historical healthcare structures within the **ArCo ontology** to enrich the information available about the **Spedale del Ceppo**.
+To systematically identify what specific information was missing (the "gaps"), we needed to establish a baseline. We decided to investigate which properties are normally associated with similar historical healthcare structures within the [**ArCo ontology**](http://wit.istc.cnr.it/arco/) to enrich the information available about the **Spedale del Ceppo**.
 
 To do this, we formulated **Query 7** to extract the predicates commonly linked to these types of buildings. We expanded our search terms to include "**ospedale**" and "**lazzaretto**", since it represents a synonymous of "ospedale" from a historical and functional point of view.
 
