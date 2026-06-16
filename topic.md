@@ -47,4 +47,5 @@ We thought that the **Spedale del Ceppo matches perfectly with this project** be
 <h2 style="color:#ff0000;">PROJECT GOALS</h2>
 
 - To query the **ArCo** ontology network via its dedicated SPARQL endpoint, aiming to retrieve pertinent and structured data concerning the subject of our project: Spedale del Ceppo.
-- To employ advanced **Large Language Models** (e.g., ChatGPT and Gemini) to generate novel insights and formulate new RDF triples, that could enrich the ArCo Knowledge Graph.
+- To employ advanced **Large Language Models** (e.g., [ChatGPT](https://chatgpt.com/) and [Gemini]( https://gemini.google.com/app ) 
+) to generate novel insights and formulate new RDF triples, that could enrich the ArCo Knowledge Graph.
