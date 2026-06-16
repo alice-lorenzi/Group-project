@@ -51,7 +51,7 @@ We showed the following examples prompt:
 
 **Predicate**: [a-cd:hasIntervention](https://dati.cultura.gov.it/lodview-arco/ontology/context-description/hasIntervention)
 
-**Object**: `<https://w3id.org/arco/resource/ConservationIntervention/0800161844-conservation-intervention-1>` Conservation intervention 1 on cultural property 0800161844; `<https://w3id.org/arco/resource/ConservationIntervention/0800161844-conservation-intervention-2>` Conservation intervention 2 on cultural property 0800161844
+**Object**: <https://w3id.org/arco/resource/ConservationIntervention/0800161844-conservation-intervention-1> Conservation intervention 1 on cultural property 0800161844; <https://w3id.org/arco/resource/ConservationIntervention/0800161844-conservation-intervention-2> Conservation intervention 2 on cultural property 0800161844
 
 Please, could you transform the following information into RDF format and use ArCo ontology taking the previous triples as examples?
 
