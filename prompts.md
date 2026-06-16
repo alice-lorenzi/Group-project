@@ -93,7 +93,7 @@ A: Yes, the *Spedale del Ceppo* in Pistoia has undergone substantial and highly 
 
 <h2 style="color:#ff0000;">✏️Few-shot Technique</h2>
 
-The property [**a-cd:hasUse**](https://w3id.org/arco/ontology/context-description/hasUse) relates a **cultural entity** to **its use**. In the ArCo ontology, this property can be associated with **both current and historical uses** of a cultural property. However, for the purpose of this task, **we focus exclusively on the current use**, and historical uses are intentionally not considered. Similarly to the First Missing Information case, we decided to use **the same technique giving examples of other hospitals** drawn from the list.
+The property [**a-cd:hasUse**](https://w3id.org/arco/ontology/context-description/hasUse) relates a **cultural entity** to **its use**. In the [ArCo](http://wit.istc.cnr.it/arco/) ontology, this property can be associated with **both current and historical uses** of a cultural property. However, for the purpose of this task, **we focus exclusively on the current use**, and historical uses are intentionally not considered. Similarly to the First Missing Information case, we decided to use **the same technique giving examples of other hospitals** drawn from the list.
 
 <h2 style="color:#ff0000;">📸CHATGPT'S ANSWER:</h2>
 
