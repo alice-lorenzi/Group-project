@@ -141,7 +141,7 @@ The query returned some records. Interestingly, **these results correspond to tw
 
 <h2 style="color:#ff0000;">Query 3 — Identifying Subjects Related to the Ospedale del Ceppo</h2>
 
-The goal of this query was to discover [**subject resources connected to the Ospedale del Ceppo**](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b) and to investigate whether the [ArCo](http://wit.istc.cnr.it/arco/) knowledge graph contains specific thematic or contextual references to the site. By **searching for labels that include both "Ospedale del Ceppo" and "Pistoia"**, the query helps uncover how the institution is described within the dataset and **may reveal additional contextual information beyond the main cultural heritage record.**
+The goal of this query was to **discover subject resources** connected to the [**Ospedale del Ceppo**](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b) and to investigate whether the [ArCo](http://wit.istc.cnr.it/arco/) knowledge graph contains specific thematic or contextual references to the site. By **searching for labels that include both "Ospedale del Ceppo" and "Pistoia"**, the query helps uncover how the institution is described within the dataset and **may reveal additional contextual information beyond the main cultural heritage record.**
 
 <h3 style="color:#ff0000;">🔬Explanation of the keywords used:</h3>
 
