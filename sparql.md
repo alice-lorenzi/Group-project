@@ -52,15 +52,15 @@ FILTER(REGEX(?l, "Spedale del Ceppo", "i"))
 
 <h3 style="color:#ff0000;">IRIs Found:</h3>
 
-- [stemma dell'Ospedale del Ceppo e dell'Ospedale di Santa Maria Nuova (rilievo) di Della Robbia Giovanni (sec. XVI)(https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040490)
-- [stemma dell'Ospedale del Ceppo e della città di Pistoia (rilievo) di Buglioni Benedetto (sec. XVI)(https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040491)
-- stemma dell'Ospedale del Ceppo e dell'Ospedale di Santa Maria Nuova (rilievo) di Della Robbia Giovanni (sec. XVI) — [https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040499](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040499)
-- stemma dell'Ospedale del Ceppo (decorazione) - bottega pistoiese (sec. XVIII) — [https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900020731](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900020731)
-- stemma dell'Ospedale del Ceppo e della città di Pistoia (rilievo) di Della Robbia Giovanni (sec. XVI) — [https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040498](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040498)
-- stemma dell'Ospedale del Ceppo (rilievo) - manifattura toscana (sec. XVI) — [https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900014800](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900014800)
-- stemma dell'Ospedale del Ceppo (rilievo) - manifattura toscana (sec. XVI) — [https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900014801](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900014801)
-- stemma dell'Ospedale del Ceppo (rilievo) - manifattura toscana (sec. XVI) — [https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900014802](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900014802)
-- stemma dell'Ospedale del Ceppo (rilievo) - manifattura toscana (seconda metà sec. XVI) — [https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900014812](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900014812)
+- [stemma dell'Ospedale del Ceppo e dell'Ospedale di Santa Maria Nuova (rilievo) di Della Robbia Giovanni (sec. XVI)](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040490)
+- [stemma dell'Ospedale del Ceppo e della città di Pistoia (rilievo) di Buglioni Benedetto (sec. XVI)](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040491)
+- [stemma dell'Ospedale del Ceppo e dell'Ospedale di Santa Maria Nuova (rilievo) di Della Robbia Giovanni (sec. XVI)](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040499)
+- [stemma dell'Ospedale del Ceppo (decorazione) - bottega pistoiese (sec. XVIII)](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900020731)
+- [stemma dell'Ospedale del Ceppo e della città di Pistoia (rilievo) di Della Robbia Giovanni (sec. XVI)](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040498)
+- [stemma dell'Ospedale del Ceppo (rilievo) - manifattura toscana (sec. XVI)](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900014800)
+- [stemma dell'Ospedale del Ceppo (rilievo) - manifattura toscana (sec. XVI)](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900014801)
+- [stemma dell'Ospedale del Ceppo (rilievo) - manifattura toscana (sec. XVI)](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900014802)
+- [stemma dell'Ospedale del Ceppo (rilievo) - manifattura toscana (seconda metà sec. XVI)](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900014812)
 
 ### ✅ Discussion of results and further research:
 
