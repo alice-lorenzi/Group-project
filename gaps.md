@@ -74,7 +74,7 @@ The **DISTINCT** keyword ensures that duplicate property–label combinations ar
 
 The execution of this query returned a massive, comprehensive list of properties attached to various hospitals. This gave us a great overview of the ontology's vocabulary.
 
-The resulting list of properties was subsequently analyzed to select the most informative ones. We therefore chose to focus the next phase of our research on two highly relevant properties: **has intervention** ([https://w3id.org/arco/ontology/context-description/hasIntervention](https://w3id.org/arco/ontology/context-description/hasIntervention)) (to track architectural modifications over time) and **has use** ([https://w3id.org/arco/ontology/context-description/hasUse](https://w3id.org/arco/ontology/context-description/hasUse)) (to document its historical functions).
+The resulting list of properties was subsequently analyzed to select the most informative ones. We therefore chose to focus the next phase of our research on two highly relevant properties: [**has intervention**](https://w3id.org/arco/ontology/context-description/hasIntervention) (to track architectural modifications over time) and [**has use**](https://w3id.org/arco/ontology/context-description/hasUse) (to document its historical functions).
 
 ![hasIntervention results](assets/images/gap1-hasintervention-results.png)
 
