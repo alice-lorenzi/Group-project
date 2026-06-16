@@ -64,17 +64,19 @@ ORDER BY ASC(?property)
 
 <h2 style="color:#ff0000;">Explanation of the Query:</h2>
 
-We started with a broad exploratory approach. Our first goal was to extract a comprehensive list of all predicates (?property) currently used in the Knowledge Graph to describe any hospital or lazaretto. To ensure we didn't miss anything, we used a **UNION** clause to search across both structural sites (arco:ArchitecturalOrLandscapeHeritage) and historic/artistic classifications (arco:HistoricOrArtisticProperty).
+We started with a broad exploratory approach. Our first goal was to extract a comprehensive list of all predicates (?property) currently used in the Knowledge Graph to describe any hospital or lazaretto. To ensure we didn't miss anything, we used a **UNION** clause to search across both structural sites **arco:ArchitecturalOrLandscapeHeritage** and historic/artistic classifications **arco:HistoricOrArtisticProperty**.
 
-For each entity (?cp), the query extracts its label (rdfs:label), date (dc:date), and all associated properties through the generic pattern ?property ?value. A regular expression filter is then applied to the label in order to select only entities whose names contain the terms "ospedale" or "lazzaretto", regardless of capitalization.
+For each entity **(?cp)**, the query extracts its label **(rdfs:label)**, date **(dc:date)**, and all associated properties through the generic pattern ?property ?value. A regular expression filter is then applied to the label in order **to select only entities whose names contain the terms "ospedale" or "lazzaretto"**, regardless of capitalization.
 
-In the second branch of the query, which targets HistoricOrArtisticProperty entities, an additional filter is applied to the date field. The expression `FILTER(REGEX(STR(?date), "^(13|14|15|16)\d{2}"))` restricts the results to entities dated between the fourteenth and seventeenth centuries (1300–1699), a period particularly relevant for the historical development of institutions such as the Ospedale del Ceppo.
+In the second branch of the query, which targets HistoricOrArtisticProperty entities, an additional filter is applied to the date field. The expression `FILTER(REGEX(STR(?date), "^(13|14|15|16)\d{2}"))` restricts the results **to entities dated between the fourteenth and seventeenth centuries (1300–1699)**, a period particularly relevant for the historical development of institutions such as the Ospedale del Ceppo.
 
 The **DISTINCT** keyword ensures that duplicate property–label combinations are removed from the result set, while the clause **ORDER BY ASC(?property)** sorts the output alphabetically according to the property URI. This facilitates the identification and comparison of the properties most frequently used to describe historical hospitals and lazarettos within the ArCo ontology.
 
-The execution of this query returned a massive, comprehensive list of properties attached to various hospitals. This gave us a great overview of the ontology's vocabulary.
+The execution of this query returned a massive, comprehensive **list of properties attached to various hospitals.** This gave us a great overview of the ontology's vocabulary.
 
-The resulting list of properties was subsequently analyzed to select the most informative ones. We therefore chose to focus the next phase of our research on two highly relevant properties: [**has intervention**](https://w3id.org/arco/ontology/context-description/hasIntervention) (to track architectural modifications over time) and [**has use**](https://w3id.org/arco/ontology/context-description/hasUse) (to document its historical functions).
+To explore the available predicates associated with the resource, we used **CTRL+F** function and searched for the term "has". 
+
+The resulting **list of properties with "has" was subsequently analyzed to select the most informative ones**. We therefore chose to focus the next phase of our research on two highly relevant properties: [**has intervention**](https://w3id.org/arco/ontology/context-description/hasIntervention) (to track architectural modifications over time) and [**has use**](https://w3id.org/arco/ontology/context-description/hasUse) (to document its historical functions),  as they appeared to provide particularly interesting information about the conservation history and the use of the cultural asset.
 
 ![hasIntervention results](assets/images/gap1-hasintervention-results.png)
 
