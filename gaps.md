@@ -209,8 +209,8 @@ Regarding the first aspect, the comparison suggested the possibility of adding i
 
 A clear-up is needed concerning the second aspect we want to focus on. From the details of the Stemma of the Ospedale degli Innocenti, we found these predicates:
 
-- [**a-cd:hasCommittent**](https://w3id.org/arco/ontology/context-description/hasCommittent))
-- [**a-cd:hasCommission**](https://w3id.org/arco/ontology/context-description/hasCommission))
+- [**a-cd:hasCommittent**](https://w3id.org/arco/ontology/context-description/hasCommittent)
+- [**a-cd:hasCommission**](https://w3id.org/arco/ontology/context-description/hasCommission)
 
 This prompted a question about the **difference between** them, so we asked [**Gemini**](https://gemini.google.com/app) to clarify this distinction:
 
