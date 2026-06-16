@@ -74,7 +74,7 @@ Through this query we were able to **confirm the presence of entities related to
 
 From this page, we were cheerfully able to **find the official IRI of our topic**:
 
-[**Ospedale del Ceppo**](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b))
+[**Ospedale del Ceppo**](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b)
 
 <h3 style="color:#ff0000;">📋Conclusions from the first Query:</h3>
 
@@ -242,8 +242,7 @@ To ensure we didn't miss any crucial information due to these different catalogu
 - **rdfs:label:** retrieves the human-readable label associated with each cultural property.
 - **SELECT DISTINCT ?cp:** returns the unique cultural property resources found by the query, removing duplicate results.
 - **FILTER(REGEX(?l, "Fregio", "i")):** restricts the results to resources whose labels contain the word "Fregio". The "i" flag makes the search case-insensitive.
-- **FILTER(REGEX(?l, "Spedale del Ceppo", "i")):** narrows the first part of the query to resources explicitly referring to the Spedale del Ceppo.
-- **FILTER(REGEX(?l, "Ospedale del Ceppo", "i")):** narrows the second part of the query to resources using the alternative form "Ospedale del Ceppo", ensuring that different naming conventions are captured.
+- **FILTER(REGEX(?l, "OSpedale del Ceppo", "i")):** narrows the query to resources explicitly referring to the Ospedale del Ceppo.
 - **UNION**: combines the results from the two searches, allowing the query to retrieve matching resources from both cultural property classes.
 
 <h3 style="color:#ff0000;">⚙️SPARQL Query:</h3>
