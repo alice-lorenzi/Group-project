@@ -36,17 +36,15 @@ Working with SPARQL and the [ArCo](http://wit.istc.cnr.it/arco/) ontology demons
 By experimenting with [**ChatGPT**](https://chatgpt.com/) and [**Gemini**](https://gemini.google.com/app), we were able to assess **how different LLMs perform** when applied to cultural heritage research tasks:
 
 - Both models benefited from carefully designed prompts that included examples, clear instructions, and structured input.
-- Despite their capabilities, neither model consistently provided accurate answers when dealing with highly specific or specialized information related to the [Spedale del Ceppo](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b).
 - **ChatGPT** generally produced responses that were **coherent** and **well-organized**, even if in some cases it was quite **schematic**.
 - **Gemini** gave us **accurate** and **satisfying answers**; we were able to observe that Gemini often achieved stronger results when supplied with detailed few-shot prompts, demonstrating that prompt design can significantly influence model performance.
-- These observations emphasized that there is no single best prompting strategy; instead, effective interaction depends on understanding the characteristics of each model.
 
 ## Potential Future Enhancements
 
 The project also revealed several opportunities for extending and improving the semantic representation of the [Spedale del Ceppo](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b).
 
 - **Additional RDF data** could be incorporated to provide a richer description of the site's historical development, artistic heritage, and architectural features.
-- **More detailed semantic links** could be established between the [**Spedale del Ceppo**](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b) and its famous glazed terracotta frieze, historical functions, and related cultural entities.
+- **More detailed semantic links** could be established between the [**Spedale del Ceppo**](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b) and its famous coat of arm, historical functions, and related cultural entities.
 - **Expanding the ontology** with further references to artworks, historical events, and archival documentation would contribute to a more comprehensive digital representation of the site.
 
 Overall, this project allowed us to develop practical skills in semantic data modelling, SPARQL querying, and prompt engineering, while helping to enhance the digital visibility of one of Tuscany's most important historical and cultural landmarks.
