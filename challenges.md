@@ -48,8 +48,3 @@ title: Key Challenges
 - We encountered several difficulties when using AI systems to generate valid **SPARQL CONSTRUCT** queries to add the missing information. To validate the outputs, we compared the performance of different models:
 - [**ChatGPT**](https://chatgpt.com/) demonstrated a stronger capacity for in-depth analysis and was ultimately more effective in producing correct, logically sound, and executable SPARQL CONSTRUCT queries.
 - [**Gemini**](https://gemini.google.com/app) often required additional modifications, multi-turn refinements, and corrections before generating a working query, even when provided with the exact same prompt instructions.
-
-
-Gemini (https://gemini.google.com/app),  often required additional modifications, multi-turn refinements, and corrections before generating a working query, even when provided with the exact same prompt instructions. 
-
- 
