@@ -142,7 +142,8 @@ Today, the monumental historic complex has been repurposed into a prominent cult
 
 <h2 style="color:#ff0000;">📋Considerations:</h2>
 
-- [**Gemini**](https://gemini.google.com/app) provides a **comprehensive** and **well-structured answer** regarding the current use of Spedale del Ceppo. We think that the response highlights effectively the **transition from a functional medical facility to the modern identity as a cultural and scientific hub**. The **language** used is **informative** and **more sophisticated** than the one used by Chat.
+- [**Gemini**](https://gemini.google.com/app) provides a **comprehensive** and **well-structured answer** regarding the current use of Spedale del Ceppo. We think that the response highlights effectively the **transition from a functional medical facility to the modern identity as a cultural and scientific hub**. The **language** used is **informative** and **more sophisticated** than the one used by 
+[ChatGPT](https://chatgpt.com/).
 - [**Gemini**](https://gemini.google.com/app) and [**ChatGPT**](https://chatgpt.com/) mention the **presence of the Robbiano Frieze**, the building's most famous feature. Moreover, **[Gemini](https://gemini.google.com/app)
 mentions the Surgerical Collection** and the **Accademia Medica**.
 - **Unlike [ChatGPT](https://chatgpt.com/)**, **[Gemini](https://gemini.google.com/app) divides** and **explains** the **use of the Spedale del Ceppo** into **3 distinct entities**: the museum, the Anatomical Theatre and the Subterranean Tour, **providing a complete picture** of what the site offers today.
