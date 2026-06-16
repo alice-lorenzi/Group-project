@@ -31,7 +31,7 @@ title: Key Challenges
   This exploratory phase was essential to understand which types of information are typically associated with former hospitals in the knowledge graph and **to establish a baseline for evaluation**.
 
 - Through this extensive exploration, we identified **four significant gaps**: two **related to the hospital** and two **related to the main coat of arms**.
-- **Hospital Gaps:** The first concerned whether the hospital had undergone **restoration interventions**, while the second concerned its **current function**. Although the Spedale del Ceppo currently operates as a **museum**, this information was not explicitly represented in the knowledge graph.
+- **Hospital Gaps:** The first concerned whether the hospital had undergone **restoration interventions**, while the second concerned its **current function**. Although the **Spedale del Ceppo** currently operates as a **museum**, this information was not explicitly represented in the knowledge graph.
 - **Coat of Arms Gaps:** Through comparison with the Spedale degli Innocenti, we observed that emblem-related information was commonly available in [ArCo](http://wit.istc.cnr.it/arco/) , yet our target emblem lacked details regarding its **physical shape and its commissioner**.
 
 ## 📌 Challenges in Semantic Interpretation and Query Construction
