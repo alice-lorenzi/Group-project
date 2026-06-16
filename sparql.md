@@ -76,18 +76,18 @@ From this page, we were cheerfully able to **find the official IRI of our topic*
 
 [**Ospedale del Ceppo**](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b))
 
-<h3 style="color:#ff0000;">Conclusions from the first Query:</h3>
+<h3 style="color:#ff0000;">📋Conclusions from the first Query:</h3>
 
 - we discovered that it is characterized as cis:Site.
 - we found our subject, discovering that it is labelled as "Ospedale" and not as "Spedale".
 
 <h2 style="color:#ff0000;">Query 2 — Finding depictions of the Ospedale del Ceppo</h2>
 
-In this query, our goal was to retrieve information and **potential visual representations** (e.g., images) of the Ospedale del Ceppo ([https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b)) in Pistoia. We opted for **SELECT \*** to extract all possible variables from the matching records, and we used the **OPTIONAL** clause to fetch image data only when explicitly available.
+In this query, our goal was to retrieve information and **potential visual representations** (e.g., images) of the [Ospedale del Ceppo](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b)) in Pistoia. We opted for **SELECT \** to extract all possible variables from the matching records, and we used the **OPTIONAL** clause to fetch image data only when explicitly available.
 
-Additionally, based on the insights gained from our first query regarding how the Ospedale del Ceppo is classified within the ontology, we introduced the **UNION** keyword to broaden our search across different entity types.
+Additionally, **based on the insights gained from our first query** regarding how the Ospedale del Ceppo is classified within the ontology, we introduced the **UNION** keyword to **broaden our search across different entity types**.
 
-<h3 style="color:#ff0000;">Explanation of the keywords used:</h3>
+<h3 style="color:#ff0000;">🔬Explanation of the keywords used:</h3>
 
 - **UNION**: Combines results from two different graph patterns. We implemented this because Query 1 revealed that the hospital might be classified under two distinct classes: either as a historic/artistic property (arco:HistoricOrArtisticProperty) or as a general geographic site (cis:Site). UNION ensures we capture the entity regardless of which specific classification was used.
 - **OPTIONAL**: Allows the inclusion of supplementary data (in this case, foaf:depiction) if it exists, without excluding results where the image information is missing.
