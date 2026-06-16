@@ -62,13 +62,13 @@ FILTER(REGEX(?l, "Spedale del Ceppo", "i"))
 - [stemma dell'Ospedale del Ceppo (rilievo) - manifattura toscana (sec. XVI)](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900014802)
 - [stemma dell'Ospedale del Ceppo (rilievo) - manifattura toscana (seconda metà sec. XVI)](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900014812)
 
-### ✅ Discussion of results and further research:
+### 📋 Discussion of results and further research:
 
 Through this query we were able to **confirm the presence of entities related to our topic in ArCo**. More specifically, we found out that all the entities are the IRIs of the medallions. We decided to analyse one of the results of our query and we found the section "inverse relation"; among the properties we clicked on [**is a-loc:isTimeIndexedTypedLocationOf of**](https://w3id.org/arco/ontology/location/hasTimeIndexedTypedLocation).
 
 ![Query 1 inverse relations](assets/images/query1-inverse-relations.png)
 
-<h3 style="color:#ff0000;">✅Results:</h3>
+<h3 style="color:#ff0000;">📋Results:</h3>
 
 ![Query 1 IRI page](assets/images/query1-iri-page.png)
 
@@ -91,10 +91,10 @@ Additionally, **based on the insights gained from our first query** regarding ho
 
 - **UNION**: Combines results from two different graph patterns. We implemented this because **Query 1** revealed that the **hospital might be classified under two distinct classes**: either as a **historic/artistic property** ([arco:HistoricOrArtisticProperty](https://w3id.org/arco/ontology/arco/HistoricOrArtisticProperty)) or as a general geographic **site** ([cis:Site](http://dati.beniculturali.it/cis/Site)). **UNION** ensures we capture the entity regardless of which specific classification was used.
 - **OPTIONAL**: Allows the inclusion of supplementary data (in this case, foaf:depiction) if it exists, without excluding results where the image information is missing.
-- **\* (Asterisk)**: Retrieves every variable defined within the WHERE clause for each match, rather than limiting the output.
-- **FILTER(REGEX)**: We used two separate regular expression filters to narrow down the results, ensuring the labels (?l) contain both "Ospedale del Ceppo" and "Pistoia". The "i" flag makes the search case-insensitive.
+- **\* (Asterisk)**: Retrieves every variable defined within the **WHERE clause** for each match, rather than limiting the output.
+- **FILTER(REGEX)**: We used two separate regular expression filters **to narrow down the results**, ensuring the labels (?l) contain **both "Ospedale del Ceppo"** and **"Pistoia"**. The "i" flag makes the search case-insensitive.
 
-<h3 style="color:#ff0000;">SPARQL Query:</h3>
+<h3 style="color:#ff0000;">⚙️SPARQL Query:</h3>
 
 ```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -121,29 +121,29 @@ WHERE {
 }
 ```
 
-<h3 style="color:#ff0000;">Screenshot of Results:</h3>
+<h3 style="color:#ff0000;">📸Screenshot of Results:</h3>
 
 ![Query 2 results](assets/images/query2-results.png)
 
-<h3 style="color:#ff0000;">Depictions found:</h3>
+<h3 style="color:#ff0000;">📸Depictions found:</h3>
 
-Stemma dell'Ospedale del Ceppo e della città di Pistoia (rilievo) by Buglioni Benedetto (sec. XVI) — [https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040491](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040491)
+[Stemma dell'Ospedale del Ceppo e della città di Pistoia (rilievo) by Buglioni Benedetto (sec. XVI)](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040491)
 
 ![Query 2 depiction 1](assets/images/query2-depiction1.jpg)
 
-Stemma dell'Ospedale del Ceppo e della città di Pistoia (rilievo) by Della Robbia Giovanni (sec. XVI) — [https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040498](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040498)
+[Stemma dell'Ospedale del Ceppo e della città di Pistoia (rilievo) by Della Robbia Giovanni (sec. XVI)](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040498)
 
 ![Query 2 depiction 2](assets/images/query2-depiction2.jpg)
 
-<h3 style="color:#ff0000;">Results:</h3>
+<h3 style="color:#ff0000;">📋Results:</h3>
 
-The query returned some records. Interestingly, these results correspond to two of the coats of arms (*stemmi*) that we had already identified in the previous query, effectively making them duplicate entries within our dataset.
+The query returned some records. Interestingly, **these results correspond to two of the coats of arms** (*stemmi*) that we had already identified in the previous query, effectively making them duplicate entries within our dataset.
 
 <h2 style="color:#ff0000;">Query 3 — Identifying Subjects Related to the Ospedale del Ceppo</h2>
 
-The goal of this query was to discover **subject resources connected to the Ospedale del Ceppo** ([https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b)) and to investigate whether the [ArCo](http://wit.istc.cnr.it/arco/) knowledge graph contains specific thematic or contextual references to the site. By searching for labels that include both "Ospedale del Ceppo" and "Pistoia", the query helps uncover how the institution is described within the dataset and may reveal additional contextual information beyond the main cultural heritage record.
+The goal of this query was to discover [**subject resources connected to the Ospedale del Ceppo**](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b) and to investigate whether the [ArCo](http://wit.istc.cnr.it/arco/) knowledge graph contains specific thematic or contextual references to the site. By **searching for labels that include both "Ospedale del Ceppo" and "Pistoia"**, the query helps uncover how the institution is described within the dataset and **may reveal additional contextual information beyond the main cultural heritage record.**
 
-<h3 style="color:#ff0000;">Explanation of the keywords used:</h3>
+<h3 style="color:#ff0000;">🔬Explanation of the keywords used:</h3>
 
 - **cd:Subject**: specifies that the query is looking for resources of type Subject in the ArCo Context Description ontology.
 - **rdfs:label**: retrieves the human-readable label associated with each subject resource.
@@ -151,7 +151,7 @@ The goal of this query was to discover **subject resources connected to the Ospe
 - **FILTER(REGEX(?label, "Spedale del Ceppo", "i"))**: restricts the results to subjects whose labels contain the phrase "Spedale del Ceppo". The "i" option makes the search case-insensitive.
 - **FILTER(REGEX(?label, "Pistoia", "i"))**: further narrows the results to labels that also contain the term "Pistoia", ensuring that only subjects specifically related to the Spedale del Ceppo in Pistoia are returned.
 
-<h3 style="color:#ff0000;">SPARQL Query:</h3>
+<h3 style="color:#ff0000;">⚙️SPARQL Query:</h3>
 
 ```sparql
 PREFIX a-cd: <https://w3id.org/arco/ontology/context-description/>
@@ -167,19 +167,19 @@ WHERE {
 }
 ```
 
-<h3 style="color:#ff0000;">Screenshot of Results:</h3>
+<h3 style="color:#ff0000;">📸Screenshot of Results:</h3>
 
 ![Query 3 results](assets/images/query3-results.png)
 
-The only IRI is again related to the Stemma:
+**The only IRI is again related to the Stemma:**
 
-Stemma Dell'ospedale Del Ceppo E Della Città Di Pistoia ([https://w3id.org/arco/resource/Subject/0fa4d51b23c59950576cbdbb8900c21e](https://w3id.org/arco/resource/Subject/0fa4d51b23c59950576cbdbb8900c21e))
+[**Stemma Dell'ospedale Del Ceppo E Della Città Di Pistoia**](https://w3id.org/arco/resource/Subject/0fa4d51b23c59950576cbdbb8900c21e)
 
 <h2 style="color:#ff0000;">Query 4 — Finding information about the frieze subject "Sette Opere di Misericordia" with a LIMIT</h2>
 
-Up to this point, we have executed three queries, but we **only retrieved information regarding the coats of arms of the Spedale del Ceppo**. Now, we want to investigate another crucial element of the hospital: its famous [frieze](http://himetop.wikidot.com/the-seven-corporal-works-of-mercy-s-frieze). Since the frieze depicts the *Seven Works of Mercy* (Sette Opere di Misericordia), we formulated a specific query to find information about this exact subject. We included a **LIMIT 50** clause because we hypothesized that the database would contain many artworks depicting this theme.
+Up to this point, we have executed three queries, but we **only retrieved information regarding the coats of arms of the Spedale del Ceppo**. Now, we want to investigate another crucial element of the hospital: its famous [frieze](http://himetop.wikidot.com/the-seven-corporal-works-of-mercy-s-frieze). Since the frieze depicts the **Seven Works of Mercy** (Sette Opere di Misericordia), we formulated a specific query to find information about this exact subject. We included a **LIMIT 50** clause because we hypothesized that **the database would contain many artworks depicting this theme.**
 
-<h3 style="color:#ff0000;">Keywords and Query Elements Description:</h3>
+<h3 style="color:#ff0000;">🔬 Keywords and Query Elements Description:</h3>
 
 - **PREFIX**: Declares the vocabularies (ontologies) used in the query, creating abbreviations to make the code more readable.
 - **SELECT DISTINCT**: SELECT indicates which variables to display in the final results. Adding DISTINCT is crucial: it tells the system to remove duplicates, returning each cultural property only once, even if it has multiple similar labels.
@@ -191,13 +191,13 @@ Up to this point, we have executed three queries, but we **only retrieved inform
 - **REGEX(..., "i")**: A *Regular Expression*. It searches for a specific text string ("Sette Opere di Misericordia") within the ?l variable. The "i" parameter (case-insensitive) is a smart touch: it finds the text regardless of uppercase or lowercase letters.
 - **LIMIT 50**: A pagination command that forces the endpoint to stop after finding and returning the first 50 valid results.
 
-Based on our reasoning, this query pursues the following **strategic goals**:
+🧠Based on our reasoning, this query pursues the following **strategic goals**:
 
 - **Searching by subject:** Instead of searching by location (Spedale del Ceppo), we are searching for what the artwork shows. This helps us find the art even if the database is missing its location link.
 - **Finding the Frieze:** Our main goal is to find the Della Robbia frieze. We are hoping the cataloguers put "Sette Opere di Misericordia" right in the title.
 - **Testing with LIMIT 50:** We want to see how many results pop up. Using **LIMIT 50** is a quick way to check if this theme is very common in the database and it is more useful than reading through hundreds of results.
 
-<h3 style="color:#ff0000;">SPARQL Query:</h3>
+<h3 style="color:#ff0000;">⚙️SPARQL Query:</h3>
 
 ```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -213,29 +213,29 @@ WHERE {
 LIMIT 50
 ```
 
-<h3 style="color:#ff0000;">Screenshot of Results:</h3>
+<h3 style="color:#ff0000;">📸Screenshot of Results:</h3>
 
 ![Query 4 results](assets/images/query4-results.png)
 
-<h3 style="color:#ff0000;">Results:</h3>
+<h3 style="color:#ff0000;">📋Results:</h3>
 
 From this long list we found only 1 IRI related to the **Frieze of the Ospedale del Ceppo**:
 
-Sette opere di Misericordia (rilievo) by Buglioni Santi (sec. XVI) — [https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040485A-0](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040485A-0)
+[Sette opere di Misericordia (rilievo) by Buglioni Santi (sec. XVI)](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040485A-0)
 
-We also found a quite rich description of it:
+**We also found a quite rich description of it:**
 
 ![Query 4 frieze description](assets/images/query4-frieze-description.png)
 
 <h2 style="color:#ff0000;">Query 5 — Identifying Cultural Properties Related to the Frieze of the Spedale del Ceppo</h2>
 
-By analyzing the IRI retrieved in our previous research, Sette opere di Misericordia (rilievo) by Buglioni Santi (sec. XVI) ([https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040485A-0](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040485A-0)), we made an important discovery: **the elements of the frieze can be classified under different categories in the ArCo database.** Some are catalogued as standard historical properties (HistoricOrArtisticProperty), while others might be treated as movable objects (MovableCulturalProperty), perhaps because they are individual terracotta panels.
+By analyzing the IRI retrieved in our previous research, [Sette opere di Misericordia (rilievo) by Buglioni Santi (sec. XVI)](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040485A-0), we made an important discovery: in the ArCo ontology, a cultural asset may be assigned multiple classes simultaneously. In this case, **the resource is classified both as a HistoricOrArtisticProperty and as a MovableCulturalProperty** (perhaps because they are individual terracotta panels). This suggests that the artwork is considered both a historic/artistic asset and a movable cultural object, rather than belonging exclusively to one category.
 
 ![Query 5 RDF type](assets/images/query5-rdf-type.png)
 
 To ensure we didn't miss any crucial information due to these different cataloguing choices, **we needed to investigate both categories simultaneously.** Furthermore, we refined our search text to specifically target items that mention both 'Fregio' (Frieze) and 'Ospedale del Ceppo'. To do this, we used the **UNION** operator to combine two different searches into one.
 
-<h3 style="color:#ff0000;">Explanation of keywords used:</h3>
+<h3 style="color:#ff0000;">🔬Explanation of keywords used:</h3>
 
 - **arco:HistoricOrArtisticProperty:** specifies that the query searches for resources classified as historic or artistic cultural properties.
 - **arco:MovableCulturalProperty:** specifies that the query also searches for resources classified as movable cultural properties.
@@ -246,7 +246,7 @@ To ensure we didn't miss any crucial information due to these different catalogu
 - **FILTER(REGEX(?l, "Ospedale del Ceppo", "i")):** narrows the second part of the query to resources using the alternative form "Ospedale del Ceppo", ensuring that different naming conventions are captured.
 - **UNION**: combines the results from the two searches, allowing the query to retrieve matching resources from both cultural property classes.
 
-<h3 style="color:#ff0000;">SPARQL Query:</h3>
+<h3 style="color:#ff0000;">⚙️SPARQL Query:</h3>
 
 ```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -271,11 +271,11 @@ UNION
 }
 ```
 
-<h3 style="color:#ff0000;">Screenshot of Results:</h3>
+<h3 style="color:#ff0000;">📸Screenshot of Results:</h3>
 
 ![Query 5 results](assets/images/query5-results.jpg)
 
-<h3 style="color:#ff0000;">Results:</h3>
+<h3 style="color:#ff0000;">📋Results:</h3>
 
 The query successfully returned several IRIs. If we look closely at the structure of these web addresses, we can see they belong to the *fotografico* (photographic) section of the ICCD (Central Institute for Cataloging and Documentation).
 
