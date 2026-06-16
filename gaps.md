@@ -31,7 +31,7 @@ To do this, we formulated **Query 7** to extract the predicates commonly linked 
 
 Since the Spedale del Ceppo is a historical institution dating back to the late medieval and early modern periods, the search was restricted to cultural heritage entities **whose dates fell between the XIV and XVII centuries**. The query retrieved the distinct properties used to describe architectural, landscape, historical, and artistic heritage entities matching these criteria.
 
-<h2 style="color:#ff0000;">SPARQL QUERY 7:</h2>
+<h2 style="color:#ff0000;">⚙️SPARQL QUERY 7:</h2>
 
 ```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
