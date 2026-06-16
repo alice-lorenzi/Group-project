@@ -274,7 +274,7 @@ In this case, we applied **Chain-of-Thought** prompting in combination with the 
 
 <h2 style="color:#ff0000;">📋Considerations:</h2>
 
-- [**Gemini**](https://gemini.google.com/app)successfully identified the **commissioner** of the **Stemma**, through a detailed, **step-by-step** historical analysis making the political and historical information **easy to follow**.
+- [**Gemini**](https://gemini.google.com/app) successfully identified the **commissioner** of the **Stemma**, through a detailed, **step-by-step** historical analysis making the political and historical information **easy to follow**.
 - By defining in the first step the term **"Spedalingo"**, the response ensured the reader understood the **authority** behind the commission and it seemed **more precise** to us.
 - [**Gemini**](https://gemini.google.com/app) accurately noted the shift management to the Florentine Ospedale di Santa Maria Nuova in 1501, which set the stage for Buonafede's leadership highlighting why he had the power to commission the work. [**Gemini**](https://gemini.google.com/app) was **more precise** than [ChatGPT](https://chatgpt.com/), mentioning the date of completion and the artistic medium.
 
