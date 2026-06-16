@@ -241,7 +241,7 @@ To ensure we didn't miss any crucial information due to these different catalogu
 - **rdfs:label:** retrieves the human-readable label associated with each cultural property.
 - **SELECT DISTINCT ?cp:** returns the unique cultural property resources found by the query, removing duplicate results.
 - **FILTER(REGEX(?l, "Fregio", "i")):** restricts the results to resources whose labels contain the word "Fregio". The "i" flag makes the search case-insensitive.
-- **FILTER(REGEX(?l, "OSpedale del Ceppo", "i")):** restricts the results to resources explicitly referring to the "Ospedale del Ceppo".  The "i" flag makes the search case-insensitive.
+- **FILTER(REGEX(?l, "Ospedale del Ceppo", "i")):** restricts the results to resources explicitly referring to the "Ospedale del Ceppo".  The "i" flag makes the search case-insensitive.
 - **UNION**: combines the results from the two searches, allowing the query to retrieve matching resources from both cultural property classes.
 
 <h3 style="color:#ff0000;">⚙️SPARQL Query:</h3>
