@@ -76,19 +76,19 @@ The execution of this query returned a massive, comprehensive **list of properti
 
 To explore the available predicates associated with the resource, we used **CTRL+F** function and searched for the term "has". 
 
-The resulting **list of properties with "has" was subsequently analyzed to select the most informative ones**. We therefore chose to focus the next phase of our research on two highly relevant properties: [**has intervention**](https://w3id.org/arco/ontology/context-description/hasIntervention) (to track architectural modifications over time) and [**has use**](https://w3id.org/arco/ontology/context-description/hasUse) (to document its historical functions),  as they appeared to provide particularly interesting information about the conservation history and the use of the cultural asset.
+The resulting **list of properties with "has" was subsequently analyzed to select the most informative ones**. We therefore chose to focus the next phase of our research on two highly relevant properties, [**has intervention**](https://w3id.org/arco/ontology/context-description/hasIntervention) (to track architectural modifications over time) and [**has use**](https://w3id.org/arco/ontology/context-description/hasUse) (to document its historical functions), as they appeared to provide particularly interesting information about the conservation history and the use of the cultural asset.
 
 ![hasIntervention results](assets/images/gap1-hasintervention-results.png)
 
 ![hasUse results](assets/images/gap1-hasuse-results.png)
 
-<h2 style="color:#ff0000;">Demonstrating the Gaps via ASK Queries</h2>
+<h2 style="color:#ff0000;">❓Demonstrating the Gaps via ASK Queries</h2>
 
 To definitively prove the **lack of information regarding interventions and historical uses** for the Ospedale del Ceppo, we used the SPARQL **ASK** query form. Unlike **SELECT** queries that return data tables, an ASK query returns a simple **Boolean response** (true or false) indicating whether a specific pattern exists in the Knowledge Graph.
 
-We formulated two distinct ASK queries (**Query 8 and 9**) targeting the **a-cd:hasIntervention** and **a-cd:hasUse** predicates, respectively. By binding these properties to the Ospedale del Ceppo entity within the WHERE clause, we asked the endpoint if any such relationships existed. In both cases, the endpoint returned **false**. This Boolean response provides undeniable evidence that the specific metadata regarding the architectural modifications and historical functions of the hospital are currently missing from the ArCo dataset, **confirming our gap analysis.**
+We formulated two distinct ASK queries (**Query 8 and 9**) targeting the **a-cd:hasIntervention** and **a-cd:hasUse** predicates, respectively. By binding these properties to the [Ospedale del Ceppo](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b) entity within the WHERE clause, we asked the endpoint if any such relationships existed. In both cases, the endpoint returned **false**. This Boolean response provides undeniable evidence that the specific metadata regarding the architectural modifications and historical functions of the hospital are currently missing from the ArCo dataset, **confirming our gap analysis.**
 
-<h2 style="color:#ff0000;">SPARQL Query 8:</h2>
+<h2 style="color:#ff0000;">⚙️ SPARQL Query 8:</h2>
 
 ```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -118,7 +118,7 @@ ASK WHERE {
 
 ![Result false](assets/images/result-false-1.png)
 
-<h2 style="color:#ff0000;">SPARQL Query 9:</h2>
+<h2 style="color:#ff0000;">⚙️SPARQL Query 9:</h2>
 
 ```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -144,7 +144,7 @@ ASK WHERE {
 }
 ```
 
-<h2 style="color:#ff0000;">Result:</h2>
+<h2 style="color:#ff0000;">📸Result:</h2>
 
 ![Result false](assets/images/result-false-1.png)
 
@@ -172,7 +172,7 @@ In this query, we are searching the ArCo Knowledge Graph to retrieve the specifi
 - **"stemma", "i"**: We force the system to only pick artworks that are explicitly called a "stemma". The "i" tells it to ignore capitals.
 - **"(O|S)pedale degli Innocenti"**: This is our smartest rule. Because this hospital is very old, some archivists cataloged it using the ancient spelling "Spedale", while others used the modern "Opedale". By writing (O|S), we tell the machine to automatically find both versions, ensuring we don't miss any coats of arms just because of a spelling difference.
 
-<h2 style="color:#ff0000;">SPARQL Query 10:</h2>
+<h2 style="color:#ff0000;">⚙️SPARQL Query 10:</h2>
 
 ```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
