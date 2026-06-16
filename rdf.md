@@ -17,9 +17,9 @@ title: RDF Triple Generation
 
 <h1 style="color:#ff0000;">🔗 RDF Triple Generation</h1>
 
-<h2 style="color:#ff0000;">GENERATING OUR NEW TRIPLES</h2>
+<h2 style="color:#ff0000;">🏗️GENERATING OUR NEW TRIPLES</h2>
 
-<h2 style="color:#ff0000;">Triple of the First missing information</h2>
+<h2 style="color:#ff0000;">✳️Triple of the First missing information</h2>
 
 The resource describing the **Ospedale del Ceppo** does not contain any value for the property [**a-cd:hasIntervention**](https://w3id.org/arco/ontology/context-description/hasIntervention) while other architectural heritage resources in **ArCo** are linked to documented conservation interventions.
 
