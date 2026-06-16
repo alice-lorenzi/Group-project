@@ -216,7 +216,7 @@ Prompt:
 
 **Predicate**: [a-cd:hasUse](https://dati.cultura.gov.it/lodview-arco/ontology/context-description/hasUse)
 
-**Object**: [`<https://w3id.org/arco/resource/Use/0800242653-current-use-1>`](https://dati.cultura.gov.it/lodview-arco/resource/Use/0800242653-current-use-1) [Current use 1 of cultural property 0800242653](https://dati.cultura.gov.it/lodview-arco/resource/Use/0800242653-current-use-1)
+**Object**: [https://w3id.org/arco/resource/Use/0800242653-current-use-1](https://w3id.org/arco/resource/Use/0800242653-current-use-1) [Current use 1 of cultural property 0800242653](https://dati.cultura.gov.it/lodview-arco/resource/Use/0800242653-current-use-1)
 
 **Example 2:**
 
@@ -224,7 +224,7 @@ Prompt:
 
 **Predicate**: [a-cd:hasUse](https://dati.cultura.gov.it/lodview-arco/ontology/context-description/hasUse)
 
-**Object**: [`<https://w3id.org/arco/resource/Use/0900352753A-current-use-1>`](https://dati.cultura.gov.it/lodview-arco/resource/Use/0900352753A-current-use-1) [Current use 1 of cultural property 0900352753A](https://dati.cultura.gov.it/lodview-arco/resource/Use/0900352753A-current-use-1)
+**Object**: [https://w3id.org/arco/resource/Use/0900352753A-current-use-1](https://w3id.org/arco/resource/Use/0900352753A-current-use-1) [Current use 1 of cultural property 0900352753A](https://dati.cultura.gov.it/lodview-arco/resource/Use/0900352753A-current-use-1)
 
 **Example 3:**
 
