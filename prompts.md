@@ -261,9 +261,10 @@ In this case, we applied **Chain-of-Thought** prompting in combination with the 
 
 <h2 style="color:#ff0000;">📋Considerations:</h2>
 
-- The answer was quite **detailed** given that **ChatGPT** provided information about the **commissioner, [Leonardo Buonafede](https://w3id.org/arco/resource/Agent/3b24b91d3ef48d6e11dbc72e4b6939e8)**, and **specified when** he was **appointed as hospital rector** with the objective of overseeing the artwork.
+- The answer was quite **detailed** given that 
+**[ChatGPT](https://chatgpt.com/)** provided information about the **commissioner, [Leonardo Buonafede](https://w3id.org/arco/resource/Agent/3b24b91d3ef48d6e11dbc72e4b6939e8)**, and **specified when** he was **appointed as hospital rector** with the objective of overseeing the artwork.
 - It also mentioned the **museum documentation** which provides information on the commissioner and the artist, Benedetto Buglioni.
-- **ChatGPT** identified **Buonafede** as the **most likely and generally accepted commissioner**, **deducing his role** in commissioning this specific Stemma.
+- **[ChatGPT](https://chatgpt.com/)** identified **Buonafede** as the **most likely and generally accepted commissioner**, **deducing his role** in commissioning this specific Stemma.
 
 <h2 style="color:#ff0000;">📸GEMINI'S ANSWER:</h2>
 
@@ -273,9 +274,9 @@ In this case, we applied **Chain-of-Thought** prompting in combination with the 
 
 <h2 style="color:#ff0000;">📋Considerations:</h2>
 
-- **Gemini** successfully identified the **commissioner** of the **Stemma**, through a detailed, **step-by-step** historical analysis making the political and historical information **easy to follow**.
+- [**Gemini**](https://gemini.google.com/app)successfully identified the **commissioner** of the **Stemma**, through a detailed, **step-by-step** historical analysis making the political and historical information **easy to follow**.
 - By defining in the first step the term **"Spedalingo"**, the response ensured the reader understood the **authority** behind the commission and it seemed **more precise** to us.
-- **Gemini** accurately noted the shift management to the Florentine Ospedale di Santa Maria Nuova in 1501, which set the stage for Buonafede's leadership highlighting why he had the power to commission the work. **Gemini** was **more precise** than Chat GPT, mentioning the date of completion and the artistic medium.
+- [**Gemini**](https://gemini.google.com/app) accurately noted the shift management to the Florentine Ospedale di Santa Maria Nuova in 1501, which set the stage for Buonafede's leadership highlighting why he had the power to commission the work. [**Gemini**](https://gemini.google.com/app) was **more precise** than [ChatGPT](https://chatgpt.com/), mentioning the date of completion and the artistic medium.
 
 <h2 style="color:#ff0000;">🌐Confirmation from Official Source:</h2>
 
