@@ -169,8 +169,8 @@ In this query, we are searching the ArCo Knowledge Graph to retrieve the specifi
 - **a:** A standard SPARQL shortcut for "is a type of" (formally rdf:type). It specifies that the entity (?cp) must be classified specifically as an arco:HistoricOrArtisticProperty (an artwork).
 - **FILTER:** Restricts the search results, keeping only the items that meet the exact rules we set.
 - **REGEX:** Performs an advanced text search inside the ?label strings.
-- **`"stemma", "i"`**: We force the system to only pick artworks that are explicitly called a "stemma". The **"i"** tells it to ignore capitals.
-- **"(O&#124;S)pedale degli Innocenti"**: This is our smartest rule. Because this hospital is very old, some archivists cataloged it using the ancient spelling "**S**pedale", while others used the modern "Opedale". By writing `(O|S)`, we tell the machine to automatically find **both** versions, ensuring we don't miss any coats of arms just because of a spelling difference.
+- **"stemma", "i"**: We force the system to only pick artworks that are explicitly called a "stemma". The **"i"** tells it to ignore capitals.
+- **"(O&#124;S)pedale degli Innocenti"**: This is our smartest rule. Because this hospital is very old, some archivists cataloged it using the ancient spelling "**S**pedale", while others used the modern "**O**spedale". By writing `(O|S)`, we tell the machine to automatically find **both** versions, ensuring we don't miss any coats of arms just because of a spelling difference.
 
 
 <h2 style="color:#ff0000;">⚙️SPARQL Query 10:</h2>
