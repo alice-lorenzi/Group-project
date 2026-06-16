@@ -55,7 +55,7 @@ A: Yes – the Spedale del Ceppo in Pistoia has undergone multiple restoration i
 
 ![ChatGPT restoration answer 3](assets/images/chatgpt-restoration-3.png)
 
-<h2 style="color:#ff0000;">Considerations:</h2>
+📋<h2 style="color:#ff0000;">Considerations:</h2>
 
 - ChatGPT provided us with the information we were looking for. The **answer** was quite **schematic** but **satisfying**.
 - The **information** was divided according to **different type of restoration intervention** and according to **different periods of time**, starting from the 15th century; in some cases, it also **specified the year of the restoration**.
