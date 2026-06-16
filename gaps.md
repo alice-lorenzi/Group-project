@@ -62,7 +62,7 @@ WHERE {
 ORDER BY ASC(?property)
 ```
 
-<h2 style="color:#ff0000;">Explanation of the Query:</h2>
+<h2 style="color:#ff0000;">🔬Explanation of the Query:</h2>
 
 We started with a broad exploratory approach. Our first goal was to extract a comprehensive list of all predicates (?property) currently used in the Knowledge Graph to describe any hospital or lazaretto. To ensure we didn't miss anything, we used a **UNION** clause to search across both structural sites **arco:ArchitecturalOrLandscapeHeritage** and historic/artistic classifications **arco:HistoricOrArtisticProperty**.
 
