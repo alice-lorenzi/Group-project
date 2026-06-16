@@ -21,7 +21,7 @@ title: RDF Triple Generation
 
 <h2 style="color:#ff0000;">1. ✳️Triple of the First missing information</h2>
 
-The resource describing the **Ospedale del Ceppo** does not contain any value for the property [**a-cd:hasIntervention**](https://w3id.org/arco/ontology/context-description/hasIntervention) while other architectural heritage resources in [**ArCo**]( http://wit.istc.cnr.it/arco/) are linked to documented conservation interventions.
+The resource describing the [**Ospedale del Ceppo**](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b) does not contain any value for the property [**a-cd:hasIntervention**](https://w3id.org/arco/ontology/context-description/hasIntervention) while other architectural heritage resources in [**ArCo**]( http://wit.istc.cnr.it/arco/) are linked to documented conservation interventions.
 
 The Ospedale del Ceppo **has undergone restoration**, conservation and adaptive reuse interventions during its history. However, **these events are not represented in the RDF** description through the property **a-cd:hasIntervention**. This results in an instance-level completeness gap.
 
