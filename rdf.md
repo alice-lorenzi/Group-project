@@ -19,7 +19,7 @@ title: RDF Triple Generation
 
 <h2 style="color:#ff0000;">🏗️GENERATING OUR NEW TRIPLES</h2>
 
-<h2 style="color:#ff0000;">✳️Triple of the First missing information</h2>
+<h2 style="color:#ff0000;">1. ✳️Triple of the First missing information</h2>
 
 The resource describing the **Ospedale del Ceppo** does not contain any value for the property [**a-cd:hasIntervention**](https://w3id.org/arco/ontology/context-description/hasIntervention) while other architectural heritage resources in [**ArCo**]( http://wit.istc.cnr.it/arco/) are linked to documented conservation interventions.
 
@@ -196,7 +196,7 @@ WHERE {
 
 ![Gemini intervention result 3](assets/images/gemini-intervention-result-3.png)
 
-<h2 style="color:#ff0000;">✳️Triple of the Second missing information</h2>
+<h2 style="color:#ff0000;">2. ✳️Triple of the Second missing information</h2>
 
 During the analysis of the [ArCo](http://wit.istc.cnr.it/arco/) dataset, we observed that the resource describing the [Ospedale del Ceppo](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b) does not contain any value for the property [**a-cd:hasUse**](https://w3id.org/arco/ontology/context-description/hasUse). This represents an instance-level completeness gap, as the property is not instantiated for the resource despite being relevant for describing the functional history of a cultural property.
 
@@ -346,7 +346,7 @@ WHERE {
 
 ![Gemini use result 2](assets/images/gemini-use-result-2.png)
 
-<h2 style="color:#ff0000;">✳️FURTHER CREATION OF RDF TRIPLE FOR THE MISSING INFORMATION ABOUT THE MUSEUM</h2>
+<h2 style="color:#ff0000;">2.1 ✳️FURTHER CREATION OF RDF TRIPLE FOR THE MISSING INFORMATION ABOUT THE MUSEUM</h2>
 
 In the case of the [**Spedale degli Innocenti**](https://w3id.org/arco/resource/Site/db159e90f5ed83e3d851e7206ccbbd26), the RDF model explicitly includes the property [**cis:isSiteOf**](http://dati.beniculturali.it/cis/isSiteOf), which connects the physical site to a museum. This means that within the dataset there is a formally defined entity representing the museum, and an explicit triple linking the site to it. As a result, the knowledge graph makes the relationship between the site and its museum explicit and machine-readable through the ontology.
 
@@ -420,7 +420,7 @@ WHERE {
 
 ![ChatGPT museum result](assets/images/chatgpt-museum-result.png)
 
-<h2 style="color:#ff0000;">✳️Triple of the Third missing information</h2>
+<h2 style="color:#ff0000;">3. ✳️Triple of the Third missing information</h2>
 
 The third triple that we intend to create is the lacking information related to the subject "Stemma dell'Ospedale del Ceppo e della città di Pistoia (rilievo) di Buglioni Benedetto (sec. XVI)", more precisely its shape, [**hasShape**](https://w3id.org/arco/ontology/denotative-description/hasShape).
 
@@ -518,11 +518,11 @@ WHERE {
 
 ![Gemini shape result](assets/images/gemini-shape-result.png)
 
-<h2 style="color:#ff0000;">✳️Triple of the fourth missing information</h2>
+<h2 style="color:#ff0000;">4. ✳️Triple of the fourth missing information</h2>
 
-To bridge this gap, we used a "**Chain of Thought**" prompt to systematically **break down** a historical statement regarding the **Stemma dell'Ospedale del Ceppo**. The primary **objective** was to apply the ArCo ontology to **formalize** the patronage relationship between the cultural property and its committent, [**Buonafede Leonardo Spedalingo**](https://w3id.org/arco/resource/Agent/3b24b91d3ef48d6e11dbc72e4b6939e8)).
+To bridge this gap, we used a "**Chain of Thought**" prompt to systematically **break down** a historical statement regarding the [**Stemma dell'Ospedale del Ceppo**](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040491). The primary **objective** was to apply the [ArCo](http://wit.istc.cnr.it/arco/) ontology to **formalize** the patronage relationship between the cultural property and its committent, [**Buonafede Leonardo Spedalingo**](https://w3id.org/arco/resource/Agent/3b24b91d3ef48d6e11dbc72e4b6939e8)).
 
-By guiding the process **step-by-step**, the goal was not only to accurately map the real-world entities to their corresponding Internationalized Resource Identifiers (IRIs), but also to correctly assign the [**a-cd:hasCommittent**](https://w3id.org/arco/ontology/context-description/hasCommittent) property. Ultimately, this workflow generates standard **RDF triples** and a **SPARQL CONSTRUCT** query, providing a clear, reproducible methodology for **enriching** a cultural heritage Knowledge Graph with interoperable and precise linked open data.
+By guiding the process **step-by-step**, the goal was not only to accurately map the real-world entities to their corresponding Internationalized Resource Identifiers (IRIs), but also to correctly assign the [**a-cd:hasCommittent**](https://w3id.org/arco/ontology/context-description/hasCommittent) property. Ultimately, this workflow generates standard **RDF triples** and a **SPARQL CONSTRUCT** query, providing a clear, reproducible methodology for **enriching a cultural heritage Knowledge Graph with interoperable and precise linked open data.**
 
 <h2 style="color:#ff0000;">✏️ Chain of thought prompting technique</h2>
 
