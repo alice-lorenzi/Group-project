@@ -232,7 +232,8 @@ Prompt:
 
 **Predicate**: [a-cd:hasUse](https://dati.cultura.gov.it/lodview-arco/ontology/context-description/hasUse)
 
-**Object**: [`<https://w3id.org/arco/resource/Use/0800161844-current-use-1>`](https://dati.cultura.gov.it/lodview-arco/resource/Use/0800161844-current-use-1) [Current use 1 of cultural property 0800161844](https://dati.cultura.gov.it/lodview-arco/resource/Use/0800161844-current-use-1)
+**Object**: (https://w3id.org/arco/resource/ConservationIntervention/0800161844-conservation-intervention-1) Conservation intervention 1 on cultural property 0800161844
+(https://w3id.org/arco/resource/ConservationIntervention/0800161844-conservation-intervention-2) Conservation intervention 2 on cultural property 0800161844
 
 Please, could you transform the following information into RDF format and use ArCo ontology taking the previous triples as examples?
 
