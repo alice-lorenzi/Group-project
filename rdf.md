@@ -105,7 +105,7 @@ WHERE {
 
 ![ChatGPT intervention result](assets/images/chatgpt-intervention-result.png)
 
-<h2 style="color:#ff0000;">GEMINI'S ANSWER:</h2>
+<h2 style="color:#ff0000;">📸GEMINI'S ANSWER:</h2>
 
 ![Gemini intervention answer 1](assets/images/gemini-intervention-answer-1.png)
 
@@ -249,7 +249,7 @@ Also, please build the RDF triple and the corresponding SPARQL CONSTRUCT query.
 
 Let's think step by step.
 
-<h2 style="color:#ff0000;">CHATGPT'S ANSWER:</h2>
+<h2 style="color:#ff0000;">📸CHATGPT'S ANSWER:</h2>
 
 ![ChatGPT use answer 1](assets/images/chatgpt-use-answer-1.jpg)
 
@@ -296,7 +296,7 @@ WHERE {
 
 ![ChatGPT use result 2](assets/images/chatgpt-use-result-2.png)
 
-<h2 style="color:#ff0000;">GEMINI'S ANSWER:</h2>
+<h2 style="color:#ff0000;">📸GEMINI'S ANSWER:</h2>
 
 ![Gemini use answer 1](assets/images/gemini-use-answer-1.png)
 
@@ -381,7 +381,7 @@ Finally:
 
 Let's think step by step.
 
-**We only asked ChatGPT this time:**
+**📸We only asked ChatGPT this time:**
 
 ![ChatGPT museum answer 1](assets/images/chatgpt-museum-answer-1.png)
 
