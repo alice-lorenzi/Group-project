@@ -218,7 +218,7 @@ This prompted a question about the **difference between** them, so we asked [**G
 
 The answer indicated that **a-cd:hasCommittent** is the most appropriate predicate for our case, as it specifically identifies the **person** or entity that **commissioned** the **cultural property**.
 
-We chose to focus on the **hasCommittent** property because the results of **Query 1** revealed that several coats of arms associated with the Spedale del Ceppo are linked to a specific agent, namely [**Buonafede Leonardo Spedalingo**](https://w3id.org/arco/resource/Agent/3b24b91d3ef48d6e11dbc72e4b6939e8)).
+We chose to focus on the **hasCommittent** property because the results of **Query 1** revealed that several artworks associated with the Spedale del Ceppo are linked to a specific agent, namely [**Buonafede Leonardo Spedalingo**](https://w3id.org/arco/resource/Agent/3b24b91d3ef48d6e11dbc72e4b6939e8)).
 
 By examining the cultural heritage assets connected to this agent, we observed that the specific coat of arms under investigation:
 
