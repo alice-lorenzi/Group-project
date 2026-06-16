@@ -381,7 +381,7 @@ Finally:
 
 Let's think step by step.
 
-**📸 We only asked ChatGPT this time:**
+<h2 style="color:#ff0000;">📸 We only asked ChatGPT this time:</h2>
 
 ![ChatGPT museum answer 1](assets/images/chatgpt-museum-answer-1.png)
 
