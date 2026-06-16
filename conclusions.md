@@ -41,10 +41,13 @@ By experimenting with [**ChatGPT**](https://chatgpt.com/) and [**Gemini**](https
 
 ## Potential Future Enhancements
 
-The project also revealed several opportunities for extending and improving the semantic representation of the [Spedale del Ceppo](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b).
+The project also revealed several opportunities for enriching the semantic representation of the [Spedale del Ceppo](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b):
 
-- **Additional RDF data** could be incorporated to provide a richer description of the site's historical development, artistic heritage, and architectural features.
-- **More detailed semantic links** could be established between the [**Spedale del Ceppo**](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b) and its famous coat of arm, historical functions, and related cultural entities.
-- **Expanding the ontology** with further references to artworks, historical events, and archival documentation would contribute to a more comprehensive digital representation of the site.
+- The **knowledge graph could be expanded** with information about restoration and **conservation interventions**, currently not represented in the dataset.
+- Additional data concerning the **current use** of the site could be included to better describe its transformation from a historical hospital into a museum and cultural heritage site.
+- **The coat of arms associated with the Spedale del Ceppo** could be enriched with further metadata, such as its **shape** and **commissioner**, providing a more complete artistic and historical description.
+- Stronger **semantic links** could be established **between the Spedale del Ceppo, the Museo dello Spedale del Ceppo**, related artworks, and historical figures.
+- Further connections to archival sources and other cultural heritage resources could contribute to a more comprehensive and interconnected digital representation of the site.
+
 
 Overall, this project allowed us to develop practical skills in semantic data modelling, SPARQL querying, and prompt engineering, while helping to enhance the digital visibility of one of Tuscany's most important historical and cultural landmarks.
