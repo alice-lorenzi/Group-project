@@ -91,7 +91,7 @@ A: Yes, the *Spedale del Ceppo* in Pistoia has undergone substantial and highly 
 
 <h2 style="color:#ff0000;">✳️Second Missing Information: Current Use</h2>
 
-<h2 style="color:#ff0000;">Few-shot Technique</h2>
+<h2 style="color:#ff0000;">✏️Few-shot Technique</h2>
 
 The property [**a-cd:hasUse**](https://w3id.org/arco/ontology/context-description/hasUse) relates a **cultural entity** to **its use**. In the ArCo ontology, this property can be associated with **both current and historical uses** of a cultural property. However, for the purpose of this task, **we focus exclusively on the current use**, and historical uses are intentionally not considered. Similarly to the First Missing Information case, we decided to use **the same technique giving examples of other hospitals** drawn from the list.
 
@@ -204,7 +204,7 @@ WHERE {
 
 <h2 style="color:#ff0000;">✳️Third Missing Information: Shape of the "Stemma dello Spedale del Ceppo"</h2>
 
-<h2 style="color:#ff0000;">Zero-shot Prompting Technique</h2>
+<h2 style="color:#ff0000;">✏️Zero-shot Prompting Technique</h2>
 
 This technique is particularly **helpful** when:
 
@@ -246,7 +246,7 @@ The property [**a-dd:hasShape**](https://w3id.org/arco/ontology/denotative-descr
 
 <h2 style="color:#ff0000;">✳️Fourth Missing Information: Commissioner</h2>
 
-<h2 style="color:#ff0000;">Chain-of-Thought (Zero-shot) Technique</h2>
+<h2 style="color:#ff0000;">✏️Chain-of-Thought (Zero-shot) Technique</h2>
 
 This type of technique encourages the model to "think out loud" letting it **explain its reasoning step by step**, before giving a final answer. It helps the model reason through complex or multi-step problems, managing to **improve** the **quality of responses**, especially when dealing with complex or historical topics like **commissions** involving multiple figures.
 
