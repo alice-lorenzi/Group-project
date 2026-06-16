@@ -21,7 +21,7 @@ title: Conclusions & Insights
 
 ![Conclusions](assets/images/conclusions-header.png)
 
-Our project on the [**Spedale del Ceppo**] provided an opportunity to investigate how **semantic web technologies** and **large language models** can support the documentation and exploration of Italian cultural heritage. The project highlighted both the advantages and challenges of these digital tools.
+Our project on the **Spedale del Ceppo** provided an opportunity to investigate how **semantic web technologies** and **large language models** can support the documentation and exploration of Italian cultural heritage. The project highlighted both the advantages and challenges of these digital tools.
 
 ## ⚙️ Using SPARQL and the ArCo Ontology
 
