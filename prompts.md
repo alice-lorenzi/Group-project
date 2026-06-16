@@ -170,14 +170,14 @@ In ArCo, **"cis:isSiteOf"** links a **Cultural Institute or Site** **to an entit
 **Example of how it should be represented:**
 
 ```sparql
-:OspedaleDelCeppo cis:isSiteOf :MuseoDelloSpedaleDelCeppo .
+:OspedaleDelCeppo cis:isSiteOf :MuseoDell'OspedaleDelCeppo .
 ```
 
 Meaning:
 
-"The Spedale del Ceppo is the site of (hosts) the Museo dello Spedale del Ceppo."
+"The Ospedale del Ceppo is the site of (hosts) the Museo dell' Ospedale del Ceppo."
 
-<h2 style="color:#ff0000;">We ran QUERY 13 to make sure that the information about the Museo dell'Ospedale del Ceppo was missing:</h2>
+<h2 style="color:#ff0000;">⚙️ We ran QUERY 13 to make sure that the information about the Museo dell'Ospedale del Ceppo was missing:</h2>
 
 ```sparql
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -198,7 +198,7 @@ WHERE {
 }
 ```
 
-<h2 style="color:#ff0000;">Result:</h2>
+<h2 style="color:#ff0000;">📸Result:</h2>
 
 ![Result false](assets/images/result-false-museum.png)
 
