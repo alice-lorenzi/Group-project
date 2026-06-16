@@ -44,7 +44,7 @@ We thought that the **Spedale del Ceppo matches perfectly with this project** be
 - Even though current records are factually sound, **we can greatly enrich its structural representation by adding missing details and broader semantic relations.**
 - The Spedale is situated in the hometown of one of our team members, Chiara, while Alice visited it during a school trip in elementary school.
 
-<h2 style="color:#ff0000;">PROJECT GOALS</h2>
+<h2 style="color:#ff0000;">🎯PROJECT GOALS</h2>
 
 - To query the [**ArCo**](http://wit.istc.cnr.it/arco/)  ontology network via its dedicated [SPARQL endpoint](https://dati.cultura.gov.it/sparql), aiming to **retrieve pertinent and structured data concerning the subject of our project**: Spedale del Ceppo.
 - To employ advanced **Large Language Models** (e.g., [ChatGPT](https://chatgpt.com/) and [Gemini]( https://gemini.google.com/app ) 
