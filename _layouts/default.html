@@ -33,7 +33,7 @@
           {{ content }}
 
           {% assign page_order = "index.html,topic.html,methodology.html,sparql.html,gaps.html,prompts.html,rdf.html,challenges.html,conclusions.html" | split: "," %}
-          {% assign page_titles = "Home,Topic,Semantic Methodology,SPARQL Queries & Data Results,Gap Identification,LLM Prompt: ChatGPT & Gemini,RDF Triple Generation,Key Challenges,Conclusions & Insights" | split: "," %}
+          {% assign page_titles = "Home,Topic,Semantic Methodology,SPARQL Queries & Data Results,Gap Identification,LLM Prompt,RDF Triple Generation,Key Challenges,Conclusions & Insights" | split: "," %}
 
           {% assign current_file = page.url | split: "/" | last %}
           {% if current_file == "" or current_file == nil %}
