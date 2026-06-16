@@ -82,7 +82,7 @@ A: Yes, the *Spedale del Ceppo* in Pistoia has undergone substantial and highly 
 
 ![Gemini restoration answer 2](assets/images/gemini-restoration-2.png)
 
-<h2 style="color:#ff0000;">Considerations:</h2>
+<h2 style="color:#ff0000;">📋Considerations:</h2>
 
 - The **answer** was **detailed**: Gemini mentioned the **restoration intervention** dividing the whole process into **two main categories**.
 - The first category concerns artistic restoration regarding the external facade, mentioning the Frieze and Tondi restoration deteriorated because of external factors, and the discovery of the "testaletto" frescos.
@@ -113,7 +113,7 @@ A: Today the Spedale del Ceppo in Pistoia is no longer a functioning hospital. I
 
 ![ChatGPT current use answer 2](assets/images/chatgpt-current-use-2.jpg)
 
-<h2 style="color:#ff0000;">Considerations:</h2>
+<h2 style="color:#ff0000;">📋Considerations:</h2>
 
 - Following the example set through the Spedale Degli Innocenti and the Ex Ospedale della SS.ma Trinità, ChatGPT confirms that **Spedale del Ceppo** is **no longer a functioning hospital**, mentioning a **fundamental element**: **the museum**.
 - It focuses on the **current use of the museum** which tells the story of the hospital and Pistoia's healthcare system and displays objects, documents and materials like the famous Renaissance frieze by the Della Robbia workshop.
@@ -140,14 +140,14 @@ Today, the monumental historic complex has been repurposed into a prominent cult
 
 ![Gemini current use answer 2](assets/images/gemini-current-use-2.jpg)
 
-<h2 style="color:#ff0000;">Considerations:</h2>
+<h2 style="color:#ff0000;">📋Considerations:</h2>
 
 - **Gemini** provides a **comprehensive** and **well-structured answer** regarding the current use of Spedale del Ceppo. We think that the response highlights effectively the **transition from a functional medical facility to the modern identity as a cultural and scientific hub**. The **language** used is **informative** and **more sophisticated** than the one used by Chat.
 - **Gemini** and **ChatGPT both** mention the **presence of the Robbiano Frieze**, the building's most famous feature. Moreover, **Gemini mentions the Surgerical Collection** and the **Accademia Medica**.
 - **Unlike ChatGPT**, **Gemini divides** and **explains** the **use of the Spedale del Ceppo** into **3 distinct entities**: the museum, the Anatomical Theatre and the Subterranean Tour, **providing a complete picture** of what the site offers today.
 - It seemed to us that **Gemini**, **adding** the **place preview card** (from Google maps) and an **image of the subject**, makes the response **more visually engaging** and an **excellent resource** for someone planning a visit or researching the city's heritage.
 
-<h2 style="color:#ff0000;">Further consideration of another possible gap:</h2>
+<h2 style="color:#ff0000;">📋Further consideration of another possible gap:</h2>
 
 The latest gap identification conducted on [ArCo](http://wit.istc.cnr.it/arco/) revealed an **additional significant lack of information**, concerning the **representation of the museum** associated with the architectural site of the hospital.
 
@@ -220,7 +220,7 @@ The property [**a-dd:hasShape**](https://w3id.org/arco/ontology/denotative-descr
 
 ![ChatGPT shape answer 2](assets/images/chatgpt-shape-2.jpg)
 
-<h2 style="color:#ff0000;">Considerations:</h2>
+<h2 style="color:#ff0000;">📋Considerations:</h2>
 
 - **ChatGPT** provided the information we were looking for, adding **more details** and **describing the Stemma of the Spedale internally** (shape, color, material).
 - The **answer** was **detailed**: it distinguished between the **overall shape** and the **shape of the heraldic element within it**.
@@ -232,7 +232,7 @@ The property [**a-dd:hasShape**](https://w3id.org/arco/ontology/denotative-descr
 
 ![Gemini shape answer 2](assets/images/gemini-shape-2.jpg)
 
-<h2 style="color:#ff0000;">Considerations:</h2>
+<h2 style="color:#ff0000;">📋Considerations:</h2>
 
 - **Gemini** gave a **higher-quality**, **well-structured explanation** of the **subject** requested, providing the information we were looking for.
 - The answer correctly identified the **artwork as a tondo** (circular relief) and **broke its composition into logical layers**. Moreover, Gemini provided the specific iconography, technical dimensions, and the style, **adding overall professional depth to the description**.
@@ -256,7 +256,7 @@ In this case, we applied **Chain-of-Thought** prompting in combination with the 
 
 ![ChatGPT commissioner answer](assets/images/chatgpt-commissioner.jpg)
 
-<h2 style="color:#ff0000;">Considerations:</h2>
+<h2 style="color:#ff0000;">📋Considerations:</h2>
 
 - The answer was quite **detailed** given that **ChatGPT** provided information about the **commissioner, [Leonardo Buonafede](https://w3id.org/arco/resource/Agent/3b24b91d3ef48d6e11dbc72e4b6939e8)**, and **specified when** he was **appointed as hospital rector** with the objective of overseeing the artwork.
 - It also mentioned the **museum documentation** which provides information on the commissioner and the artist, Benedetto Buglioni.
@@ -268,7 +268,7 @@ In this case, we applied **Chain-of-Thought** prompting in combination with the 
 
 ![Gemini commissioner answer 2](assets/images/gemini-commissioner-2.jpg)
 
-<h2 style="color:#ff0000;">Considerations:</h2>
+<h2 style="color:#ff0000;">📋Considerations:</h2>
 
 - **Gemini** successfully identified the **commissioner** of the **Stemma**, through a detailed, **step-by-step** historical analysis making the political and historical information **easy to follow**.
 - By defining in the first step the term **"Spedalingo"**, the response ensured the reader understood the **authority** behind the commission and it seemed **more precise** to us.
@@ -280,7 +280,7 @@ In this case, we applied **Chain-of-Thought** prompting in combination with the 
 
 [https://musei.comune.pistoia.it/museo-spedale-ceppo-sede/](https://musei.comune.pistoia.it/museo-spedale-ceppo-sede/)
 
-<h2 style="color:#ff0000;">General Considerations</h2>
+<h2 style="color:#ff0000;">📋General Considerations</h2>
 
 - When dealing with straightforward questions **using the zero-shot technique** (such as the shape of the Stemma), both [**ChatGPT**](https://chatgpt.com/) and [**Gemini**](https://gemini.google.com/app) provide accurate and detailed answers. **Gemini** delivers a **highly structured, professional explanation**, while **ChatGPT** also answers well and uniquely includes photos in its response.
 - For more complex questions guided by few-shot prompting (such as the current use of the site), **Gemini** proves to be exceptionally structured and clear, dividing its response into distinct entities and using more sophisticated language. **ChatGPT**, while schematic and providing the core information, tends to be briefer and misses some key details like the Anatomical Theatre.
