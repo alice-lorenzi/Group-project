@@ -307,13 +307,13 @@ The query successfully returned several IRIs. If we look closely at the structur
 
 ![Photo F000257](assets/images/query5-photo-F000257.jpg)
 
-The results obtained from the **UNION** query are highly revealing. Instead of just physical objects, the query retrieved a series of **photographic resources** (F-series and C-series IRIs) depicting the hospital, the main loggia, and specifically the Della Robbia frieze. Because these photographic records are accompanied by rich, detailed textual descriptions in the database, we can confidently conclude that the frieze is excellently documented within ArCo. Despite initial difficulties in finding the physical location links, the photographic catalogue provides more than enough solid references and historical data about the frieze to support our research.
+The results obtained from the **UNION** query are highly revealing. Instead of just physical objects, the query retrieved a series of **photographic resources** (F-series and C-series IRIs) depicting the hospital, the main loggia, and specifically the Della Robbia frieze. Because these photographic records are accompanied by rich, detailed textual descriptions in the database, **we can confidently conclude that the frieze is excellently documented within ArCo**. Despite initial difficulties in finding the physical location links, the photographic catalogue provides more than enough solid references and historical data about the frieze to support our research.
 
 <h2 style="color:#ff0000;">Query 6 — Ordering Results Related to the Ospedale del Ceppo by date</h2>
 
-This query was designed to **retrieve cultural heritage resources related to the Ospedale del Ceppo** ([https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b)) and display them together **with their associated dates**. By **ordering the results by date in descending order**, we aimed to identify the most recent records and to obtain a chronological overview of the resources connected to the site.
+This query was designed to **retrieve cultural heritage resources related to the [Ospedale del Ceppo**](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b) and display them together **with their associated dates**. By **ordering the results by date in descending order**, we aimed to identify the most recent records and to obtain a chronological overview of the resources connected to the site.
 
-<h3 style="color:#ff0000;">Explanation of keywords used:</h3>
+<h3 style="color:#ff0000;">🔬 Explanation of keywords used:</h3>
 
 - **arco:HistoricOrArtisticProperty**: specifies that the query is looking for resources classified as historic or artistic cultural properties.
 - **rdfs:label**: retrieves the label or name associated with each cultural property.
@@ -323,7 +323,7 @@ This query was designed to **retrieve cultural heritage resources related to the
 - **FILTER(REGEX(?l, "del Ceppo", "i")):** further narrows the search to resources specifically related to the Spedale del Ceppo.
 - **ORDER BY DESC(?date)**: sorts the results in descending order according to the date, showing the most recent entries first.
 
-<h3 style="color:#ff0000;">SPARQL Query:</h3>
+<h3 style="color:#ff0000;">SPARQL ⚙️Query:</h3>
 
 ```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -342,17 +342,17 @@ WHERE {
 ORDER BY DESC (?date)
 ```
 
-<h3 style="color:#ff0000;">Screenshot of Results:</h3>
+<h3 style="color:#ff0000;">📸Screenshot of Results:</h3>
 
 ![Query 6 results](assets/images/query6-results.png)
 
-<h3 style="color:#ff0000;">Results:</h3>
+<h3 style="color:#ff0000;">📋Results:</h3>
 
-Interestingly, the results obtained are the same as those found in **Query 1**, but this time, they are ordered by date, ranging from the early sixteenth century to the eighteenth century, highlighting the temporal richness of the heritage assets associated with the Ospedale del Ceppo. As a result, the query provides insight not only into the variety of cultural properties linked to the Ospedale del Ceppo but also into the historical periods that are most strongly represented within the knowledge graph.
+Interestingly, the results obtained are the same as those found in **Query 1**, but **this time, they are ordered by date**, ranging from the early sixteenth century to the eighteenth century, highlighting the temporal richness of the heritage assets associated with the Ospedale del Ceppo. As a result, the query provides insight not only into the variety of cultural properties linked to the Ospedale del Ceppo but also into the historical periods that are most strongly represented within the knowledge graph.
 
-<h2 style="color:#ff0000;">General conclusions:</h2>
+<h2 style="color:#ff0000;">💡General conclusions:</h2>
 
 Based on the series of SPARQL queries conducted on the [ArCo Knowledge Graph](http://wit.istc.cnr.it/arco/), we can draw several **key conclusions** regarding the digital representation of the Ospedale del Ceppo and its artworks:
 
-- We successfully confirmed that the **Ospedale del Ceppo** exists as a **distinct entity within the ontology**. However, we observed a significant **lack of descriptive properties** (predicates) **directly associated with the hospital itself**, which presents a clear opportunity for future research and data enrichment within the Knowledge Graph.
+- We successfully confirmed that the [**Ospedale del Ceppo**](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b) exists as a **distinct entity within the ontology**. However, we observed a significant **lack of descriptive properties** (predicates) **directly associated with the hospital itself**, which presents a clear opportunity for future research and data enrichment within the Knowledge Graph.
 - Our **queries revealed** that the **Fregio Robbiano** (the Robbiano Frieze) is extremely **well-documented**. We were able to retrieve a substantial amount of information, demonstrating that this specific masterpiece has been thoroughly catalogued with rich metadata. Having found abundant information about the frieze, **a logical next step for future investigation would be to shift our focus to the coats of arms** (*stemmi*). It would be highly relevant to analyze whether these specific artifacts are adequately described within the dataset, specifically, checking if they are linked to a rich set of informative predicates or if they suffer from missing information, much like the hospital entity itself.
