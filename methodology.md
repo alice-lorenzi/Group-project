@@ -19,12 +19,12 @@ title: Semantic Methodology
 
 ![Workflow diagram](assets/images/workflow-diagram.png)
 
-To explore and enrich the semantic representation of the [Spedale del Ceppo](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b), our project employed a structured, multi-phase methodology leveraging the ArCo Knowledge Graph and Large Language Models (LLMs).
+To explore and enrich the semantic representation of the [Spedale del Ceppo](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b), our project employed a structured, multi-phase methodology leveraging the **ArCo Knowledge Graph** and **Large Language Models** (LLMs).
 
 <h2 style="color:#ff0000;">STEP-BY-STEP WORKFLOW:</h2>
 
 1. **Topic Selection:** We identified the [Spedale del Ceppo](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b) as a culturally significant heritage site that would greatly benefit from enhanced digital visibility and semantic enrichment.
-2. **Ontology Exploration:** We navigated the [ArCo](http://wit.istc.cnr.it/arco/) ontologies via its official SPARQL endpoint ([https://dati.cultura.gov.it/sparql](https://dati.cultura.gov.it/sparql)) to assess the baseline data currently available for the monument.
+2. **Ontology Exploration:** We navigated the [ArCo](http://wit.istc.cnr.it/arco/) ontologies via its official [SPARQL endpoint](https://dati.cultura.gov.it/sparql) to assess the baseline data currently available for the monument.
 3. **Query Formulation:** We engineered a series of targeted SPARQL queries, using key domain terms to extract all pertinent information regarding the Spedale.
 4. **Result Analysis:** We systematically reviewed the retrieved data to determine the scope of existing knowledge and pinpoint specific omissions.
 5. **Gap Identification:** By evaluating the current semantic descriptions, we highlighted areas where the monument's historical, artistic, and architectural profile lacked depth.
