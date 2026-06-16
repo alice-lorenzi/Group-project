@@ -35,7 +35,7 @@ This technique is **useful** when:
 
 The property [**a-cd:hasIntervention**](https://w3id.org/arco/ontology/context-description/hasIntervention) relates a **cultural entity** to an **intervention on it**, for conservational or other purposes. We employed this technique because we thought it would be useful to guide the model through **questions about restoration intervention on other subjects similar to the Spedale del Ceppo**. Therefore, we gave some specific examples.
 
-<h2 style="color:#ff0000;">CHATGPT'S ANSWER:</h2>
+<h2 style="color:#ff0000;">📸CHATGPT'S ANSWER:</h2>
 
 Q: Has the **Ex Ospedale della Ss.ma Trinità in Bologna** undergone any restoration intervention?
 
@@ -60,7 +60,7 @@ A: Yes – the Spedale del Ceppo in Pistoia has undergone multiple restoration i
 - ChatGPT provided us with the information we were looking for. The **answer** was quite **schematic** but **satisfying**.
 - The **information** was divided according to **different type of restoration intervention** and according to **different periods of time**, starting from the 15th century; in some cases, it also **specified the year of the restoration**.
 
-<h2 style="color:#ff0000;">GEMINI'S ANSWER:</h2>
+<h2 style="color:#ff0000;">📸GEMINI'S ANSWER:</h2>
 
 Q: Has the **Ex Ospedale della Ss.ma Trinità in Bologna** undergone any restoration intervention?
 
@@ -95,7 +95,7 @@ A: Yes, the *Spedale del Ceppo* in Pistoia has undergone substantial and highly 
 
 The property [**a-cd:hasUse**](https://w3id.org/arco/ontology/context-description/hasUse) relates a **cultural entity** to **its use**. In the ArCo ontology, this property can be associated with **both current and historical uses** of a cultural property. However, for the purpose of this task, **we focus exclusively on the current use**, and historical uses are intentionally not considered. Similarly to the First Missing Information case, we decided to use **the same technique giving examples of other hospitals** drawn from the list.
 
-<h2 style="color:#ff0000;">CHATGPT'S ANSWER:</h2>
+<h2 style="color:#ff0000;">📸CHATGPT'S ANSWER:</h2>
 
 Q: What is the current use of **Ex Ospedale della SS.ma Trinità in Bologna**?
 
@@ -120,7 +120,7 @@ A: Today the Spedale del Ceppo in Pistoia is no longer a functioning hospital. I
 - At the end it just specifies the fact that the **healthcare services** have been **moved** to the **new Ospedale San Jacopo**, also mentioning the restorations of the heritage site.
 - So, ChatGPT briefly elucidates few information about the Spedale Del Ceppo through two bullet points lists, and **it lacks some piece of information** like the **Anatomical Theatre** and **Pistoia's Underground**.
 
-<h2 style="color:#ff0000;">GEMINI'S ANSWER:</h2>
+<h2 style="color:#ff0000;">📸GEMINI'S ANSWER:</h2>
 
 Q: What is the current use of the **Ex Ospedale della SS.ma Trinità in Bologna**?
 
