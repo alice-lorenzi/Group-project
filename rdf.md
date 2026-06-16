@@ -425,7 +425,7 @@ WHERE {
 The third triple that we intend to create is the lacking information related to the subject "Stemma dell'Ospedale del Ceppo e della città di Pistoia (rilievo) di Buglioni Benedetto (sec. XVI)", more precisely its shape, [**hasShape**](https://w3id.org/arco/ontology/denotative-description/hasShape).
 
 
-<h2 style="color:#ff0000;">✏️ Few-shot prompt and then chain of thought prompting techniques</h2>
+<h2 style="color:#ff0000;">✏️ Few-shot and then chain of thought prompting techniques</h2>
 
 Prompt:
 
@@ -518,7 +518,7 @@ WHERE {
 
 ![Gemini shape result](assets/images/gemini-shape-result.png)
 
-<h2 style="color:#ff0000;">4. Triple of the fourth missing information</h2>
+<h2 style="color:#ff0000;">✳️Triple of the fourth missing information</h2>
 
 To bridge this gap, we used a "**Chain of Thought**" prompt to systematically **break down** a historical statement regarding the **Stemma dell'Ospedale del Ceppo**. The primary **objective** was to apply the ArCo ontology to **formalize** the patronage relationship between the cultural property and its committent, [**Buonafede Leonardo Spedalingo**](https://w3id.org/arco/resource/Agent/3b24b91d3ef48d6e11dbc72e4b6939e8)).
 
