@@ -198,13 +198,13 @@ WHERE {
 
 <h2 style="color:#ff0000;">Triple of the Second missing information</h2>
 
-During the analysis of the ArCo dataset, we observed that the resource describing the Ospedale del Ceppo does not contain any value for the property **a-cd:hasUse** ([https://w3id.org/arco/ontology/context-description/hasUse](https://w3id.org/arco/ontology/context-description/hasUse)). This represents an instance-level completeness gap, as the property is not instantiated for the resource despite being relevant for describing the functional history of a cultural property.
+During the analysis of the ArCo dataset, we observed that the resource describing the Ospedale del Ceppo does not contain any value for the property [**a-cd:hasUse**](https://w3id.org/arco/ontology/context-description/hasUse). This represents an instance-level completeness gap, as the property is not instantiated for the resource despite being relevant for describing the functional history of a cultural property.
 
 The property **a-cd:hasUse** is used in the ArCo ontology to represent the different functions or uses of a cultural property over time. It allows describing how a site or monument has been used, both in its current state and across different historical phases, thus supporting the reconstruction of its functional evolution.
 
 In particular, **a-cd:hasUse** may refer to both **historical uses** and **current uses** of a cultural property. However, for the purpose of this task, **we focus exclusively on the current use**, while historical uses are intentionally excluded from the scope of this enrichment.
 
-This choice allows us to maintain a consistent and well-defined modelling perspective, focusing on the present function of the Ospedale del Ceppo ([https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b)) while leaving the reconstruction of past uses to future extensions of the dataset.
+This choice allows us to maintain a consistent and well-defined modelling perspective, focusing on the present function of the [**Ospedale del Ceppo**](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b) while leaving the reconstruction of past uses to future extensions of the dataset.
 
 <h2 style="color:#ff0000;">Few-shot and chain of thought prompting techniques</h2>
 
@@ -348,7 +348,7 @@ WHERE {
 
 <h2 style="color:#ff0000;">FURTHER CREATION OF RDF TRIPLE FOR THE MISSING INFORMATION ABOUT THE MUSEUM</h2>
 
-In the case of the **Ospedale degli Innocenti**, the RDF model explicitly includes the property **cis:isSiteOf** ([http://dati.beniculturali.it/cis/isSiteOf](http://dati.beniculturali.it/cis/isSiteOf)), which connects the physical site to a museum. This means that within the dataset there is a formally defined entity representing the museum, and an explicit triple linking the site to it. As a result, the knowledge graph makes the relationship between the site and its museum explicit and machine-readable through the ontology.
+In the case of the **Ospedale degli Innocenti**, the RDF model explicitly includes the property [**cis:isSiteOf**](http://dati.beniculturali.it/cis/isSiteOf), which connects the physical site to a museum. This means that within the dataset there is a formally defined entity representing the museum, and an explicit triple linking the site to it. As a result, the knowledge graph makes the relationship between the site and its museum explicit and machine-readable through the ontology.
 
 In contrast, for the **Ospedale del Ceppo**, this structure is not present. **There is no triple using cis:isSiteOf to link the site to a museum, and moreover, there is no IRI in the dataset representing a "Museo dell'Ospedale del Ceppo"**. Because the museum entity itself is missing, it is not possible to establish or model any cis:isSiteOf relationship for this site within the knowledge graph.
 
