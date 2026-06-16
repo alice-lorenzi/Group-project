@@ -21,7 +21,7 @@ title: RDF Triple Generation
 
 <h2 style="color:#ff0000;">✳️Triple of the First missing information</h2>
 
-The resource describing the **Ospedale del Ceppo** does not contain any value for the property [**a-cd:hasIntervention**](https://w3id.org/arco/ontology/context-description/hasIntervention) while other architectural heritage resources in **ArCo** are linked to documented conservation interventions.
+The resource describing the **Ospedale del Ceppo** does not contain any value for the property [**a-cd:hasIntervention**](https://w3id.org/arco/ontology/context-description/hasIntervention) while other architectural heritage resources in [**ArCo**]( http://wit.istc.cnr.it/arco/) are linked to documented conservation interventions.
 
 The Ospedale del Ceppo **has undergone restoration**, conservation and adaptive reuse interventions during its history. However, **these events are not represented in the RDF** description through the property **a-cd:hasIntervention**. This results in an instance-level completeness gap.
 
@@ -39,7 +39,7 @@ We showed the following examples prompt:
 
 **Example 2:**
 
-**Subject**: Ex Ospedale della Misericordia (palazzo, per uffici) - Grosseto (GR) — [https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/0900352753A](https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/0900352753A)
+**Subject**: Ex Ospedale della Misericordia (palazzo, per uffici) - Grosseto (GR) -[https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/0900352753A](https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/0900352753A)
 
 **Predicate**: [a-cd:hasIntervention](https://dati.cultura.gov.it/lodview-arco/ontology/context-description/hasIntervention)
 
