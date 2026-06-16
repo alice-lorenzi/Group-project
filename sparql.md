@@ -68,13 +68,13 @@ Through this query we were able to **confirm the presence of entities related to
 
 ![Query 1 inverse relations](assets/images/query1-inverse-relations.png)
 
-<h3 style="color:#ff0000;">Results:</h3>
+<h3 style="color:#ff0000;">✅Results:</h3>
 
 ![Query 1 IRI page](assets/images/query1-iri-page.png)
 
-From this page, we were cheerfully able to find the official IRI of our topic:
+From this page, we were cheerfully able to **find the official IRI of our topic**:
 
-Ospedale del Ceppo ([https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b))
+[**Ospedale del Ceppo**](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b))
 
 <h3 style="color:#ff0000;">Conclusions from the first Query:</h3>
 
