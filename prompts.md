@@ -214,7 +214,7 @@ This technique is particularly **helpful** when:
 
 The property [**a-dd:hasShape**](https://w3id.org/arco/ontology/denotative-description/hasShape) is associated with the object's specific form. According to the Zero-shot Technique, we asked the LLMs a prompt **without giving any examples** or **demonstrations**, **relying on their general understanding of language and tasks**. This helps test their raw ability to provide **useful answers without prior context or scaffolding**. We also decided to add "by Buglioni" in our prompt, otherwise ChatGPT would have mixed up the stemmas.
 
-<h2 style="color:#ff0000;">CHATGPT'S ANSWER:</h2>
+<h2 style="color:#ff0000;">📸CHATGPT'S ANSWER:</h2>
 
 ![ChatGPT shape answer 1](assets/images/chatgpt-shape-1.jpg)
 
@@ -226,7 +226,7 @@ The property [**a-dd:hasShape**](https://w3id.org/arco/ontology/denotative-descr
 - The **answer** was **detailed**: it distinguished between the **overall shape** and the **shape of the heraldic element within it**.
 - **ChatGPT** also **included photos of the Stemma**.
 
-<h2 style="color:#ff0000;">GEMINI'S ANSWER:</h2>
+<h2 style="color:#ff0000;">📸GEMINI'S ANSWER:</h2>
 
 ![Gemini shape answer 1](assets/images/gemini-shape-1.jpg)
 
@@ -252,7 +252,7 @@ This type of technique encourages the model to "think out loud" letting it **exp
 
 In this case, we applied **Chain-of-Thought** prompting in combination with the **Zero-shot** approach because we wanted a **more detailed answer**.
 
-<h2 style="color:#ff0000;">CHATGPT'S ANSWER:</h2>
+<h2 style="color:#ff0000;">📸CHATGPT'S ANSWER:</h2>
 
 ![ChatGPT commissioner answer](assets/images/chatgpt-commissioner.jpg)
 
@@ -262,7 +262,7 @@ In this case, we applied **Chain-of-Thought** prompting in combination with the 
 - It also mentioned the **museum documentation** which provides information on the commissioner and the artist, Benedetto Buglioni.
 - **ChatGPT** identified **Buonafede** as the **most likely and generally accepted commissioner**, **deducing his role** in commissioning this specific Stemma.
 
-<h2 style="color:#ff0000;">GEMINI'S ANSWER:</h2>
+<h2 style="color:#ff0000;">📸GEMINI'S ANSWER:</h2>
 
 ![Gemini commissioner answer 1](assets/images/gemini-commissioner-1.png)
 
