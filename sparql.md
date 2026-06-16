@@ -89,7 +89,7 @@ Additionally, **based on the insights gained from our first query** regarding ho
 
 <h3 style="color:#ff0000;">🔬Explanation of the keywords used:</h3>
 
-- **UNION**: Combines results from two different graph patterns. We implemented this because Query 1 revealed that the hospital might be classified under two distinct classes: either as a historic/artistic property (arco:HistoricOrArtisticProperty) or as a general geographic site (cis:Site). UNION ensures we capture the entity regardless of which specific classification was used.
+- **UNION**: Combines results from two different graph patterns. We implemented this because **Query 1** revealed that the **hospital might be classified under two distinct classes**: either as a **historic/artistic property** ([arco:HistoricOrArtisticProperty](https://w3id.org/arco/ontology/arco/HistoricOrArtisticProperty)) or as a general geographic **site** ([cis:Site](http://dati.beniculturali.it/cis/Site)). **UNION** ensures we capture the entity regardless of which specific classification was used.
 - **OPTIONAL**: Allows the inclusion of supplementary data (in this case, foaf:depiction) if it exists, without excluding results where the image information is missing.
 - **\* (Asterisk)**: Retrieves every variable defined within the WHERE clause for each match, rather than limiting the output.
 - **FILTER(REGEX)**: We used two separate regular expression filters to narrow down the results, ensuring the labels (?l) contain both "Ospedale del Ceppo" and "Pistoia". The "i" flag makes the search case-insensitive.
