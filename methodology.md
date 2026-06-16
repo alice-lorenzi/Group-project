@@ -21,7 +21,7 @@ title: Semantic Methodology
 
 To explore and enrich the semantic representation of the [Spedale del Ceppo](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b), our project employed a structured, multi-phase methodology leveraging the **ArCo Knowledge Graph** and **Large Language Models** (LLMs).
 
-<h2 style="color:#ff0000;">STEP-BY-STEP WORKFLOW:</h2>
+<h2 style="color:#ff0000;">💭 STEP-BY-STEP WORKFLOW:</h2>
 
 1. **Topic Selection:** We identified the [Spedale del Ceppo](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b) as a culturally significant heritage site that would greatly benefit from enhanced digital visibility and semantic enrichment.
 2. **Ontology Exploration:** We navigated the [ArCo](http://wit.istc.cnr.it/arco/) ontologies via its official [SPARQL endpoint](https://dati.cultura.gov.it/sparql) to assess the baseline data currently available for the monument.
