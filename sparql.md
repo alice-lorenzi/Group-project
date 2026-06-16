@@ -31,7 +31,7 @@ The first step was to verify whether the **ArCo Knowledge Graph** already contai
 - **FILTER** and **REGEX**: used to retrieve more specific information. **FILTER** restricts results based on conditions; **REGEX** enables pattern matching inside string values.
 - **cp**: stands for Cultural Property.
 
-<h3 style="color:#ff0000;">SPARQL Query⚙️:</h3>
+<h3 style="color:#ff0000;">⚙️SPARQL Query:</h3>
 
 ```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
