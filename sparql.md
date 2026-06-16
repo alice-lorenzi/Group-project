@@ -279,31 +279,31 @@ UNION
 
 The query successfully returned several IRIs. If we look closely at the structure of these web addresses, we can see they belong to the *fotografico* (photographic) section of the ICCD (Central Institute for Cataloging and Documentation).
 
-- Pistoia - Ospedale del Ceppo, loggia con fregio (negativo) (sec. XX inizio) — [http://dati.beniculturali.it/iccd/fotografico/resource/CulturalProperty/F000255](http://dati.beniculturali.it/iccd/fotografico/resource/CulturalProperty/F000255)
+- [Pistoia - Ospedale del Ceppo, loggia con fregio (negativo) (sec. XX inizio)](http://dati.beniculturali.it/iccd/fotografico/resource/CulturalProperty/F000255)
 
 ![Photo F000255](assets/images/query5-photo-F000255.png)
 
-- Pistoia - Ospedale del Ceppo, fregio con le Opere di misericordia (negativo) (sec. XX inizio) — [http://dati.beniculturali.it/iccd/fotografico/resource/CulturalProperty/C001689](http://dati.beniculturali.it/iccd/fotografico/resource/CulturalProperty/C001689)
+- [Pistoia - Ospedale del Ceppo, fregio con le Opere di misericordia (negativo) (sec. XX inizio)](http://dati.beniculturali.it/iccd/fotografico/resource/CulturalProperty/C001689)
 
 ![Photo C001689](assets/images/query5-photo-C001689.png)
 
-- Pistoia - Ospedale del Ceppo, fregio con le Opere di misericordia, particolare (negativo) (sec. XX inizio) — [http://dati.beniculturali.it/iccd/fotografico/resource/CulturalProperty/C001690](http://dati.beniculturali.it/iccd/fotografico/resource/CulturalProperty/C001690)
+- [Pistoia - Ospedale del Ceppo, fregio con le Opere di misericordia, particolare (negativo) (sec. XX inizio)](http://dati.beniculturali.it/iccd/fotografico/resource/CulturalProperty/C001690)
 
 ![Photo C001690](assets/images/query5-photo-C001690.png)
 
-- Pistoia - Ospedale del Ceppo, fregio con le Opere di misericordia, particolare (negativo) (sec. XX inizio) — [http://dati.beniculturali.it/iccd/fotografico/resource/CulturalProperty/C001691](http://dati.beniculturali.it/iccd/fotografico/resource/CulturalProperty/C001691)
+- [Pistoia - Ospedale del Ceppo, fregio con le Opere di misericordia, particolare (negativo) (sec. XX inizio)](http://dati.beniculturali.it/iccd/fotografico/resource/CulturalProperty/C001691)
 
 ![Photo C001691](assets/images/query5-photo-C001691.png)
 
-- Pistoia - Ospedale del Ceppo, fregio con le Opere di misericordia, particolare (negativo) (sec. XX inizio) — [http://dati.beniculturali.it/iccd/fotografico/resource/CulturalProperty/C001692](http://dati.beniculturali.it/iccd/fotografico/resource/CulturalProperty/C001692)
+- [Pistoia - Ospedale del Ceppo, fregio con le Opere di misericordia, particolare (negativo) (sec. XX inizio)](http://dati.beniculturali.it/iccd/fotografico/resource/CulturalProperty/C001692)
 
 ![Photo C001692](assets/images/query5-photo-C001692.jpg)
 
-- Pistoia - Ospedale del Ceppo, loggia con fregio (negativo) (sec. XX inizio) — [http://dati.beniculturali.it/iccd/fotografico/resource/CulturalProperty/F000256](http://dati.beniculturali.it/iccd/fotografico/resource/CulturalProperty/F000256)
+- [Pistoia - Ospedale del Ceppo, loggia con fregio (negativo) (sec. XX inizio)](http://dati.beniculturali.it/iccd/fotografico/resource/CulturalProperty/F000256)
 
 ![Photo F000256](assets/images/query5-photo-F000256.jpg)
 
-- Pistoia - Ospedale del Ceppo, loggia con fregio (negativo) (sec. XX inizio) — [http://dati.beniculturali.it/iccd/fotografico/resource/CulturalProperty/F000257](http://dati.beniculturali.it/iccd/fotografico/resource/CulturalProperty/F000257)
+- [Pistoia - Ospedale del Ceppo, loggia con fregio (negativo) (sec. XX inizio)](http://dati.beniculturali.it/iccd/fotografico/resource/CulturalProperty/F000257)
 
 ![Photo F000257](assets/images/query5-photo-F000257.jpg)
 
