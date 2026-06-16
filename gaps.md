@@ -152,7 +152,7 @@ To further investigate potential metadata gaps (**Gap 3** and **Gap 4**), we ret
 
 ![Query 7 results](assets/images/query7-results.png)
 
-We sought a highly comparable, yet perhaps more universally recognized institution, to serve as a benchmark. Within the results, we identified the **Spedale degli Innocenti** ([https://w3id.org/arco/resource/Site/db159e90f5ed83e3d851e7206ccbbd26](https://w3id.org/arco/resource/Site/db159e90f5ed83e3d851e7206ccbbd26)) in Florence, exploring its main entity page in the Knowledge Graph.
+We sought a highly comparable, yet perhaps more universally recognized institution, to serve as a benchmark. Within the results, we identified the [**Spedale degli Innocenti**](https://w3id.org/arco/resource/Site/db159e90f5ed83e3d851e7206ccbbd26)) in Florence, exploring its main entity page in the Knowledge Graph.
 
 A striking similarity between the **Ospedale del Ceppo** and the **Spedale degli Innocenti** is that both historic buildings are architecturally renowned for their exterior loggias, which are richly decorated with famous coats of arms (*stemmi*), glazed terracotta roundels often associated to the Della Robbia or Benedetto Buglioni.
 
