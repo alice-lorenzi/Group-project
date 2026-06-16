@@ -50,7 +50,7 @@ FILTER(REGEX(?l, "Spedale del Ceppo", "i"))
 
 ![Query 1 results](assets/images/query1-results.png)
 
-<h3 style="color:#ff0000;">IRIs Found:</h3>
+<h3 style="color:#ff0000;">🔗IRIs Found:</h3>
 
 - [stemma dell'Ospedale del Ceppo e dell'Ospedale di Santa Maria Nuova (rilievo) di Della Robbia Giovanni (sec. XVI)](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040490)
 - [stemma dell'Ospedale del Ceppo e della città di Pistoia (rilievo) di Buglioni Benedetto (sec. XVI)](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040491)
