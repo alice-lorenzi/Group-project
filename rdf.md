@@ -33,7 +33,7 @@ We showed the following examples prompt:
 
 **Subject**: Ex Ospedale della Ss.ma Trinità (palazzo) - Bologna (BO) — [https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/0800242653](https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/0800242653)
 
-**Predicate**: [a-cd:hasIntervention](https://dati.cultura.gov.it/lodview-arco/ontology/context-description/hasIntervention)
+**Predicate**: a-cd:hasIntervention
 
 **Object**: [https://w3id.org/arco/resource/ConservationIntervention/0800242653-conservation-intervention-1](https://w3id.org/arco/resource/ConservationIntervention/0800242653-conservation-intervention-1)
 
@@ -41,7 +41,7 @@ We showed the following examples prompt:
 
 **Subject**: Ex Ospedale della Misericordia (palazzo, per uffici) - Grosseto (GR) -[https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/0900352753A](https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/0900352753A)
 
-**Predicate**: [a-cd:hasIntervention](https://dati.cultura.gov.it/lodview-arco/ontology/context-description/hasIntervention)
+**Predicate**: a-cd:hasIntervention
 
 **Object**: type of intervention 1 — [https://w3id.org/arco/resource/ConservationIntervention/0900352753A-conservation-intervention-1](https://w3id.org/arco/resource/ConservationIntervention/0900352753A-conservation-intervention-1) ; type of intervention 2 — [https://w3id.org/arco/resource/ConservationIntervention/0900352753A-conservation-intervention-2](https://w3id.org/arco/resource/ConservationIntervention/0900352753A-conservation-intervention-2)
 
@@ -49,7 +49,7 @@ We showed the following examples prompt:
 
 **Subject**: Ex Ospedale del Crocifisso (ospedale) - Cesena (FC) — [https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/0800161844](https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/0800161844)
 
-**Predicate**: [a-cd:hasIntervention](https://dati.cultura.gov.it/lodview-arco/ontology/context-description/hasIntervention)
+**Predicate**: a-cd:hasIntervention
 
 **Object**: [https://w3id.org/arco/resource/ConservationIntervention/0800161844-conservation-intervention-1](https://w3id.org/arco/resource/ConservationIntervention/0800161844-conservation-intervention-1) Conservation intervention 1 on cultural property 0800161844; [https://w3id.org/arco/resource/ConservationIntervention/0800161844-conservation-intervention-2](https://w3id.org/arco/resource/ConservationIntervention/0800161844-conservation-intervention-2) Conservation intervention 2 on cultural property 0800161844
 
@@ -58,7 +58,7 @@ Please, could you transform the following information into RDF format and use Ar
 "The Ospedale del Ceppo has undergone some restoration interventions" Note that:
 
 - IRI of Ospedale del Ceppo is [https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b)
-- Predicate: [a-cd:hasIntervention](https://dati.cultura.gov.it/lodview-arco/ontology/context-description/hasIntervention) (from ArCo ontologies)
+- Predicate: a-cd:hasIntervention (from ArCo ontologies)
 - Intervention IRIs do not exist in the current ArCo dataset, so **new IRIs need to be proposed**. Information about interventions should be retrieved from reliable external sources. The generated intervention resources should include available information such as intervention type, date, responsible actor, and description.
 
 Also, please build the corresponding SPARQL CONSTRUCT query.
