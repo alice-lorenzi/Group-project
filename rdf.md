@@ -249,7 +249,7 @@ Also, please build the RDF triple and the corresponding SPARQL CONSTRUCT query.
 
 Let's think step by step.
 
-<h2 style="color:#ff0000;">📸CHATGPT'S ANSWER:</h2>
+<h2 style="color:#ff0000;">📸 CHATGPT'S ANSWER:</h2>
 
 ![ChatGPT use answer 1](assets/images/chatgpt-use-answer-1.jpg)
 
@@ -257,7 +257,7 @@ Let's think step by step.
 
 ![ChatGPT use answer 3](assets/images/chatgpt-use-answer-3.jpg)
 
-<h2 style="color:#ff0000;">COPY OF THE RDF TRIPLE BY CHATGPT:</h2>
+<h2 style="color:#ff0000;">📋 COPY OF THE RDF TRIPLE BY CHATGPT:</h2>
 
 ```sparql
 <https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b>
@@ -265,7 +265,7 @@ Let's think step by step.
         <https://w3id.org/arco/resource/Use/4215fe83165269413c37c21663c3d94b-current-use-1>
 ```
 
-<h2 style="color:#ff0000;">SPARQL CONSTRUCT QUERY BY CHATGPT:</h2>
+<h2 style="color:#ff0000;">⚙️ SPARQL CONSTRUCT QUERY BY CHATGPT:</h2>
 
 ```sparql
 PREFIX a-cd: <https://w3id.org/arco/ontology/context-description/>
@@ -290,13 +290,13 @@ WHERE {
 }
 ```
 
-<h2 style="color:#ff0000;">RESULT OBTAINED EXECUTING THE QUERY ON SPARQL BY CHATGPT:</h2>
+<h2 style="color:#ff0000;">📸 RESULT OBTAINED EXECUTING THE QUERY ON SPARQL BY CHATGPT:</h2>
 
 ![ChatGPT use result 1](assets/images/chatgpt-use-result-1.png)
 
 ![ChatGPT use result 2](assets/images/chatgpt-use-result-2.png)
 
-<h2 style="color:#ff0000;">📸GEMINI'S ANSWER:</h2>
+<h2 style="color:#ff0000;">📸 GEMINI'S ANSWER:</h2>
 
 ![Gemini use answer 1](assets/images/gemini-use-answer-1.png)
 
@@ -304,7 +304,7 @@ WHERE {
 
 ![Gemini use answer 3](assets/images/gemini-use-answer-3.png)
 
-<h2 style="color:#ff0000;">COPY OF THE RDF TRIPLE BY GEMINI:</h2>
+<h2 style="color:#ff0000;">📋 COPY OF THE RDF TRIPLE BY GEMINI:</h2>
 
 ```sparql
 @prefix a-cd: <https://w3id.org/arco/ontology/context-description/> .
@@ -319,7 +319,7 @@ WHERE {
     dc:description "The current use of the Ospedale del Ceppo in Pistoia is as a museum. Since the hospital closed in 2013, the monumental complex houses the Museo dello Spedale del Ceppo and serves as the primary entrance for the Pistoia Sotterranea (Underground Pistoia) tours."@en .
 ```
 
-<h2 style="color:#ff0000;">SPARQL CONSTRUCT QUERY BY GEMINI:</h2>
+<h2 style="color:#ff0000;">⚙️ SPARQL CONSTRUCT QUERY BY GEMINI:</h2>
 
 ```sparql
 PREFIX a-cd: <https://w3id.org/arco/ontology/context-description/>
@@ -340,7 +340,7 @@ WHERE {
 }
 ```
 
-<h2 style="color:#ff0000;">RESULT OBTAINED EXECUTING THE QUERY ON SPARQL BY GEMINI:</h2>
+<h2 style="color:#ff0000;">📸 RESULT OBTAINED EXECUTING THE QUERY ON SPARQL BY GEMINI:</h2>
 
 ![Gemini use result 1](assets/images/gemini-use-result-1.png)
 
@@ -381,7 +381,7 @@ Finally:
 
 Let's think step by step.
 
-**📸We only asked ChatGPT this time:**
+**📸 We only asked ChatGPT this time:**
 
 ![ChatGPT museum answer 1](assets/images/chatgpt-museum-answer-1.png)
 
@@ -389,7 +389,7 @@ Let's think step by step.
 
 ![ChatGPT museum answer 3](assets/images/chatgpt-museum-answer-3.png)
 
-<h2 style="color:#ff0000;">COPY OF THE RDF TRIPLE BY CHATGPT:</h2>
+<h2 style="color:#ff0000;">📋 COPY OF THE RDF TRIPLE BY CHATGPT:</h2>
 
 ```sparql
 <https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b>
@@ -397,7 +397,7 @@ Let's think step by step.
     <https://w3id.org/arco/resource/CulturalInstituteOrSite/9f3c2a7b5d1e4c88a6b9d2f10c4e7a11> .
 ```
 
-<h2 style="color:#ff0000;">SPARQL CONSTRUCT QUERY BY CHATGPT:</h2>
+<h2 style="color:#ff0000;">⚙️ SPARQL CONSTRUCT QUERY BY CHATGPT:</h2>
 
 ```sparql
 PREFIX cis: <http://dati.beniculturali.it/cis/>
@@ -416,7 +416,7 @@ WHERE {
 }
 ```
 
-<h2 style="color:#ff0000;">RESULT OBTAINED EXECUTING THE QUERY ON SPARQL OBTAINED BY CHATGPT:</h2>
+<h2 style="color:#ff0000;">📸 RESULT OBTAINED EXECUTING THE QUERY ON SPARQL OBTAINED BY CHATGPT:</h2>
 
 ![ChatGPT museum result](assets/images/chatgpt-museum-result.png)
 
