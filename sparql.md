@@ -348,7 +348,7 @@ ORDER BY DESC (?date)
 
 <h3 style="color:#ff0000;">📋Results:</h3>
 
-Interestingly, the results obtained are the same as those found in **Query 1**, but **this time, they are ordered by date**, ranging from the early sixteenth century to the eighteenth century, highlighting the temporal richness of the heritage assets associated with the Ospedale del Ceppo. As a result, the query provides insight not only into the variety of cultural properties linked to the Ospedale del Ceppo but also into the historical periods that are most strongly represented within the knowledge graph.
+Interestingly, the results obtained are the same as those found in **Query 1**, but **this time, they are ordered by date**, ranging from the early sixteenth century to the eighteenth century, highlighting the temporal richness of the heritage assets associated with the Ospedale del Ceppo.
 
 <h2 style="color:#ff0000;">💡General conclusions:</h2>
 
