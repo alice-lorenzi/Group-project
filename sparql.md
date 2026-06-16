@@ -311,7 +311,7 @@ The results obtained from the **UNION** query are highly revealing. Instead of j
 
 <h2 style="color:#ff0000;">Query 6 — Ordering Results Related to the Ospedale del Ceppo by date</h2>
 
-This query was designed to **retrieve cultural heritage resources related to the [Ospedale del Ceppo**](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b) and display them together **with their associated dates**. By **ordering the results by date in descending order**, we aimed to identify the most recent records and to obtain a chronological overview of the resources connected to the site.
+This query was designed to **retrieve cultural heritage resources related to the [Ospedale del Ceppo**](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b) and display them together with their associated dates**. By **ordering the results by date in descending order**, we aimed to identify the most recent records and to obtain a chronological overview of the resources connected to the site.
 
 <h3 style="color:#ff0000;">🔬 Explanation of keywords used:</h3>
 
@@ -323,7 +323,7 @@ This query was designed to **retrieve cultural heritage resources related to the
 - **FILTER(REGEX(?l, "del Ceppo", "i")):** further narrows the search to resources specifically related to the Spedale del Ceppo.
 - **ORDER BY DESC(?date)**: sorts the results in descending order according to the date, showing the most recent entries first.
 
-<h3 style="color:#ff0000;">SPARQL ⚙️Query:</h3>
+<h3 style="color:#ff0000;">⚙️SPARQL Query:</h3>
 
 ```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
