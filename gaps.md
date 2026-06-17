@@ -232,7 +232,7 @@ By examining the cultural heritage assets connected to this agent, we observed t
 ![hasCommittent inverse relations](assets/images/hascommittent-inverse-relations.png)
 
 This observation suggests the presence of a **potential gap**. 
-Since **other coats of arms belonging to the same historical and architectural context are already connected to Leonardo Buonafede** through the **hasCommittent** relationship, it is **reasonable to associate** the "[**Stemma dell'Ospedale del Ceppo e della città di Pistoia (rilievo) by Buglioni Benedetto (sec. XVI)**](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040491)" — with the **same agent**.
+Since **other artworks belonging to the same historical and architectural context are already connected to Leonardo Buonafede** through the **hasCommittent** relationship, it is **reasonable to associate** the "[**Stemma dell'Ospedale del Ceppo e della città di Pistoia (rilievo) by Buglioni Benedetto (sec. XVI)**](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900040491)" — with the **same agent**.
 
 **All in all**, based on this comparison, we concluded that the description of the coat of arms associated with the Ospedale del Ceppo could be enriched by incorporating additional information concerning its **shape** and the **corresponding commissioner**.
 
