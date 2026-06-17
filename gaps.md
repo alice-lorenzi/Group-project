@@ -47,6 +47,7 @@ WHERE {
         ?property ?value
 
     FILTER(REGEX(?label, "ospedale|lazzaretto", "i"))
+    FILTER(REGEX(STR(?date), "^(13|14|15|16)\\d{2}"))
 
   } UNION {
 
