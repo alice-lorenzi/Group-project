@@ -240,13 +240,13 @@ Since **other artworks belonging to the same historical and architectural contex
 
 To formally verify the missing data (**Gaps 3** and **4**) regarding the coats of arms of the Ospedale del Ceppo, we again employed the SPARQL **ASK** query form. This approach allows us to ask the Knowledge Graph a direct yes-or-no question about the existence of specific metadata linked to these artworks.
 
-We formulated two distinct ASK queries (**Query 11** and **12**) targeting the **a-cd:hasShape** (physical form/shape) and **a-cd:hasCommittent** (information regarding the patron or commission) predicates.
+We formulated two distinct ASK queries (**Query 11** and **12**) targeting the **a-dd:hasShape** (physical form/shape) and **a-cd:hasCommittent** (information regarding the patron or commission) predicates.
 
 We directed these queries specifically at the **arco:HistoricOrArtisticProperty** class, filtering for the labels "stemma", "Ospedale del Ceppo", and "Pistoia". In both instances, the endpoint returned a **false** Boolean response. **This definitive outcome proves that the information about the physical shape and original commissioning is currently entirely absent from their records.**
 
 <h2 style="color:#ff0000;">⚙️SPARQL Query 11:</h2>
 
-This query asks if there is an artwork labeled as a *stemma* of the Ospedale del Ceppo in Pistoia that has an associated shape property ([a-cd:hasShape](https://w3id.org/arco/ontology/denotative-description/hasShape)).
+This query asks if there is an artwork labeled as a *stemma* of the Ospedale del Ceppo in Pistoia that has an associated shape property ([a-dd:hasShape](https://w3id.org/arco/ontology/denotative-description/hasShape)).
 
 ```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -262,7 +262,7 @@ ASK WHERE {
   FILTER(REGEX(?label, "Ospedale del Ceppo", "i"))
   FILTER(REGEX(?label, "Pistoia", "i"))
 
-  ?cp a-cd:hasShape ?shape .
+  ?cp a-dd:hasShape ?shape .
 }
 ```
 
