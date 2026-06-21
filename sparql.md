@@ -83,7 +83,7 @@ From this page, we were cheerfully able to **find the official IRI of our topic*
 
 <h2 style="color:#ff0000;">Query 2 — Finding depictions of the Ospedale del Ceppo</h2>
 
-In this query, our goal was to retrieve information and **potential visual representations** (e.g., images) of the [Ospedale del Ceppo](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b)) in Pistoia. We opted for **SELECT** to extract all possible variables from the matching records, and we used the **OPTIONAL** clause to fetch image data only when explicitly available.
+In this query, our goal was to retrieve information and **potential visual representations** (e.g., images) of the [Ospedale del Ceppo](https://w3id.org/arco/resource/Site/4215fe83165269413c37c21663c3d94b) in Pistoia. We opted for **SELECT** to extract all possible variables from the matching records, and we used the **OPTIONAL** clause to fetch image data only when explicitly available.
 
 Additionally, **based on the insights gained from our first query** regarding how the Ospedale del Ceppo is classified within the ontology, we introduced the **UNION** keyword to **broaden our search across different entity types**.
 
