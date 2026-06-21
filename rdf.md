@@ -232,8 +232,7 @@ Prompt:
 
 **Predicate**: a-cd:hasUse
 
-**Object**: [https://w3id.org/arco/resource/Use/0800161844-current-use-1>
-Current use 1 of cultural property 0800161844]
+**Object**: [https://w3id.org/arco/resource/Use/0800161844-current-use-1 Current use 1 of cultural property 0800161844]
 
 Please, could you transform the following information into RDF format and use ArCo ontology taking the previous triples as examples?
 
