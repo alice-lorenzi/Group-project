@@ -64,7 +64,7 @@ FILTER(REGEX(?l, "Spedale del Ceppo", "i"))
 
 ### 📋 Discussion of results and further research:
 
-Through this query we were able to **confirm the presence of entities related to our topic in ArCo**. More specifically, we found out that all the entities are the IRIs of the medallions. We decided to analyse one of the results of our query and we found the section "inverse relation"; among the properties we clicked on [**is a-loc:isTimeIndexedTypedLocationOf of**](https://w3id.org/arco/ontology/location/hasTimeIndexedTypedLocation).
+Through this query we were able to **confirm the presence of entities related to our topic in ArCo**. More specifically, we found out that all the entities are the IRIs of the medallions. We decided to analyse one of the results of our query and we found the section "inverse relations"; among the properties we clicked on [**is a-loc:isTimeIndexedTypedLocationOf of**](https://w3id.org/arco/ontology/location/hasTimeIndexedTypedLocation).
 
 ![Query 1 inverse relations](assets/images/query1-inverse-relations.png)
 
